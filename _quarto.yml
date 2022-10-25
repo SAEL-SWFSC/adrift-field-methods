@@ -15,17 +15,17 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
-    favicon: images/favicon.ico
+#    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
+#    favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
       - icon: globe
-        href: https://sael-swfsc.github.io/adrift-field-methods/
-        text: "SAEL-SWFSC Adrift Field Methods"
+        href: https://www.fisheries.noaa.gov/west-coast/science-data/southwest-acoustic-ecology-lab
+        text: "Southwest Acoustic Ecology Lab, SWFSC"
       - icon: github
-        href: https://github.com/SAEL-SWFSC/adrift-field-methods
-        text: "SAEL-SWFSC Adrift Field Methods"
+        href: https://github.com/SAEL-SWFSC
+        text: "SAEL Github"
 
     style: "docked"
     search: true
@@ -33,33 +33,33 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: Hardware-Summary.qmd
+      - href: content/Hardware-Summary.qmd
         text: Summary of Hardware
-      - href: Hardware-PoleBuoy.qmd
-        text: Hardware: Pole Buoy
-      - href: Hardware-GPS-Solar.qmd
-        text: Hardware: GPS Trackers
-      - href: Hardware-Tote-Contents.Rmd
-        text: Hardware: Tote Contents
-      - href: Hardware-Array.qmd
-        text: Hardware: Array
-      - href: Hardware-ST4300.qmd
-        text: Hardware: Soundtrap 4300
-      - href: Hardware-ST640.qmd
-        text: Hardware: Soundtrap 640
-      - href: Hardware-Sensus-Depth.qmd
-        text: Hardware: Sensus Depth Sensor
-      - href: Field-Deployment-Preparation.qmd
-        text: Field Methods: Preparation for Buoy Deployment
-      - href: Field-Deployment.qmd
-        text: Field Methods: Buoy Deployment
-      - href: Field-Metadata.qmd
-        text: Field Methods: Metadata
-      - href: Field-Tracking.qmd
-        text: Field Methods: Tracking Buoys
-      - href: Field-Retrieval.qmd
-        text: Field Methods: Buoy Retrieval
-      - href: Data-Download.qmd
+      - href: content/Hardware-PoleBuoy.qmd
+        text: Hardware- Pole Buoy
+      - href: content/Hardware-GPS-Solar.qmd
+        text: Hardware- GPS Trackers
+      - href: content/Hardware-Tote-Contents.Rmd
+        text: Hardware- Tote Contents
+      - href: content/Hardware-Array.qmd
+        text: Hardware- Array
+      - href: content/Hardware-ST4300.qmd
+        text: Hardware- Soundtrap 4300
+      - href: content/Hardware-ST640.qmd
+        text: Hardware- Soundtrap 640
+      - href: content/Hardware-Sensus-Depth.qmd
+        text: Hardware- Sensus Depth Sensor
+      - href: content/Field-Deployment-Preparation.qmd
+        text: Field Methods- Preparation for Buoy Deployment
+      - href: content/Field-Deployment.qmd
+        text: Field Methods- Buoy Deployment
+      - href: content/Field-Metadata.qmd
+        text: Field Methods- Metadata
+      - href: content/Field-Tracking.qmd
+        text: Field Methods- Tracking Buoys
+      - href: content/Field-Retrieval.qmd
+        text: Field Methods- Buoy Retrieval
+      - href: content/Data-Download.qmd
         text: Data Download
 
 format:
