@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>NOAA quarto simple - Adrift Field Methods</title>
+<title>NOAA quarto simple - Field Retrieval</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<link href="./content/Hardware-Summary.html" rel="next">
-<link href="./images/favicon.ico" rel="icon">
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../content/Field-Retrieval.html" rel="next">
+<link href="../content/Field-Metadata.html" rel="prev">
+<link href="../images/favicon.ico" rel="icon">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -71,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">Adrift Field Methods</h1>
+      <h1 class="quarto-secondary-nav-title">Field Retrieval</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -79,12 +80,12 @@ ul.task-list li input[type="checkbox"] {
   </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
   <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
     <div class="pt-lg-2 mt-2 text-center sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">NOAA quarto simple</a> 
+      <a href="../">NOAA quarto simple</a> 
         <div class="sidebar-tools-main tools-wide">
     <a href="https://www.fisheries.noaa.gov/west-coast/science-data/southwest-acoustic-ecology-lab" title="Southwest Acoustic Ecology Lab, SWFSC" class="sidebar-tool px-1"><i class="bi bi-globe"></i></a>
     <a href="https://github.com/SAEL-SWFSC" title="SAEL Github" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
@@ -101,77 +102,77 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active">Home</a>
+  <a href="../index.html" class="sidebar-item-text sidebar-link">Home</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Hardware-Summary.html" class="sidebar-item-text sidebar-link">Summary of Hardware</a>
+  <a href="../content/Hardware-Summary.html" class="sidebar-item-text sidebar-link">Summary of Hardware</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Hardware-PoleBuoy.html" class="sidebar-item-text sidebar-link">Hardware- Pole Buoy</a>
+  <a href="../content/Hardware-PoleBuoy.html" class="sidebar-item-text sidebar-link">Hardware- Pole Buoy</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Hardware-GPS-Solar.html" class="sidebar-item-text sidebar-link">Hardware- GPS Trackers</a>
+  <a href="../content/Hardware-GPS-Solar.html" class="sidebar-item-text sidebar-link">Hardware- GPS Trackers</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Hardware-Tote-Contents.Rmd" class="sidebar-item-text sidebar-link">Hardware- Tote Contents</a>
+  <a href="../content/Hardware-Tote-Contents.Rmd" class="sidebar-item-text sidebar-link">Hardware- Tote Contents</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Hardware-Array.html" class="sidebar-item-text sidebar-link">Hardware- Array</a>
+  <a href="../content/Hardware-Array.html" class="sidebar-item-text sidebar-link">Hardware- Array</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Hardware-ST4300.html" class="sidebar-item-text sidebar-link">Hardware- Soundtrap 4300</a>
+  <a href="../content/Hardware-ST4300.html" class="sidebar-item-text sidebar-link">Hardware- Soundtrap 4300</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Hardware-ST640.html" class="sidebar-item-text sidebar-link">Hardware- Soundtrap 640</a>
+  <a href="../content/Hardware-ST640.html" class="sidebar-item-text sidebar-link">Hardware- Soundtrap 640</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Hardware-Sensus-Depth.html" class="sidebar-item-text sidebar-link">Hardware- Sensus Depth Sensor</a>
+  <a href="../content/Hardware-Sensus-Depth.html" class="sidebar-item-text sidebar-link">Hardware- Sensus Depth Sensor</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Field-Deployment-Preparation.html" class="sidebar-item-text sidebar-link">Field Methods- Preparation for Buoy Deployment</a>
+  <a href="../content/Field-Deployment-Preparation.html" class="sidebar-item-text sidebar-link">Field Methods- Preparation for Buoy Deployment</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Field-Deployment.html" class="sidebar-item-text sidebar-link">Field Methods- Buoy Deployment</a>
+  <a href="../content/Field-Deployment.html" class="sidebar-item-text sidebar-link">Field Methods- Buoy Deployment</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Field-Metadata.html" class="sidebar-item-text sidebar-link">Field Methods- Metadata</a>
+  <a href="../content/Field-Metadata.html" class="sidebar-item-text sidebar-link">Field Methods- Metadata</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Field-Tracking.html" class="sidebar-item-text sidebar-link">Field Methods- Tracking Buoys</a>
+  <a href="../content/Field-Tracking.html" class="sidebar-item-text sidebar-link active">Field Methods- Tracking Buoys</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Field-Retrieval.html" class="sidebar-item-text sidebar-link">Field Methods- Buoy Retrieval</a>
+  <a href="../content/Field-Retrieval.html" class="sidebar-item-text sidebar-link">Field Methods- Buoy Retrieval</a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./content/Data-Download.html" class="sidebar-item-text sidebar-link">Data Download</a>
+  <a href="../content/Data-Download.html" class="sidebar-item-text sidebar-link">Data Download</a>
   </div>
 </li>
     </ul>
@@ -179,15 +180,21 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#field-retrieval" id="toc-field-retrieval" class="nav-link active" data-scroll-target="#field-retrieval">Field Retrieval</a></li>
+  <li><a href="#add-your-pages-the-project" id="toc-add-your-pages-the-project" class="nav-link" data-scroll-target="#add-your-pages-the-project">Add your pages the project</a></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Field-Tracking.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Field-Tracking.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
-<main class="content column-page-right" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">Adrift Field Methods</h1>
-<p class="subtitle lead">Southwest Acoustic Ecology Lab, SWFSC</p>
+<h1 class="title d-none d-lg-block">Field Retrieval</h1>
 </div>
 
 
@@ -201,9 +208,27 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<p>This document provides information related to fieldwork for ADRIFT in the California Current, which uses drifting acoustic recorders to monitor marinea mammals and the ocean soundscape. These methods include hardware specifications and assembly, preparing for deployment, deployment methods, tracking methods, and retrieval methods.</p>
+<section id="field-retrieval" class="level2">
+<h2 class="anchored" data-anchor-id="field-retrieval">Field Retrieval</h2>
+<p>Edit the qmd or md files in the <code>content</code> folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).</p>
+<p>Each page should start with</p>
+<pre><code>---
+title: your title
+---</code></pre>
+<p>and the first header will be the 2nd level, so <code>##</code>. Note, there are situations where you leave off</p>
+<pre><code>---
+title: your title
+---</code></pre>
+<p>and start the qmd file with a level header <code>#</code>, but if using the default title yaml (in the <code>---</code> fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).</p>
+</section>
+<section id="add-your-pages-the-project" class="level2">
+<h2 class="anchored" data-anchor-id="add-your-pages-the-project">Add your pages the project</h2>
+<ul>
+<li>Add the files to <code>_quarto.yml</code></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -417,12 +442,15 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
 });
 </script>
-<nav class="page-navigation column-page-right">
+<nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="../content/Field-Metadata.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Field Methods- Metadata</span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./content/Hardware-Summary.html" class="pagination-link">
-        <span class="nav-page-text">Summary of Hardware</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/Field-Retrieval.html" class="pagination-link">
+        <span class="nav-page-text">Field Methods- Buoy Retrieval</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

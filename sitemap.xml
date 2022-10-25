@@ -1,35 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/index.html</loc>
-    <lastmod>2022-10-21T16:46:41.024Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/index.html</loc>
+    <lastmod>2022-10-25T16:34:05.809Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/customizing.html</loc>
-    <lastmod>2022-10-21T16:46:42.284Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Metadata.html</loc>
+    <lastmod>2022-10-25T16:34:07.309Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/acknowledgements.html</loc>
-    <lastmod>2022-10-21T16:46:42.628Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-GPS-Solar.html</loc>
+    <lastmod>2022-10-25T16:34:07.813Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/code.html</loc>
-    <lastmod>2022-10-21T16:46:43.776Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Tote-Contents.html</loc>
+    <lastmod>2022-10-25T16:34:08.237Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rmarkdown.html</loc>
-    <lastmod>2022-10-21T16:46:45.172Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Array.html</loc>
+    <lastmod>2022-10-25T16:34:08.693Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/publishing.html</loc>
-    <lastmod>2022-10-21T16:46:45.560Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Data-Download.html</loc>
+    <lastmod>2022-10-25T16:34:09.101Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/add-content.html</loc>
-    <lastmod>2022-10-21T16:46:45.908Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Retrieval.html</loc>
+    <lastmod>2022-10-25T16:34:09.565Z</lastmod>
   </url>
   <url>
-    <loc>https://nmfs-opensci.github.io/NOAA-quarto-simple/content/rendering.html</loc>
-    <lastmod>2022-10-21T16:46:46.224Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Recorder.html</loc>
+    <lastmod>2022-10-25T16:34:09.981Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-ST4300.html</loc>
+    <lastmod>2022-10-25T16:34:10.489Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Summary.html</loc>
+    <lastmod>2022-10-25T16:34:10.945Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Sensus-Depth.html</loc>
+    <lastmod>2022-10-25T16:34:11.381Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Deployment.html</loc>
+    <lastmod>2022-10-25T16:34:11.849Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Tracking.html</loc>
+    <lastmod>2022-10-25T16:34:12.269Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-ST640.html</loc>
+    <lastmod>2022-10-25T16:34:12.709Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Deployment-Preparation.html</loc>
+    <lastmod>2022-10-25T16:34:13.185Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-PoleBuoy.html</loc>
+    <lastmod>2022-10-25T16:34:13.662Z</lastmod>
   </url>
 </urlset>
