@@ -3,7 +3,7 @@ project:
 
 website: 
   page-navigation: true
-  title: "NOAA quarto simple" 
+  title: "ADRIFT Field Methods" 
   site-url: "https://sael-swfsc.github.io/adrift-field-methods/" 
   repo-url: "https://github.com/SAEL-SWFSC/adrift-field-methods"
   repo-actions: [edit, source, issue]
@@ -15,8 +15,8 @@ website:
   
   sidebar:
     background: "#D9E3E4"
-#    logo: "https://raw.githubusercontent.com/nmfs-opensci/assets/main/logo/nmfs-opensci-logo3.png"
-#    favicon: images/favicon.ico
+    logo: "https://upload.wikimedia.org/wikipedia/commons/7/79/NOAA_logo.svg"
+    favicon: images/favicon.ico
     pinned: true
     align: center
     tools: 
