@@ -4,8 +4,8 @@ project:
 website: 
   page-navigation: true
   title: "NOAA quarto simple" 
-  site-url: "https://nmfs-opensci.github.io/NOAA-quarto-simple" 
-  repo-url: "https://github.com/nmfs-opensci/NOAA-quarto-simple"
+  site-url: "https://sael-swfsc.github.io/adrift-field-methods/" 
+  repo-url: "https://github.com/SAEL-SWFSC/adrift-field-methods"
   repo-actions: [edit, source, issue]
   favicon: images/favicon.ico
   
