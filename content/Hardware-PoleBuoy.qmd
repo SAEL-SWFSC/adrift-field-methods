@@ -1,25 +1,24 @@
 ---
 title: Hardware- Pole Buoy
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
 ## Hardware- Pole Buoy
 
-Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).
+The purpose of the pole buoy is to help track, find, and support the
+drifting recorder. The pole buoy consists of;
 
-Each page should start with
+1.  Weighted pole
 
-    ---
-    title: your title
-    ---
+2.  Floats
 
-and the first header will be the 2nd level, so `##`. Note, there are situations where you leave off
+3.  Bridle
 
-    ---
-    title: your title
-    ---
+4.  Radar reflector
 
-and start the qmd file with a level header `#`, but if using the default title yaml (in the `---` fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).
+5.  GPS mount
 
-## Add your pages the project
-
--   Add the files to `_quarto.yml`
+![Diagram of High Flyer Pole
+Buoy](images/Screenshot%202022-10-26%20092651.png)
