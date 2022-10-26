@@ -8,7 +8,7 @@ Depending on the size of the vessel and sea state, there are two main methods to
 
 1.  Approach the High Flyer and have a crew grab the pole buoy to lift it on board
 
-2.  Use a boat hook or grapple to grab the line between the pole buoy and the 11\" surface float and use the grapple/line to pull the High Flyer on board\
+2.  Use a boat hook or grapple to grab the line between the pole buoy and the 11" surface float and use the grapple/line to pull the High Flyer on board\
 
 The best retrieval location may be from a mid-ship station, but extreme care is needed to ensure that the vessel does not drift over the top of the line (we recommend moving to stern once initial connection is made). The vessel will drift faster than the buoy, and thus the vessel should remain downwind from the buoy (so that it does not drift over the buoy). Try approaching slowly in an upwind direction (going upwind) and ask the vessel to hold position into the wind while the Drifting Acoustic Buoy is retrieved. In windy conditions, extreme care is needed to keep the ship from drifting over the top of the line.
 
@@ -22,7 +22,7 @@ Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-W
 
     1.  During daylight hours, it may be visible via radar, binoculars, or using big-eyes during
 
-    2.  At night, the reflective tape can be seen at ranges up to ½ mile. Use a spotlight (the ship\'s or spare scientist spotlight) to illuminate the reflective tape
+    2.  At night, the reflective tape can be seen at ranges up to ½ mile. Use a spotlight (the ship's or spare scientist spotlight) to illuminate the reflective tape
 
 3.  Using a boat hook or grapple, grab the orange floating line 
 
