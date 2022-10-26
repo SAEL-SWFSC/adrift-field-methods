@@ -39,7 +39,7 @@ website:
         text: Hardware- Pole Buoy
       - href: content/Hardware-GPS-Solar.qmd
         text: Hardware- GPS Solar
-      - href: content/Hardware-Tote-Contents.Rmd
+      - href: content/Hardware-Tote-Contents.qmd
         text: Hardware- Tote Contents
       - href: content/Hardware-Array.qmd
         text: Hardware- Array
