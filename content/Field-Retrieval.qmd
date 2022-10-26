@@ -4,22 +4,58 @@ title: Field Retrieval
 
 ## Field Retrieval
 
-Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).
+Depending on the size of the vessel and sea state, there are two main methods to retrieve the buoy;
 
-Each page should start with
+1.  Approach the High Flyer and have a crew grab the pole buoy to lift it on board
 
-    ---
-    title: your title
-    ---
+2.  Use a boat hook or grapple to grab the line between the pole buoy and the 11\" surface float and use the grapple/line to pull the High Flyer on board\
 
-and the first header will be the 2nd level, so `##`. Note, there are situations where you leave off
+The best retrieval location may be from a mid-ship station, but extreme care is needed to ensure that the vessel does not drift over the top of the line (we recommend moving to stern once initial connection is made). The vessel will drift faster than the buoy, and thus the vessel should remain downwind from the buoy (so that it does not drift over the buoy). Try approaching slowly in an upwind direction (going upwind) and ask the vessel to hold position into the wind while the Drifting Acoustic Buoy is retrieved. In windy conditions, extreme care is needed to keep the ship from drifting over the top of the line.
 
-    ---
-    title: your title
-    ---
+Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-WZIF3/view?usp=sharing) for an overview of the entire deployment and retrieval process (old video).
 
-and start the qmd file with a level header `#`, but if using the default title yaml (in the `---` fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).
+#### **Retrieval**
 
-## Add your pages the project
+1.  Ship approaches last known location (using solar GPS)
 
--   Add the files to `_quarto.yml`
+2.  Slowly approach area to find the buoy
+
+    1.  During daylight hours, it may be visible via radar, binoculars, or using big-eyes during
+
+    2.  At night, the reflective tape can be seen at ranges up to ½ mile. Use a spotlight (the ship\'s or spare scientist spotlight) to illuminate the reflective tape
+
+3.  Using a boat hook or grapple, grab the orange floating line 
+
+4.  Retrieve the hook, orange float, and orange line, and pull all components in by hand using gloves
+
+5.  Bring the pole buoy aboard, lift over rail and set it on the deck
+
+6.  Retrieve the line; if a winch is used, ensure that there is a lookout to remove line from winch before reaching the drogue and subsurface components.
+
+7.  Carefully retrieve the hydrophone array
+
+    1.  Hold the hydrophone array away from the vessel lip as you are retrieving it to avoid bumping the hydrophone elements against the ship
+
+    2.  Lift the recorders gently over the rail
+
+8.  Retrieve the anchor
+
+9.  Log the date, time, and updated location of the retrieval with the in the [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing), and send this information to send this information to Kourtney ([kourtney.burger\@noaa.gov](mailto:kourtney.burger@noaa.gov))
+
+10. Wash, clean, and dry all equipment
+
+    1.  Remove any marine fouling with a power washer and rinse everything with fresh water
+
+    2.  Stack the line on a dry deck in the sun to fully dry 
+
+11. Remove the High Flyer and the anchor from the array/line/orange buoys
+
+12. Move the array, line, and orange hard floats into the tote
+
+    1.  **Please do not stack floats, the anchor, or other items on top of the hydrophone array (hydrophone and recorder)**
+
+13. Remember the recorder may be recording, you can turn it off or let it run out of battery
+
+14. Turn off the solar GPS by replacing the magnet onto the GPS and secure it with tape. 
+
+15. Contact Shannon Rankin ([shannon.rankin\@noaa.gov](mailto:shannon.rankin@noaa.gov)) for next steps
