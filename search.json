@@ -165,14 +165,7 @@
     "href": "content/Field-Deployment-Preparation.html",
     "title": "Field Preparation for Deployment",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Field-Deployment-Preparation.html#add-your-pages-the-project",
-    "href": "content/Field-Deployment-Preparation.html#add-your-pages-the-project",
-    "title": "Field Preparation for Deployment",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "text": "Please review all preparation and deployment information prior to deployment (including viewing all videos). Pre-deployment electronics check should be completed 1 day prior to deployment, and final preparation can be completed ~ 20 minutes prior to deployment. Ensure the following steps are followed and completed to allow for a smooth deployment. \n\n\n\nCharge Recorder and confirm recorder settings [need to link to this here]\nCheck Solar GPS\n\nPlace solar GPS in view of sky (satellites) and remove magnet\nCheck online to ensure that the solar GPS is being updated (check with ADRIFT team to obtain login information)\n\nSet up Driftwatch auto-text update (if desired). \n\n\n\n\n\nAssemble High Flyer for deployment\n\nAttach  solar GPS to GPS Mount on High Flyer\nRemove Magnet on solar GPS\n\nLay out the entire array on deck to make sure there are no tangles\n\nIf you can't fully lay it out, you can remove the bottom portion (including the array and the anchor) and the top (top trawl float), then loosely flake the line into the tote, starting from the bottom end closest to the array. \n\n\nCAUTION - this line does tangle easily and you want to ensure there are no tangles or knots while you are trying to deploy the buoy\n\nAttach the locking carabiner on the orange line to the High Flyer using the bridle, and lock snugly. \nAttach the anchor (30 lb river anchor) to the bottom of the array using a bowline and zip tie to secure the knot.\nIf Soundtrap was not programmed to turn on by remote, then turn on \n\nPoint remote at clear end of Recorder, press START\nRED will light, then GREEN will light, then GREEN will blink 1x/4sec (hard to see in direct sunlight).\nAfter 2 min, will go into SLEEP MODE, and will flash briefly every 20 min (hard to see)\n\nIn Deployment Details spreadsheet, record array label (on yellow tag a top of array), GPS ID, date, time, and expected latitude and longitude of deployment"
   },
   {
     "objectID": "content/Hardware-PoleBuoy.html",
