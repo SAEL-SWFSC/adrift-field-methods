@@ -10,6 +10,10 @@ None of the equipment is designed to be dropped or thrown into the water. Lower 
 
 Watch the videos corresponding to the deployment steps for an overview of the proper methods to deploy the buoy. Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-WZIF3/view?usp=sharing) for an overview of the entire deployment and retrieval process (old video).
 
+{{< video https://www.youtube.com/watch?v=xNxgNkMapOE >}}
+
+{{< video DASBR Depl&Retr fromHorizon 2019_v2.mov >}}
+
 Discuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. 
 
 #### **Requirements for Deployment**
@@ -36,7 +40,7 @@ Discuss the deployment plan with the crew and read all of the following instruct
 
     2.  [Video here](https://drive.google.com/file/d/122i-YWS-Medmj7Z6HpFtTuPXo1Y9tOZL/view?usp=sharing)
 
-3.  Lower the High Flyer, then the 11\" surface float
+3.  Lower the High Flyer, then the 11" surface float
 
     1.  [Video here](https://drive.google.com/file/d/1_sGvCOb5tBl3y4bf0vB9lxrxQGTHQqCu/view?usp=sharing)
 
