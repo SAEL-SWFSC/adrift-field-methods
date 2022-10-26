@@ -4,22 +4,56 @@ title: Field Deployment
 
 ## Field Deployment
 
-Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).
+ONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. 
 
-Each page should start with
+None of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight. 
 
-    ---
-    title: your title
-    ---
+Watch the videos corresponding to the deployment steps for an overview of the proper methods to deploy the buoy. Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-WZIF3/view?usp=sharing) for an overview of the entire deployment and retrieval process (old video).
 
-and the first header will be the 2nd level, so `##`. Note, there are situations where you leave off
+Discuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. 
 
-    ---
-    title: your title
-    ---
+#### **Requirements for Deployment**
 
-and start the qmd file with a level header `#`, but if using the default title yaml (in the `---` fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).
+-   \>200m water depth (preferably more!), not too close to a rapid decrease in water depth
 
-## Add your pages the project
+    -   Buoy  will run aground at \~110m depth.
 
--   Add the files to `_quarto.yml`
+-   Not too close to shipping lane or significant shipping traffic
+
+-   Not too close to fishing gear
+
+-   Boat speed must remain at 2-3 knots for the entirety of the deployment
+
+-   Only deploy off stern
+
+#### **Deployment**
+
+1.  Slow the boat speed to 2-3 knots
+
+2.  Anchor ready, but deploy last!
+
+    1.  Have one person hold onto the line with the anchor, and lower until the weight is over the water but close to railing level. Use an extra line to loop through the anchor as a leash, and attach one of the lines to the vessel. The buoy should not be lowered into the water until all of the array line is paid out.
+
+    2.  [Video here](https://drive.google.com/file/d/122i-YWS-Medmj7Z6HpFtTuPXo1Y9tOZL/view?usp=sharing)
+
+3.  Lower the High Flyer, then the 11\" surface float
+
+    1.  [Video here](https://drive.google.com/file/d/1_sGvCOb5tBl3y4bf0vB9lxrxQGTHQqCu/view?usp=sharing)
+
+4.  Pay out the line at vessel speed
+
+    1.  Pay out line only as fast as the vessel moves away from the buoy (avoid loose line in the water that could get sucked into the propellers). 
+
+    2.  [Video here](https://drive.google.com/file/d/11GsRrB9h6zXP5IEJpF-_lEyhqHCe1nTk/view?usp=sharing)
+
+5.  Once all the line is paid out, lower the drogue, sub-surface buoy, and dampener plate into the water
+
+6.  Carefully lower the array/recorder and anchor into the water 
+
+    1.  Lower the anchor with the loose end of the leash line, and let go once the anchor is in the water, you can collect this line from where it is attached to the boat)
+
+    2.  Try to not drop the recorder splat into the water, rather carefully lower it from the boat into the water
+
+    3.  [Video here](https://drive.google.com/file/d/122i-YWS-Medmj7Z6HpFtTuPXo1Y9tOZL/view?usp=sharing)
+
+7.  Log the date, time, and updated location of the deployment (lat/lon) with the array ID in the [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing), and send this information to Kourtney ASAP ([kourtney.burger\@noaa.gov](mailto:kourtney.burger@noaa.gov))
