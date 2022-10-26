@@ -6,4 +6,4 @@ title: Hardware- Summary
 
 These drifting acoustic buoys are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing 2 satellite geo-locators and a radar reflector), and a floating line/surface float to facilitate retrieval (see Figure 1). The hydrophone array and High Flyer are connected by \~ 100m ¼" line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).
 
-![Diagram of drifting acoustic buoy](images/Screenshot%202022-10-26%20113539.png)
+![Diagram of drifting acoustic buoy](images/Screenshot%202022-10-26%20113539.png){fig-align="left"}

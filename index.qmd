@@ -4,4 +4,4 @@ subtitle: "Southwest Acoustic Ecology Lab, SWFSC"
 page-layout: full
 ---
 
-This document provides information related to fieldwork for ADRIFT in the California Current, which uses drifting acoustic recorders to monitor marinea mammals and the ocean soundscape. These methods include hardware specifications and assembly, preparing for deployment, deployment methods, tracking methods, and retrieval methods.
+This document provides information related to fieldwork for ADRIFT in the California Current, which uses drifting acoustic recorders to monitor marine mammals and the ocean soundscape. These methods include hardware specifications and assembly, preparing for deployment, deployment methods, tracking methods, and retrieval methods.
