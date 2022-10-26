@@ -39,14 +39,7 @@
     "href": "content/Hardware-Array.html",
     "title": "Hardware- Array",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-Array.html#add-your-pages-the-project",
-    "href": "content/Hardware-Array.html#add-your-pages-the-project",
-    "title": "Hardware- Array",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "text": "Two hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords."
   },
   {
     "objectID": "content/Data-Download.html",
