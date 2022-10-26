@@ -21,4 +21,4 @@ drifting recorder. The pole buoy consists of;
 5.  GPS mount
 
 ![Diagram of High Flyer Pole
-Buoy](images/Screenshot%202022-10-26%20092651.png)
+Buoy](images/Screenshot%202022-10-26%20092651.png){fig-align="right"}
