@@ -32,14 +32,7 @@
     "href": "content/Hardware-Tote-Contents.html",
     "title": "Hardware- Tote Contents",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-Tote-Contents.html#add-your-pages-the-project",
-    "href": "content/Hardware-Tote-Contents.html#add-your-pages-the-project",
-    "title": "Hardware- Tote Contents",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "text": "The large, red tote contains the recorder, hydrophone array, line, dampener plate, drogue, surface and subsurface buoy, and can hold the anchor (anchor is frequently removed for transport due to weight). Take care to ensure the recorder and array do not get damaged by the anchor or floats while being stored in the tote. The array is labeled at the top of the array (yellow tag).\n\n\n\nTote with all components of the drift"
   },
   {
     "objectID": "content/Hardware-Array.html",
