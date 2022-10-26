@@ -38,7 +38,7 @@ website:
       - href: content/Hardware-PoleBuoy.qmd
         text: Hardware- Pole Buoy
       - href: content/Hardware-GPS-Solar.qmd
-        text: Hardware- GPS Trackers
+        text: Hardware- GPS Solar
       - href: content/Hardware-Tote-Contents.Rmd
         text: Hardware- Tote Contents
       - href: content/Hardware-Array.qmd
