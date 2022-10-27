@@ -10,10 +10,6 @@ None of the equipment is designed to be dropped or thrown into the water. Lower 
 
 Watch the videos corresponding to the deployment steps for an overview of the proper methods to deploy the buoy. Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-WZIF3/view?usp=sharing) for an overview of the entire deployment and retrieval process (old video).
 
-{{< video https://www.youtube.com/watch?v=xNxgNkMapOE >}}
-
-{{< video DASBR Depl&Retr fromHorizon 2019_v2.mov >}}
-
 Discuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. 
 
 #### **Requirements for Deployment**
@@ -33,31 +29,17 @@ Discuss the deployment plan with the crew and read all of the following instruct
 #### **Deployment**
 
 1.  Slow the boat speed to 2-3 knots
-
 2.  Anchor ready, but deploy last!
-
-    1.  Have one person hold onto the line with the anchor, and lower until the weight is over the water but close to railing level. Use an extra line to loop through the anchor as a leash, and attach one of the lines to the vessel. The buoy should not be lowered into the water until all of the array line is paid out.
-
-    2.  [Video here](https://drive.google.com/file/d/122i-YWS-Medmj7Z6HpFtTuPXo1Y9tOZL/view?usp=sharing)
-
+    a.  Have one person hold onto the line with the anchor, and lower until the weight is over the water but close to railing level. Use an extra line to loop through the anchor as a leash, and attach one of the lines to the vessel. The buoy should not be lowered into the water until all of the array line is paid out.
+    b.  [Video here](https://drive.google.com/file/d/122i-YWS-Medmj7Z6HpFtTuPXo1Y9tOZL/view?usp=sharing)
 3.  Lower the High Flyer, then the 11" surface float
-
-    1.  [Video here](https://drive.google.com/file/d/1_sGvCOb5tBl3y4bf0vB9lxrxQGTHQqCu/view?usp=sharing)
-
+    a.  [Video here](https://drive.google.com/file/d/1_sGvCOb5tBl3y4bf0vB9lxrxQGTHQqCu/view?usp=sharing)
 4.  Pay out the line at vessel speed
-
-    1.  Pay out line only as fast as the vessel moves away from the buoy (avoid loose line in the water that could get sucked into the propellers). 
-
-    2.  [Video here](https://drive.google.com/file/d/11GsRrB9h6zXP5IEJpF-_lEyhqHCe1nTk/view?usp=sharing)
-
+    a.  Pay out line only as fast as the vessel moves away from the buoy (avoid loose line in the water that could get sucked into the propellers). 
+    b.  [Video here](https://drive.google.com/file/d/11GsRrB9h6zXP5IEJpF-_lEyhqHCe1nTk/view?usp=sharing)
 5.  Once all the line is paid out, lower the drogue, sub-surface buoy, and dampener plate into the water
-
 6.  Carefully lower the array/recorder and anchor into the water 
-
-    1.  Lower the anchor with the loose end of the leash line, and let go once the anchor is in the water, you can collect this line from where it is attached to the boat)
-
-    2.  Try to not drop the recorder splat into the water, rather carefully lower it from the boat into the water
-
-    3.  [Video here](https://drive.google.com/file/d/122i-YWS-Medmj7Z6HpFtTuPXo1Y9tOZL/view?usp=sharing)
-
+    a.  Lower the anchor with the loose end of the leash line, and let go once the anchor is in the water, you can collect this line from where it is attached to the boat)
+    b.  Try to not drop the recorder splat into the water, rather carefully lower it from the boat into the water
+    c.  [Video here](https://drive.google.com/file/d/122i-YWS-Medmj7Z6HpFtTuPXo1Y9tOZL/view?usp=sharing)
 7.  Log the date, time, and updated location of the deployment (lat/lon) with the array ID in the [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing), and send this information to Kourtney ASAP ([kourtney.burger\@noaa.gov](mailto:kourtney.burger@noaa.gov))

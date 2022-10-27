@@ -17,29 +17,19 @@ Please review all preparation and deployment information prior to deployment (in
 #### Deployment Preparation (\>20 minutes before deployment)
 
 1.  Assemble High Flyer for deployment
-
     a.  Attach  solar GPS to GPS Mount on High Flyer
-
     b.  Remove Magnet on solar GPS
-
 2.  Lay out the entire array on deck to make sure there are no tangles
-
     a.  If you can't fully lay it out, you can remove the bottom portion (including the array and the anchor) and the top (top trawl float), then loosely flake the line into the tote, starting from the bottom end closest to the array. 
 
-:::{.callout-note}
+::: callout-note
 **CAUTION - this line does tangle easily and you want to ensure there are no tangles or knots while you are trying to deploy the buoy**
 :::
 
 3.  Attach the locking carabiner on the orange line to the High Flyer using the bridle, and lock snugly. 
-
 4.  Attach the anchor (30 lb river anchor) to the bottom of the array using a bowline and zip tie to secure the knot.
-
 5.  If Soundtrap was not programmed to turn on by remote, then turn on 
-
     a.  Point remote at clear end of Recorder, press START
-
     b.  RED will light, then GREEN will light, then GREEN will blink 1x/4sec (hard to see in direct sunlight).
-
     c.  After 2 min, will go into SLEEP MODE, and will flash briefly every 20 min (hard to see)
-
 6.  In [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing), record array label (on yellow tag a top of array), GPS ID, date, time, and expected latitude and longitude of deployment

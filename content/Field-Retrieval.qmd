@@ -17,45 +17,25 @@ Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-W
 #### **Retrieval**
 
 1.  Ship approaches last known location (using solar GPS)
-
 2.  Slowly approach area to find the buoy
-
-    1.  During daylight hours, it may be visible via radar, binoculars, or using big-eyes during
-
-    2.  At night, the reflective tape can be seen at ranges up to ½ mile. Use a spotlight (the ship's or spare scientist spotlight) to illuminate the reflective tape
-
+    a.  During daylight hours, it may be visible via radar, binoculars, or using big-eyes during
+    b.  At night, the reflective tape can be seen at ranges up to ½ mile. Use a spotlight (the ship's or spare scientist spotlight) to illuminate the reflective tape
 3.  Using a boat hook or grapple, grab the orange floating line 
-
 4.  Retrieve the hook, orange float, and orange line, and pull all components in by hand using gloves
-
 5.  Bring the pole buoy aboard, lift over rail and set it on the deck
-
 6.  Retrieve the line; if a winch is used, ensure that there is a lookout to remove line from winch before reaching the drogue and subsurface components.
-
 7.  Carefully retrieve the hydrophone array
-
-    1.  Hold the hydrophone array away from the vessel lip as you are retrieving it to avoid bumping the hydrophone elements against the ship
-
-    2.  Lift the recorders gently over the rail
-
+    a.  Hold the hydrophone array away from the vessel lip as you are retrieving it to avoid bumping the hydrophone elements against the ship
+    b.  Lift the recorders gently over the rail
 8.  Retrieve the anchor
-
 9.  Log the date, time, and updated location of the retrieval with the in the [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing), and send this information to send this information to Kourtney ([kourtney.burger\@noaa.gov](mailto:kourtney.burger@noaa.gov))
-
 10. Wash, clean, and dry all equipment
+    a.  Remove any marine fouling with a power washer and rinse everything with fresh water
 
-    1.  Remove any marine fouling with a power washer and rinse everything with fresh water
-
-    2.  Stack the line on a dry deck in the sun to fully dry 
-
+    b.  Stack the line on a dry deck in the sun to fully dry 
 11. Remove the High Flyer and the anchor from the array/line/orange buoys
-
 12. Move the array, line, and orange hard floats into the tote
-
-    1.  **Please do not stack floats, the anchor, or other items on top of the hydrophone array (hydrophone and recorder)**
-
+    a.  **Please do not stack floats, the anchor, or other items on top of the hydrophone array (hydrophone and recorder)**
 13. Remember the recorder may be recording, you can turn it off or let it run out of battery
-
 14. Turn off the solar GPS by replacing the magnet onto the GPS and secure it with tape. 
-
 15. Contact Shannon Rankin ([shannon.rankin\@noaa.gov](mailto:shannon.rankin@noaa.gov)) for next steps
