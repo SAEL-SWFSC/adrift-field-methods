@@ -2,24 +2,12 @@
 title: Hardware- ST640 Recorder
 ---
 
-## Hardware- ST640 Recorder
+## Hardware - ST640 Recorder
 
-Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).
+The Soundtrap 640 HF is a four channel digital sound recorder by [Ocean Instruments](https://www.oceaninstruments.co.nz/).
 
-Each page should start with
+This is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.
 
-    ---
-    title: your title
-    ---
+[Link to website.](https://www.oceaninstruments.co.nz/product/soundtrap-st640-hf-four-channel-long-term-recorder/)
 
-and the first header will be the 2nd level, so `##`. Note, there are situations where you leave off
-
-    ---
-    title: your title
-    ---
-
-and start the qmd file with a level header `#`, but if using the default title yaml (in the `---` fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).
-
-## Add your pages the project
-
--   Add the files to `_quarto.yml`
+![*ST640HF*](images/Screenshot%202022-10-27%20124743.png)

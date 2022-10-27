@@ -1,11 +1,11 @@
 ---
-title: Hardware- Pole Buoy
+title: Hardware - Pole Buoy
 editor: 
   markdown: 
     wrap: 72
 ---
 
-## Hardware- Pole Buoy
+## Hardware - Pole Buoy
 
 The purpose of the pole buoy is to help track, find, and support the
 drifting recorder. The pole buoy consists of;
@@ -16,5 +16,5 @@ drifting recorder. The pole buoy consists of;
 4.  Radar reflector
 5.  GPS mount
 
-![Diagram of High Flyer Pole
-Buoy](images/Screenshot%202022-10-26%20092651.png){fig-align="left"}
+![*Diagram of High Flyer Pole
+Buoy*](images/Screenshot%202022-10-26%20092651.png){fig-align="left"}

@@ -1,14 +1,12 @@
 ---
-title: Hardware- Array
+title: Hardware - Array
 ---
 
-## Hardware- Array
-
-#### **Hydrophones & Recorders**
+## **Hydrophones & Recorders**
 
 Two hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords.
 
-#### **Line, Floats, Drogue, & Dampener Plate**
+## **Line, Floats, Drogue, & Dampener Plate**
 
 The \~100m line attaches the surface floats to the hydrophone array at depth. At the surface, the line attaches to the surface float (orange 11" float with 18.5 lbs buoyancy), which is connected to the High Flyer by a thick orange dyneema line and a bridle (⅜" crab rope attached above/below the High Flyer float). At the deep end, the line attaches to a drogue to minimize horizontal movement and rubber 'snubber' (or bungee) to reduce vertical motion. Below the drogue and snubber is a  sub-surface float (orange 11" float with 18.5 buoyancy) and Dampener Plate to maintain vertical orientation and minimize vertical movement. The hydrophone array is attached to the bottom of the Dampener Plate. 
 
