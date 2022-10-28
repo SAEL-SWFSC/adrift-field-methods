@@ -1,8 +1,8 @@
 ---
-title: Hardware - Summary
+title: Summary
 ---
 
-## Hardware - Summary
+## Summary
 
 The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing 2 satellite geo-locators and a radar reflector), and a floating line/surface float to facilitate retrieval (see Figure 1). The hydrophone array and High Flyer are connected by \~ 100m ¼" line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).
 

@@ -1,8 +1,8 @@
 ---
-title: Field Preparation for Deployment
+title: Preparation for Deployment
 ---
 
-## Field Preparation for Deployment
+## Preparation for Deployment
 
 Please review all preparation and deployment information prior to deployment (including viewing all videos). Pre-deployment electronics check should be completed 1 day prior to deployment, and final preparation can be completed \~ 20 minutes prior to deployment. Ensure the following steps are followed and completed to allow for a smooth deployment. 
 

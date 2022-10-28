@@ -1,8 +1,8 @@
 ---
-title: Field Retrieval
+title: Retrieval
 ---
 
-## Field Retrieval
+## Retrieval
 
 Depending on the size of the vessel and sea state, there are two main methods to retrieve the buoy;
 

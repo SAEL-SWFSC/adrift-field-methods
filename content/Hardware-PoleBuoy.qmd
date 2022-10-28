@@ -1,11 +1,11 @@
 ---
-title: Hardware - Pole Buoy
+title: Pole Buoy
 editor: 
   markdown: 
     wrap: 72
 ---
 
-## Hardware - Pole Buoy
+## Pole Buoy
 
 The purpose of the pole buoy is to help track, find, and support the
 drifting recorder. The pole buoy consists of;

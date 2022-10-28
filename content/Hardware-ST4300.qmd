@@ -1,8 +1,8 @@
 ---
-title: Hardware- ST4300 Recorder
+title: ST4300 Recorder
 ---
 
-## Hardware - ST4300 Recorder
+## ST4300 Recorder
 
 The Soundtrap 4300 HF is a four channel digital sound recorder by [Ocean Instruments](https://www.oceaninstruments.co.nz/).
 

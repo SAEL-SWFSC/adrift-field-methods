@@ -1,8 +1,8 @@
 ---
-title: Hardware- ST640 Recorder
+title: ST640 Recorder
 ---
 
-## Hardware - ST640 Recorder
+## ST640 Recorder
 
 The Soundtrap 640 HF is a four channel digital sound recorder by [Ocean Instruments](https://www.oceaninstruments.co.nz/).
 

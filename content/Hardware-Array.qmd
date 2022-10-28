@@ -1,5 +1,5 @@
 ---
-title: Hardware - Array
+title: Array
 ---
 
 ## **Hydrophones & Recorders**

@@ -1,8 +1,8 @@
 ---
-title: Hardware- Sensus Depth Sensor
+title: Sensus Depth Sensor
 ---
 
-## Hardware- Sensus Depth Sensor
+## Sensus Depth Sensor
 
 Each drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Sensus Ultra depth senor, made by [ReefNet](https://reefnet.ca/), is a small device that can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.
 

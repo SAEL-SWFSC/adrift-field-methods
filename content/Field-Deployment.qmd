@@ -1,8 +1,8 @@
 ---
-title: Field Deployment
+title: Deployment
 ---
 
-## Field Deployment
+## Deployment
 
 ONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. 
 
