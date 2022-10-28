@@ -2,17 +2,17 @@
 title: Deployment
 ---
 
-## Deployment
-
+::: callout-note
 ONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. 
+:::
 
 None of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight. 
 
 Watch the videos corresponding to the deployment steps for an overview of the proper methods to deploy the buoy. Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-WZIF3/view?usp=sharing) for an overview of the entire deployment and retrieval process (old video).
 
-Discuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. 
+Discuss the deployment plan with the crew and read all of the following instructions **BEFORE** you begin to deploy. 
 
-#### **Requirements for Deployment**
+### **Requirements for Deployment**
 
 -   \>200m water depth (preferably more!), not too close to a rapid decrease in water depth
 
@@ -26,7 +26,7 @@ Discuss the deployment plan with the crew and read all of the following instruct
 
 -   Only deploy off stern
 
-#### **Deployment**
+### **Deployment**
 
 1.  Slow the boat speed to 2-3 knots
 2.  Anchor ready, but deploy last!

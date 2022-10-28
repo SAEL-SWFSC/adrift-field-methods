@@ -2,8 +2,6 @@
 title: Retrieval
 ---
 
-## Retrieval
-
 Depending on the size of the vessel and sea state, there are two main methods to retrieve the buoy;
 
 1.  Approach the High Flyer and have a crew grab the pole buoy to lift it on board
@@ -34,8 +32,12 @@ Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-W
 
     b.  Stack the line on a dry deck in the sun to fully dry 
 11. Remove the High Flyer and the anchor from the array/line/orange buoys
-12. Move the array, line, and orange hard floats into the tote
-    a.  **Please do not stack floats, the anchor, or other items on top of the hydrophone array (hydrophone and recorder)**
+12. Move the array, line, and orange hard floats into the tote  
+
+::: callout-note
+ **Do not stack floats, the anchor, or other items on top of the hydrophone array (hydrophone and recorder)**
+:::
+
 13. Remember the recorder may be recording, you can turn it off or let it run out of battery
 14. Turn off the solar GPS by replacing the magnet onto the GPS and secure it with tape. 
 15. Contact Shannon Rankin ([shannon.rankin\@noaa.gov](mailto:shannon.rankin@noaa.gov)) for next steps
