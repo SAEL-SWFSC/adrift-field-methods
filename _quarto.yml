@@ -33,32 +33,23 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: content/Hardware-Summary.qmd
-        text: Summary of Hardware
-      - href: content/Hardware-PoleBuoy.qmd
-        text: Hardware- Pole Buoy
-      - href: content/Hardware-GPS-Solar.qmd
-        text: Hardware- GPS Solar
-      - href: content/Hardware-Tote-Contents.qmd
-        text: Hardware- Tote Contents
-      - href: content/Hardware-Array.qmd
-        text: Hardware- Array
-      - href: content/Hardware-ST4300.qmd
-        text: Hardware- Soundtrap 4300
-      - href: content/Hardware-ST640.qmd
-        text: Hardware- Soundtrap 640
-      - href: content/Hardware-Sensus-Depth.qmd
-        text: Hardware- Sensus Depth Sensor
-      - href: content/Field-Deployment-Preparation.qmd
-        text: Field Methods- Preparation for Buoy Deployment
-      - href: content/Field-Deployment.qmd
-        text: Field Methods- Buoy Deployment
-      - href: content/Field-Metadata.qmd
-        text: Field Methods- Metadata
-      - href: content/Field-Tracking.qmd
-        text: Field Methods- Tracking Buoys
-      - href: content/Field-Retrieval.qmd
-        text: Field Methods- Buoy Retrieval
+      - section: "Hardware"
+        contents:
+          - content/Hardware-Summary.qmd
+          - content/Hardware-PoleBuoy.qmd
+          - content/Hardware-GPS-Solar.qmd
+          - content/Hardware-Tote-Contents.qmd
+          - content/Hardware-Array.qmd
+          - content/Hardware-ST4300.qmd
+          - content/Hardware-ST640.qmd
+          - content/Hardware-Sensus-Depth.qmd
+      - section: "Field Methods"      
+        contents:
+          - content/Field-Deployment-Preparation.qmd
+          - content/Field-Deployment.qmd
+          - content/Field-Metadata.qmd
+          - content/Field-Tracking.qmd
+          - content/Field-Retrieval.qmd
       - href: content/Data-Download.qmd
         text: Data Download
 
