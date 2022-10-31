@@ -43,6 +43,12 @@ website:
           - content/Hardware-ST4300.qmd
           - content/Hardware-ST640.qmd
           - content/Hardware-Sensus-Depth.qmd
+      - section: "Alternative Buoy Configurations"
+        contents:
+          - content/Hardware-Alt-PoleBuoy.qmd
+          - content/Hardware-Alt-GPS.qmd
+          - content/Hardware-Alt-Array.qmd
+          - content/Hardware-Alt-Soundtraps.qmd
       - section: "Field Methods"      
         contents:
           - content/Field-Deployment-Preparation.qmd
