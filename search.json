@@ -7,16 +7,16 @@
     "text": "This document provides information related to fieldwork for ADRIFT in the California Current, which uses drifting acoustic recorders to monitor marine mammals and the ocean soundscape. These methods include hardware specifications and assembly, preparing for deployment, deployment methods, tracking methods, and retrieval methods."
   },
   {
-    "objectID": "content/Hardware-Alt-PoleBuoy.html",
-    "href": "content/Hardware-Alt-PoleBuoy.html",
-    "title": "Alternative Pole Buoy Configurations",
+    "objectID": "content/Hardware-Original-PoleBuoy.html",
+    "href": "content/Hardware-Original-PoleBuoy.html",
+    "title": "Original Pole Buoy",
     "section": "",
     "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
   },
   {
-    "objectID": "content/Hardware-Alt-PoleBuoy.html#add-your-pages-the-project",
-    "href": "content/Hardware-Alt-PoleBuoy.html#add-your-pages-the-project",
-    "title": "Alternative Pole Buoy Configurations",
+    "objectID": "content/Hardware-Original-PoleBuoy.html#add-your-pages-the-project",
+    "href": "content/Hardware-Original-PoleBuoy.html#add-your-pages-the-project",
+    "title": "Original Pole Buoy",
     "section": "Add your pages the project",
     "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
@@ -35,25 +35,11 @@
     "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
   {
-    "objectID": "content/Hardware-Alt-Soundtraps.html",
-    "href": "content/Hardware-Alt-Soundtraps.html",
-    "title": "Alternative Soundtraps",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-Alt-Soundtraps.html#add-your-pages-the-project",
-    "href": "content/Hardware-Alt-Soundtraps.html#add-your-pages-the-project",
-    "title": "Alternative Soundtraps",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
-  },
-  {
     "objectID": "content/Hardware-GPS-Solar.html",
     "href": "content/Hardware-GPS-Solar.html",
     "title": "GPS Solar",
     "section": "",
-    "text": "A Solar GPS is mounted on top of the pole buoy (atop the GPS mount). It has a magnet taped to the top. Keep the magnet on whenever the GPS is not in use or is stored (not in view of the sky); the magnet can fall off easily, please tape in place. Only remove the magnet for testing or when the buoy is outside and in view of the sky (satellites). When the magnet is removed, be sure to store it in a SAFE spot! The GPS is labeled (sticker on top with ID#)"
+    "text": "A Solar GPS is mounted on top of the pole buoy (atop the GPS mount). It has a magnet taped to the top. Keep the magnet on whenever the GPS is not in use or is stored (not in view of the sky); the magnet can fall off easily, please tape in place. Only remove the magnet for testing or when the buoy is outside and in view of the sky (satellites). When the magnet is removed, be sure to store it in a SAFE spot! The GPS is labeled (sticker on top with ID#)\nSee Alternative GPS section for previous/alternative GPS devices used"
   },
   {
     "objectID": "content/Hardware-Tote-Contents.html",
@@ -61,6 +47,20 @@
     "title": "Tote Contents",
     "section": "",
     "text": "The large, red tote contains the recorder, hydrophone array, line, dampener plate, drogue, surface and subsurface buoy, and can hold the anchor (anchor is frequently removed for transport due to weight). Take care to ensure the recorder and array do not get damaged by the anchor or floats while being stored in the tote. The array is labeled at the top of the array (yellow tag).\n\n\n\nTote with all components of the drift"
+  },
+  {
+    "objectID": "content/Hardware-V1-Array.html",
+    "href": "content/Hardware-V1-Array.html",
+    "title": "Array V1",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/Hardware-V1-Array.html#add-your-pages-the-project",
+    "href": "content/Hardware-V1-Array.html#add-your-pages-the-project",
+    "title": "Array V1",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
   {
     "objectID": "content/Hardware-Array.html",
@@ -74,7 +74,7 @@
     "href": "content/Hardware-Array.html#line-floats-drogue-dampener-plate",
     "title": "Array",
     "section": "Line, Floats, Drogue, & Dampener Plate",
-    "text": "Line, Floats, Drogue, & Dampener Plate\nThe ~100m line attaches the surface floats to the hydrophone array at depth. At the surface, the line attaches to the surface float (orange 11” float with 18.5 lbs buoyancy), which is connected to the High Flyer by a thick orange dyneema line and a bridle (⅜” crab rope attached above/below the High Flyer float). At the deep end, the line attaches to a drogue to minimize horizontal movement and rubber ‘snubber’ (or bungee) to reduce vertical motion. Below the drogue and snubber is a  sub-surface float (orange 11” float with 18.5 buoyancy) and Dampener Plate to maintain vertical orientation and minimize vertical movement. The hydrophone array is attached to the bottom of the Dampener Plate."
+    "text": "Line, Floats, Drogue, & Dampener Plate\nThe ~100m line attaches the surface floats to the hydrophone array at depth. At the surface, the line attaches to the surface float (orange 11” float with 18.5 lbs buoyancy), which is connected to the High Flyer by a thick orange dyneema line and a bridle (⅜” crab rope attached above/below the High Flyer float). At the deep end, the line attaches to a drogue to minimize horizontal movement and rubber ‘snubber’ (or bungee) to reduce vertical motion. Below the drogue and snubber is a  sub-surface float (orange 11” float with 18.5 buoyancy) and Dampener Plate to maintain vertical orientation and minimize vertical movement. The hydrophone array is attached to the bottom of the Dampener Plate. \nSee Alternative Array Configurations Section for previous/alternative array configurations"
   },
   {
     "objectID": "content/Data-Download.html",
@@ -116,7 +116,7 @@
     "href": "content/Hardware-ST4300.html",
     "title": "ST4300 Recorder",
     "section": "",
-    "text": "The Soundtrap 4300 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a short-term recorder, capable up to 6 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST4300HF"
+    "text": "The Soundtrap 4300 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a short-term recorder, capable up to 6 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST4300HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used"
   },
   {
     "objectID": "content/Hardware-Summary.html",
@@ -126,16 +126,16 @@
     "text": "The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing 2 satellite geo-locators and a radar reflector), and a floating line/surface float to facilitate retrieval (see Figure 1). The hydrophone array and High Flyer are connected by ~ 100m ¼” line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).\n\n\n\nDiagram of drifting acoustic buoy"
   },
   {
-    "objectID": "content/Hardware-Alt-Array.html",
-    "href": "content/Hardware-Alt-Array.html",
-    "title": "Alternative Array Configuration",
+    "objectID": "content/Hardware-Model-Soundtrap.html",
+    "href": "content/Hardware-Model-Soundtrap.html",
+    "title": "Soundtrap Model",
     "section": "",
     "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
   },
   {
-    "objectID": "content/Hardware-Alt-Array.html#add-your-pages-the-project",
-    "href": "content/Hardware-Alt-Array.html#add-your-pages-the-project",
-    "title": "Alternative Array Configuration",
+    "objectID": "content/Hardware-Model-Soundtrap.html#add-your-pages-the-project",
+    "href": "content/Hardware-Model-Soundtrap.html#add-your-pages-the-project",
+    "title": "Soundtrap Model",
     "section": "Add your pages the project",
     "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
@@ -152,6 +152,20 @@
     "title": "Deployment",
     "section": "",
     "text": "None of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight. \nWatch the videos corresponding to the deployment steps for an overview of the proper methods to deploy the buoy. Watch this video for an overview of the entire deployment and retrieval process (old video).\nDiscuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. \n\nRequirements for Deployment\n\n>200m water depth (preferably more!), not too close to a rapid decrease in water depth\n\nBuoy  will run aground at ~110m depth.\n\nNot too close to shipping lane or significant shipping traffic\nNot too close to fishing gear\nBoat speed must remain at 2-3 knots for the entirety of the deployment\nOnly deploy off stern\n\n\n\nDeployment\n\nSlow the boat speed to 2-3 knots\nAnchor ready, but deploy last!\n\nHave one person hold onto the line with the anchor, and lower until the weight is over the water but close to railing level. Use an extra line to loop through the anchor as a leash, and attach one of the lines to the vessel. The buoy should not be lowered into the water until all of the array line is paid out.\nVideo here\n\nLower the High Flyer, then the 11” surface float\n\nVideo here\n\nPay out the line at vessel speed\n\nPay out line only as fast as the vessel moves away from the buoy (avoid loose line in the water that could get sucked into the propellers). \nVideo here\n\nOnce all the line is paid out, lower the drogue, sub-surface buoy, and dampener plate into the water\nCarefully lower the array/recorder and anchor into the water \n\nLower the anchor with the loose end of the leash line, and let go once the anchor is in the water, you can collect this line from where it is attached to the boat)\nTry to not drop the recorder splat into the water, rather carefully lower it from the boat into the water\nVideo here\n\nLog the date, time, and updated location of the deployment (lat/lon) with the array ID in the Deployment Details spreadsheet, and send this information to Kourtney ASAP (kourtney.burger@noaa.gov)"
+  },
+  {
+    "objectID": "content/Hardware-SPOT-GPS.html",
+    "href": "content/Hardware-SPOT-GPS.html",
+    "title": "SPOT GPS",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/Hardware-SPOT-GPS.html#add-your-pages-the-project",
+    "href": "content/Hardware-SPOT-GPS.html#add-your-pages-the-project",
+    "title": "SPOT GPS",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
   {
     "objectID": "content/Field-Tracking.html",
@@ -172,21 +186,7 @@
     "href": "content/Hardware-ST640.html",
     "title": "ST640 Recorder",
     "section": "",
-    "text": "The Soundtrap 640 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST640HF"
-  },
-  {
-    "objectID": "content/Hardware-Alt-GPS.html",
-    "href": "content/Hardware-Alt-GPS.html",
-    "title": "Alternative GPS",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-Alt-GPS.html#add-your-pages-the-project",
-    "href": "content/Hardware-Alt-GPS.html#add-your-pages-the-project",
-    "title": "Alternative GPS",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "text": "The Soundtrap 640 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST640HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used"
   },
   {
     "objectID": "content/Field-Deployment-Preparation.html",
@@ -200,6 +200,6 @@
     "href": "content/Hardware-PoleBuoy.html",
     "title": "Pole Buoy",
     "section": "",
-    "text": "The purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nWeighted pole\nFloats\nBridle\nRadar reflector\nGPS mount\n\n\n\n\nDiagram of High Flyer Pole Buoy"
+    "text": "The purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nWeighted pole\nFloats\nBridle\nRadar reflector\nGPS mount\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\nSee Alternative Pole Buoy Configurations for previous/alternative Pole Buoy configurations"
   }
 ]
