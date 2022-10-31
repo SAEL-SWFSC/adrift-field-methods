@@ -54,18 +54,18 @@ website:
         text: Data Download
       - section: "Additional Information"
         contents:
-          - section: "Alternative Buoy Configurations"
+          - section: "Alternative/Past Hardware Configurations"
             contents: 
-              - section: "Alternative Pole Buoy Configurations"
+              - section: "Pole Buoy Configurations"
                 contents:
                     - content/Hardware-Original-PoleBuoy.qmd
-              - section: "Alternative GPS Devices"
+              - section: "GPS Devices"
                 contents:
                     - content/Hardware-SPOT-GPS.qmd
-              - section: "Alternative Array Configurations"
+              - section: "Array Configurations"
                 contents:
                     - content/Hardware-V1-Array.qmd
-              - section: "Alternative Recording Devices"
+              - section: "Recording Devices"
                 contents:
                     - content/Hardware-Model-Soundtrap.qmd
 format:
