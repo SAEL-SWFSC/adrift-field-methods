@@ -7,6 +7,20 @@
     "text": "This document provides information related to fieldwork for ADRIFT in the California Current, which uses drifting acoustic recorders to monitor marine mammals and the ocean soundscape. These methods include hardware specifications and assembly, preparing for deployment, deployment methods, tracking methods, and retrieval methods."
   },
   {
+    "objectID": "content/Hardware-Alt-PoleBuoy.html",
+    "href": "content/Hardware-Alt-PoleBuoy.html",
+    "title": "Alternative Pole Buoy Configurations",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/Hardware-Alt-PoleBuoy.html#add-your-pages-the-project",
+    "href": "content/Hardware-Alt-PoleBuoy.html#add-your-pages-the-project",
+    "title": "Alternative Pole Buoy Configurations",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+  },
+  {
     "objectID": "content/Field-Metadata.html",
     "href": "content/Field-Metadata.html",
     "title": "Metadata",
@@ -17,6 +31,20 @@
     "objectID": "content/Field-Metadata.html#add-your-pages-the-project",
     "href": "content/Field-Metadata.html#add-your-pages-the-project",
     "title": "Metadata",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+  },
+  {
+    "objectID": "content/Hardware-Alt-Soundtraps.html",
+    "href": "content/Hardware-Alt-Soundtraps.html",
+    "title": "Alternative Soundtraps",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/Hardware-Alt-Soundtraps.html#add-your-pages-the-project",
+    "href": "content/Hardware-Alt-Soundtraps.html#add-your-pages-the-project",
+    "title": "Alternative Soundtraps",
     "section": "Add your pages the project",
     "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
@@ -98,6 +126,20 @@
     "text": "The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing 2 satellite geo-locators and a radar reflector), and a floating line/surface float to facilitate retrieval (see Figure 1). The hydrophone array and High Flyer are connected by ~ 100m ¼” line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).\n\n\n\nDiagram of drifting acoustic buoy"
   },
   {
+    "objectID": "content/Hardware-Alt-Array.html",
+    "href": "content/Hardware-Alt-Array.html",
+    "title": "Alternative Array Configuration",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/Hardware-Alt-Array.html#add-your-pages-the-project",
+    "href": "content/Hardware-Alt-Array.html#add-your-pages-the-project",
+    "title": "Alternative Array Configuration",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+  },
+  {
     "objectID": "content/Hardware-Sensus-Depth.html",
     "href": "content/Hardware-Sensus-Depth.html",
     "title": "Sensus Depth Sensor",
@@ -131,6 +173,20 @@
     "title": "ST640 Recorder",
     "section": "",
     "text": "The Soundtrap 640 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST640HF"
+  },
+  {
+    "objectID": "content/Hardware-Alt-GPS.html",
+    "href": "content/Hardware-Alt-GPS.html",
+    "title": "Alternative GPS",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/Hardware-Alt-GPS.html#add-your-pages-the-project",
+    "href": "content/Hardware-Alt-GPS.html#add-your-pages-the-project",
+    "title": "Alternative GPS",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
   {
     "objectID": "content/Field-Deployment-Preparation.html",
