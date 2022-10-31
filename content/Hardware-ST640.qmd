@@ -11,3 +11,5 @@ This is a long-term recorder, capable up to 50 days of continuous recording at 3
 [Link to website.](https://www.oceaninstruments.co.nz/product/soundtrap-st640-hf-four-channel-long-term-recorder/)
 
 ![*ST640HF*](images/Screenshot%202022-10-27%20124743.png)
+
+See [Alternative Soundtraps Section](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Alt-Soundtraps.html#alternative-soundtraps) for previous/alternative recording devices used

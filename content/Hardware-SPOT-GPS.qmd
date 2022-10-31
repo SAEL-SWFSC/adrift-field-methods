@@ -1,8 +1,8 @@
 ---
-title: Alternative Soundtraps
+title: SPOT GPS 
 ---
 
-## Alternative Soundtraps
+## SPOT GPS
 
 Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).
 

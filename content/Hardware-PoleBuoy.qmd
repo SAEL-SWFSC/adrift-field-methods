@@ -18,3 +18,7 @@ drifting recorder. The pole buoy consists of;
 
 ![*Diagram of High Flyer Pole
 Buoy*](images/Screenshot%202022-10-26%20092651.png){fig-align="left"}
+
+See [Alternative Pole Buoy
+Configurations](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Alt-PoleBuoy.html#alternative-pole-buoy-configurations)
+for previous/alternative Pole Buoy configurations

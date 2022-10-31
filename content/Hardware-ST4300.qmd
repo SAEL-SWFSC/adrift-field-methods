@@ -11,3 +11,5 @@ This is a short-term recorder, capable up to 6 days of continuous recording at 3
 [Link to website.](http://www.oceaninstruments.co.nz/product/soundtrap-st4300-hf-four-channel-recorder/)
 
 ![*ST4300HF*](images/Screenshot%202022-10-27%20124144.png){fig-align="left"}
+
+See [Alternative Soundtraps Section](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Alt-Soundtraps.html#alternative-soundtraps) for previous/alternative recording devices used

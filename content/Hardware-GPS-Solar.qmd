@@ -5,3 +5,5 @@ title: GPS Solar
 ## GPS Solar
 
 A Solar GPS is mounted on top of the pole buoy (atop the GPS mount). It has a magnet taped to the top. Keep the magnet on whenever the GPS is not in use or is stored (not in view of the sky); the magnet can fall off easily, please tape in place. Only remove the magnet for testing or when the buoy is outside and in view of the sky (satellites). When the magnet is removed, be sure to store it in a SAFE spot! The GPS is labeled (sticker on top with ID#)
+
+See [Alternative GPS section](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Alt-GPS.html#alternative-gps) for previous/alternative GPS devices used
