@@ -7,10 +7,13 @@ Please review all preparation and deployment information prior to deployment (in
 ### Pre-Deployment Electronics Check (1 day prior to deployment)
 
 1.  Charge Recorder and confirm recorder settings \[need to link to this here\]
-2.  Check Solar GPS
+2.  Confirm the status of the Sound Trap after it is programmed
+    a.  After a ST640 is programmed and disconnected from a laptop, the LED should flash red to indicate it is programmed to start at a later time. The LED will flash green if it is actively recording.
+    b.  If the LED does not flash at all after the Sound Trap is disconnected, it must be re-connected to the laptop and re-programmed.
+3.  Check Solar GPS
     a.  Place solar GPS in view of sky (satellites) and remove magnet
     b.  Check online to ensure that the solar GPS is being updated (check with ADRIFT team to obtain login information)
-3.  Set up [Driftwatch auto-text update](https://sael-swfsc.github.io/adrift-field-methods/content/Field-Tracking.html#driftwatch) (if desired). 
+4.  Set up [Driftwatch auto-text update](https://sael-swfsc.github.io/adrift-field-methods/content/Field-Tracking.html#driftwatch) (if desired). 
 
 ### Deployment Preparation (\>20 minutes before deployment)
 
