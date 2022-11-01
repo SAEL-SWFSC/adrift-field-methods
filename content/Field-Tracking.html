@@ -284,7 +284,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#driftwatch" id="toc-driftwatch" class="nav-link active" data-scroll-target="#driftwatch">Driftwatch</a></li>
+  <li><a href="#driftwatch" id="toc-driftwatch" class="nav-link active" data-scroll-target="#driftwatch">Driftwatch</a>
+  <ul class="collapse">
+  <li><a href="#overview" id="toc-overview" class="nav-link" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#drift-maps" id="toc-drift-maps" class="nav-link" data-scroll-target="#drift-maps">Drift Maps</a></li>
+  <li><a href="#gps-csv-files" id="toc-gps-csv-files" class="nav-link" data-scroll-target="#gps-csv-files">GPS CSV Files</a></li>
+  <li><a href="#test-deployments" id="toc-test-deployments" class="nav-link" data-scroll-target="#test-deployments">Test Deployments</a></li>
+  <li><a href="#text-updates" id="toc-text-updates" class="nav-link" data-scroll-target="#text-updates">Text Updates</a></li>
+  </ul></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Field-Tracking.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Field-Tracking.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -309,10 +316,86 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="driftwatch" class="level2">
 <h2 class="anchored" data-anchor-id="driftwatch">Driftwatch</h2>
-<p>Driftwatch is a tool used to keep track of our buoys in near-real-time. It will automatically download GPS data from the buoy and then create a plot of the drift every hour.</p>
-<p>You can track your buoy by checking the <a href="https://drive.google.com/drive/folders/10LOJhEUO6mfjY0LmXwmm2iu0JH70uj6x?usp=sharing">Google Drive Folder</a>that these plots are stored in, or by signing up to receive text message or e-mail updates of the current locations of the deployed buoys. This feature is in beta testing and is somewhat unreliable.</p>
+<section id="overview" class="level3">
+<h3 class="anchored" data-anchor-id="overview">Overview</h3>
+<p>The goal of DriftWatch is to help us keep track of our buoys. Ocean currents can be unpredictable, so having a near-real-time tool to keep track of buoy positions is very useful. DriftWatch automatically downloads GPS data for each buoy, and creates plots of their drift tracks with the ocean currents every hour. These get uploaded to a <a href="https://drive.google.com/drive/folders/10LOJhEUO6mfjY0LmXwmm2iu0JH70uj6x?usp=sharing">Google Drive folder</a> so that it is easy for anyone to access them. There are also two additional capabilities currently implemented - creating plots of the currents at specific locations to help plan future deployments, and sending text message or e-mail updates of the current locations of deployed buoys to aid in retrieval.&nbsp;</p>
+</section>
+<section id="drift-maps" class="level3">
+<h3 class="anchored" data-anchor-id="drift-maps">Drift Maps</h3>
+<p>Maps will automatically be made for any deployments that DriftWatch knows about. To add a new deployment, you need to fill in information in the NEW DEPLOYMENT TO SAVE tab of the <a href="https://docs.google.com/spreadsheets/u/0/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit">Deployment Details</a> worksheet. The important fields for DriftWatch are:</p>
+<ul>
+<li>Deployment_Date_UTC - The date of deployment. This is when DriftWatch will start creating maps. This can just be a date initially, but should eventually be updated to an accurate deployment time.</li>
+<li>Data_Start_UTC - To be filled in later, the start of usable data on the recording.&nbsp;</li>
+<li>Recovery_Date_UTC - The date of recovery. This is when DriftWatch will stop creating maps. This can just be a date initially, but should eventually be updated to an accurate deployment time.</li>
+<li>Data_End_UTC - To be filled in later, the end of usable data on the recording.&nbsp;</li>
+<li>GPS ID - The ID(s) for the trackers attached to this deployment. Should be letters for SPOT devices, or SO-### for solar devices. If multiple trackers are used, they should be separated by a /</li>
+<li>Project - Project name, e.g ADRIFT</li>
+<li>DeploymentID - Deployment number for this project</li>
+<li>Site - Optional, a 3 letter code for the deployment site. Should be one of the options on the “Site List” tab of the worksheet</li>
+</ul>
+<p>Once these are filled in, DriftWatch will add this drift to its known deployments the next time it runs, and maps will be made. The remainder of the fields are not used by DriftWatch, but should be filled in if you have the information.</p>
+<p>Plots are uploaded to the “DriftPlots” folder every hour, and are named according to the following naming scheme:</p>
+<blockquote class="blockquote">
+<p>Project_DeploymentID_Current_DeployDate_Site.png</p>
+</blockquote>
+<p>“Current” is either HYCOM or HFRADAR depending on which source of ocean current data is being used. DriftWatch will always try to make a plot using both, but occasionally it can run into errors trying to download the data so you may only see one. HYCOM data have excellent coverage everywhere, but the major downside is that they are only updated once a day, typically in the morning. This means that the current picture may not look accurate later in the day. HFRADAR is updated much more frequently, but there are many areas that do not have any coverage for HFRADAR, so your plot may not show any data. Additionally, the HFRADAR data source has been much more finicky, and can often be unavailable for download. All plots show the last time the current data was updated at the bottom.</p>
+<p><img src="images/Screenshot%202022-11-01%20123523.png" class="img-fluid"></p>
+</section>
+<section id="gps-csv-files" class="level3">
+<h3 class="anchored" data-anchor-id="gps-csv-files">GPS CSV Files</h3>
+<p>DriftWatch will also create CSV files of the coordinates for any completed drifts. These are stored in the GPS_CSV folder within the main DriftWatch folder, each file is named with DriftName_GPS.csv. Each CSV file is also paired with a map showing the extent of the drift stored in the CSV, the purpose of these is to give a quick visual check of the track to make sure no extra data points are being stored. If the deployment start or recovery dates have not been updated, it is likely that there are a number of coordinates included that are not actually part of the drift but part of the boat track. These should be easy to see within the map, so before using any CSV files you should check the map for any obvious issues. These GPS CSVs also have some quality checks applied to try and remove any incorrect GPS points, or any obvious boat track portions. This works by removing any coordinates where the average speed between points is greater than 4 knots. The CSV files also contain two additional columns other than the coordinates and UTC times:</p>
+<ul>
+<li>knots- the average speed between consecutive points. Note that if multiple GPS devices are used on a single drift, then this speed value is only calculated between points from the same device.&nbsp;</li>
+<li>recordingEffort - a TRUE/FALSE column marking where recording effort is on, defined by the DataStart and DataEnd columns in the deploymentDetails worksheet. If these have not been filled in, then the entire column will be FALSE.&nbsp;</li>
+</ul>
+<p>If you notice that one of the GPS tracks has incorrect start or end times (obvious boat track included in the image), then the most likely cause is that the Deployment or Recovery times are still listed as just dates in the deploymentDetails, and need to be updated to an accurate Date Time. Once this has been done, then you can trigger a new version of the CSV to be created by deleting it within the GPS_CSV folder. If there are still issues with the GPS then contact me and I will adjust it manually.</p>
+</section>
+<section id="test-deployments" class="level3">
+<h3 class="anchored" data-anchor-id="test-deployments">Test Deployments</h3>
+<p>There is a Google Sheet within the main DriftWatch folder called “TestDeployments” that lets you create plots of the currents at specific locations. The main idea for this is to keep an eye on the currents of potential deployment sites, since deploying into a strong offshore current can lead to big problems. This worksheet contains the following columns:</p>
+<ul>
+<li>Latitude/Longitude - The coordinates to create the plot. A marker will be left at these coordinates, and the map will be centered here</li>
+<li>Name - A name for this test deployment, should be unique from other deployments. If you want to draw multiple points on the same plot, then you can give multiple points the same name</li>
+<li>DeploymentSite - Optional, only used for labeling. Same as DeploymentSite in regular plots</li>
+<li>LatRange/LonRange - Optional, lets you control the displayed range of the plot. Can either be given as min, max separated by a comma, or if it is a single value then this defines how far to extend the bounds in each direction from the drawn point. For example, if a point is at a Latitude of 32, then LatRange of 31, 33 OR LatRange of 1 will both give the same result.&nbsp;</li>
+<li>PlotEndDate - Optional (but highly recommended) - This tells DriftWatch when it can stop creating the plots. The plot upload process is quite slow, so if there are too many plots the whole process takes quite a while. So if you want to keep an eye on a location for a potential deployment on October 20th, then setting an end date of 10/21/2022 would be ideal.</li>
+<li>Note - Optional, used only for your personal use. Some rows also contain notes with reminders for how to use this spreadsheet.</li>
+</ul>
+<p>These plots get created every hour, at the same time as the regular plots. They get uploaded to the “TestDeploymentPlots” folder.</p>
+</section>
+<section id="text-updates" class="level3">
+<h3 class="anchored" data-anchor-id="text-updates">Text Updates</h3>
+<p>This is a very beta feature that has been somewhat unreliable, but when it is working it can send updates of the most recent location of buoys to an email address or as a test message to a cell phone or satellite phone. This is to make sure that people on the boat retrieving buoys can have easy access to the most up-to-date locations to make the process go smoothly.&nbsp;</p>
+<p>Setup requires filling out information in the TextUpdates worksheet. The “Schedule” tab contains the following columns:</p>
+<ul>
+<li>Start_Local - Time to start sending text messages (local / PDT). Date format must be YYYY-MM-DD HH:MM:SS</li>
+<li>End_Local - Time to stop sending text messages (local / PDT). Date format must be YYYY-MM-DD HH:MM:SS</li>
+<li>Deployment_Name - The name of the drift you want updates for, must exactly match the name of the drift (e.g.&nbsp;ADRIFT_004 not ADRIFT_4). If you want updates on multiple buoys they must be on separate lines</li>
+<li>Recipient_Id - The ID number for who should receive the messages, from the “Contacts” tab. If multiple people want messages, they must be on different rows.</li>
+<li>Coord_Style - Tag specifying formatting style for coordinates. One of dms, deciminute, or decidegree corresponding to 32°24’54”, 32°24.9’, or 32.415</li>
+<li>Note - Contains reminders, otherwise for personal use</li>
+</ul>
+<p>Also fill out the “Contacts” tab with the following columnsL</p>
+<ul>
+<li>Id - The ID number you refer to from the “Schedule” tab</li>
+<li>Name - Name of person receiving message</li>
+<li>Number - Phone number</li>
+<li>Provider - Cell service provider. Used to lookup the proper extension for sending text as email</li>
+<li>Extension - Sending a text via e-mail is done by sending an email to PHONENUMBER@EXTENSION where the extension depends on the cell service provider. If you aren’t sure how to find this, let me know and I can look it up for you</li>
+<li>Email - The combination of the number and extension. Alternatively if you only want an e-mail and not text messages, you can put that here. This is the important field that actually gets read by DriftWatch</li>
+<li>Notes - Contains instructs and personal notes</li>
+</ul>
+<p>Messages are sent out every 30 minutes, at approximately XX:10 and XX:40. The message will contain the most recent coordinates for the drift selected, as well as an approximate heading and speed (knots) calculated using the last two GPS points. The message will also list the time of the last update (local / PDT), so users can tell if it has been a long time since the last update and use the speed/heading to estimate a potential current location.</p>
+<blockquote class="blockquote">
+<p><strong>NOTE:</strong> We currently are only allowed 200 messages per day, so please limit the number of people receiving messages! Estimate how many you will be sending per day (2 per hour per drift per person) to make sure you fall within this limit, and set your start / end times sensibly.&nbsp;</p>
+</blockquote>
+<blockquote class="blockquote">
+<p><br>
+<strong>NOTE:</strong> This is currently in very beta mode, and is still being tested. Some users have been able to receive test messages prior to fieldwork, but then no messages were received while out. Other users have not been able to receive messages at all. Please test before you plan on using it, reach out if you need help.</p>
+</blockquote>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
