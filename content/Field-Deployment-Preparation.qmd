@@ -10,7 +10,7 @@ Please review all preparation and deployment information prior to deployment (in
 2.  Check Solar GPS
     a.  Place solar GPS in view of sky (satellites) and remove magnet
     b.  Check online to ensure that the solar GPS is being updated (check with ADRIFT team to obtain login information)
-3.  Set up [Driftwatch auto-text update](https://docs.google.com/document/d/14DPPevLic-eq7T-xDFIfYuWoUlQUnH5uYbt_GjEbWDA/edit?usp=sharing) (if desired). 
+3.  Set up [Driftwatch auto-text update](https://sael-swfsc.github.io/adrift-field-methods/content/Field-Tracking.html#driftwatch) (if desired). 
 
 ### Deployment Preparation (\>20 minutes before deployment)
 
