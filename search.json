@@ -25,14 +25,35 @@
     "href": "content/Field-Metadata.html",
     "title": "Metadata",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+    "text": "All planned buoy drifts deployed in or near a National Marine Sanctuary must be reported to the respective Sanctuary Staff no less than 7 days before deployment. Please send the following information to Kourtney Burger (kourtney.burger@noaa.gov) for permit reporting;\n\nPlanned date/time of deployment\nPlanned deployment coordinates\nSanctuaries the drift may pass through\nName and contact information for deployment chief scientist\nSurvey information (if applicable)"
   },
   {
-    "objectID": "content/Field-Metadata.html#add-your-pages-the-project",
-    "href": "content/Field-Metadata.html#add-your-pages-the-project",
+    "objectID": "content/Field-Metadata.html#protected-resources-permit",
+    "href": "content/Field-Metadata.html#protected-resources-permit",
     "title": "Metadata",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "section": "Protected Resources Permit",
+    "text": "Protected Resources Permit\nAll marine mammal takes, must be recorded and reported under NOAA Protected Resources Permit #22306. Please report all takes to Kourtney Burger (kourtney.burger@noaa.gov)."
+  },
+  {
+    "objectID": "content/Field-Metadata.html#pre-deployment-metadata",
+    "href": "content/Field-Metadata.html#pre-deployment-metadata",
+    "title": "Metadata",
+    "section": "Pre-Deployment Metadata",
+    "text": "Pre-Deployment Metadata\nPrior to deployment, record the following information in Deployment Details spreadsheet\n\nArray label (on yellow tag a top of array)\nGPS ID\nDate/Time\nExpected latitude and longitude of deployment"
+  },
+  {
+    "objectID": "content/Field-Metadata.html#deployment-metadata",
+    "href": "content/Field-Metadata.html#deployment-metadata",
+    "title": "Metadata",
+    "section": "Deployment Metadata",
+    "text": "Deployment Metadata\nImmediately after the buoy has been deployed, record the following information and sent it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nDate/time\nUpdated location of the deployment (lat/lon)\nArray ID"
+  },
+  {
+    "objectID": "content/Field-Metadata.html#retrieval-metadata",
+    "href": "content/Field-Metadata.html#retrieval-metadata",
+    "title": "Metadata",
+    "section": "Retrieval Metadata",
+    "text": "Retrieval Metadata\nAfter the buoy has been successfully retrieved, record the following information and send it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nDate/time\nLocation of the retrieval (lat/lon)\nAny important notes (buoy sunk/not retrievable, recorder issues, etc.)"
   },
   {
     "objectID": "content/Hardware-GPS-Solar.html",
