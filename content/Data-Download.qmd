@@ -8,11 +8,11 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 1.  You will need TWO external hard drives (two exact copies of the data will be made & shipped to different people). Transfer all data to ONE hard drive, then transfer that data to the second hard drive.
 
-2.  Create a folder named after the drift, for example \'ADRIFT_009\'
+2.  Create a folder named after the drift, for example 'ADRIFT_009'
 
-3.  Create subfolder named after the drift followed by \'\_CENSOR\'. For example, \'ADRIFT_009_CENSOR\'. *This is for the data from the soundtrap---both the SUD files and the extracted files all in this folder.*
+3.  Create subfolder named after the drift followed by '\_CENSOR'. For example, 'ADRIFT_009_CENSOR'. *This is for the data from the soundtrap---both the SUD files and the extracted files all in this folder.*
 
-4.  The depth data will be stored in the folder and named with the drift \# and the type of depth sensor. For example \'ADRIFT_001_Depth_Sensus\'.
+4.  The depth data will be stored in the folder and named with the drift \# and the type of depth sensor. For example 'ADRIFT_001_Depth_Sensus'.
 
 ## **Soundtrap Data**
 
@@ -24,13 +24,13 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
     ![](images/paste-848B31C5.png){width="216"}
 
-4.   **Is your computer set to UTC???**
+4.  **Is your computer set to UTC???**
 
 5.  **Open SoundTrap Host Software**. Once it has loaded the device, select the device (in left column).
 
 6.  **Save Default File Location.**  Tools -\> Set Default File Save Location \[save ALL data to a folder with the drift number, for example ADRIFT-009\]
 
-7.  **Download Data**.  De-Select \'Decompress\' and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data---so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.
+7.  **Download Data**.  De-Select 'Decompress' and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data---so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.
 
     ![](images/paste-3CC5186B.png){width="315"}
 
@@ -41,6 +41,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 10. If there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES.
 
 ## 
+
 **Depth Data**
 
 1.  Plug in Reefnet sensor reader & place depth sensor on reader
@@ -55,7 +56,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
     c\. Select Units: meters, celcius, bar
 
-3.  Select Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: \"ADRIFT_009_Depth_Sensus\" (where the number is the number of the drift, and the \'sensus\' is the type of depth sensor).
+3.  Select Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: "ADRIFT_009_Depth_Sensus" (where the number is the number of the drift, and the 'sensus' is the type of depth sensor).
 
 ## **Deployment Data- Google Drive**
 
