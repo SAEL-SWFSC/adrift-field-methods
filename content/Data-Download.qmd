@@ -2,24 +2,77 @@
 title: Data Download
 ---
 
-## Data Download
+Data from the Soundtrap recorder and the depth sensor need to be downloaded at the end of the deployment to TWO external hard drives and mailed to two different locations.
 
-Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).
+## **Prep External Hard Drive for Data**
 
-Each page should start with
+1.  You will need TWO external hard drives (two exact copies of the data will be made & shipped to different people). Transfer all data to ONE hard drive, then transfer that data to the second hard drive.
 
-    ---
-    title: your title
-    ---
+2.  Create a folder named after the drift, for example \'ADRIFT_009\'
 
-and the first header will be the 2nd level, so `##`. Note, there are situations where you leave off
+3.  Create subfolder named after the drift followed by \'\_CENSOR\'. For example, \'ADRIFT_009_CENSOR\'. *This is for the data from the soundtrap---both the SUD files and the extracted files all in this folder.*
 
-    ---
-    title: your title
-    ---
+4.  The depth data will be stored in the folder and named with the drift \# and the type of depth sensor. For example \'ADRIFT_001_Depth_Sensus\'.
 
-and start the qmd file with a level header `#`, but if using the default title yaml (in the `---` fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).
+## **Soundtrap Data**
 
-## Add your pages the project
+1.  Download Soundtrap Host Software (<https://www.oceaninstruments.co.nz/downloads/>)
 
--   Add the files to `_quarto.yml`
+2.  **Set computer time to UTC** (IMPORTANT!)
+
+3.  **Plug in Soundtrap** to computer using special USB cable
+
+    ![](images/paste-848B31C5.png){width="216"}
+
+4.   **Is your computer set to UTC???**
+
+5.  **Open SoundTrap Host Software**. Once it has loaded the device, select the device (in left column).
+
+6.  **Save Default File Location.**  Tools -\> Set Default File Save Location \[save ALL data to a folder with the drift number, for example ADRIFT-009\]
+
+7.  **Download Data**.  De-Select \'Decompress\' and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data---so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.
+
+    ![](images/paste-3CC5186B.png){width="315"}
+
+8.  **Check that all files transferred**. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).
+
+9.  If you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.
+
+10. If there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES.
+
+## 
+**Depth Data**
+
+1.  Plug in Reefnet sensor reader & place depth sensor on reader
+
+2.  Open Reefnet Sensus Ultra Software (<https://reefnet.ca/downloads/>)
+
+    a\. Settings-\> set up appropriate Com Port
+
+    b\. Put sensor on reader (small vertical pins align with screws on sensor)
+
+    ![](images/paste-49FB4E21.png)
+
+    c\. Select Units: meters, celcius, bar
+
+3.  Select Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: \"ADRIFT_009_Depth_Sensus\" (where the number is the number of the drift, and the \'sensus\' is the type of depth sensor).
+
+## **Deployment Data- Google Drive**
+
+1.  Go to Deployment Google Folder & fill in any final data regarding the deployment
+
+\[Note: NEED TO WORK ON THIS!\]
+
+## **Copy and Ship Data**
+
+1.  Double check that the folder and file names are accurate.
+
+2.  Copy all files to BOTH hard drives (each external hard drive should be identical).
+
+3.  The hard drives will be mailed separately. Please box each one up so that they can be securely mailed (ideally in their original box with plastic bits; then this should be shipped in a slightly larger box with bubble wrap or other packing materials.
+
+4.  Email kourtney.burger\@noaa.gov with the dimensions of the boxes (Length x Width x Height and weight)
+
+5.  Kourtney will email shipping labels; these can be attached to the packages and they can be taken to a UPS/FedEx store.
+
+6.  Please let Kourtney know if you need extra hard drives (ideally keep 2 around)
