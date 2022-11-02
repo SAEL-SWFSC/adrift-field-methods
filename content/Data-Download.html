@@ -284,8 +284,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#data-download" id="toc-data-download" class="nav-link active" data-scroll-target="#data-download">Data Download</a></li>
-  <li><a href="#add-your-pages-the-project" id="toc-add-your-pages-the-project" class="nav-link" data-scroll-target="#add-your-pages-the-project">Add your pages the project</a></li>
+  <li><a href="#prep-external-hard-drive-for-data" id="toc-prep-external-hard-drive-for-data" class="nav-link active" data-scroll-target="#prep-external-hard-drive-for-data"><strong>Prep External Hard Drive for Data</strong></a></li>
+  <li><a href="#soundtrap-data" id="toc-soundtrap-data" class="nav-link" data-scroll-target="#soundtrap-data"><strong>Soundtrap Data</strong></a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
+  <li><a href="#deployment-data--google-drive" id="toc-deployment-data--google-drive" class="nav-link" data-scroll-target="#deployment-data--google-drive"><strong>Deployment Data- Google Drive</strong></a></li>
+  <li><a href="#copy-and-ship-data" id="toc-copy-and-ship-data" class="nav-link" data-scroll-target="#copy-and-ship-data"><strong>Copy and Ship Data</strong></a></li>
   </ul>
 <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Data-Download.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Data-Download.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
@@ -308,24 +311,63 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="data-download" class="level2">
-<h2 class="anchored" data-anchor-id="data-download">Data Download</h2>
-<p>Edit the qmd or md files in the <code>content</code> folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).</p>
-<p>Each page should start with</p>
-<pre><code>---
-title: your title
----</code></pre>
-<p>and the first header will be the 2nd level, so <code>##</code>. Note, there are situations where you leave off</p>
-<pre><code>---
-title: your title
----</code></pre>
-<p>and start the qmd file with a level header <code>#</code>, but if using the default title yaml (in the <code>---</code> fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).</p>
+<p>Data from the Soundtrap recorder and the depth sensor need to be downloaded at the end of the deployment to TWO external hard drives and mailed to two different locations.</p>
+<section id="prep-external-hard-drive-for-data" class="level2">
+<h2 class="anchored" data-anchor-id="prep-external-hard-drive-for-data"><strong>Prep External Hard Drive for Data</strong></h2>
+<ol type="1">
+<li><p>You will need TWO external hard drives (two exact copies of the data will be made &amp; shipped to different people). Transfer all data to ONE hard drive, then transfer that data to the second hard drive.</p></li>
+<li><p>Create a folder named after the drift, for example ‘ADRIFT_009’</p></li>
+<li><p>Create subfolder named after the drift followed by ‘_CENSOR’. For example, ‘ADRIFT_009_CENSOR’. <em>This is for the data from the soundtrap—both the SUD files and the extracted files all in this folder.</em></p></li>
+<li><p>The depth data will be stored in the folder and named with the drift # and the type of depth sensor. For example ‘ADRIFT_001_Depth_Sensus’.</p></li>
+</ol>
 </section>
-<section id="add-your-pages-the-project" class="level2">
-<h2 class="anchored" data-anchor-id="add-your-pages-the-project">Add your pages the project</h2>
-<ul>
-<li>Add the files to <code>_quarto.yml</code></li>
-</ul>
+<section id="soundtrap-data" class="level2">
+<h2 class="anchored" data-anchor-id="soundtrap-data"><strong>Soundtrap Data</strong></h2>
+<ol type="1">
+<li><p>Download Soundtrap Host Software (<a href="https://www.oceaninstruments.co.nz/downloads/" class="uri">https://www.oceaninstruments.co.nz/downloads/</a>)</p></li>
+<li><p><strong>Set computer time to UTC</strong> (IMPORTANT!)</p></li>
+<li><p><strong>Plug in Soundtrap</strong> to computer using special USB cable</p>
+<p><img src="images/paste-848B31C5.png" class="img-fluid" width="216"></p></li>
+<li><p><strong>Is your computer set to UTC???</strong></p></li>
+<li><p><strong>Open SoundTrap Host Software</strong>. Once it has loaded the device, select the device (in left column).</p></li>
+<li><p><strong>Save Default File Location.</strong>&nbsp; Tools -&gt; Set Default File Save Location [save ALL data to a folder with the drift number, for example ADRIFT-009]</p></li>
+<li><p><strong>Download Data</strong>.&nbsp; De-Select ‘Decompress’ and then select all and download.&nbsp; The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data—so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.</p>
+<p><img src="images/paste-3CC5186B.png" class="img-fluid" width="315"></p></li>
+<li><p><strong>Check that all files transferred</strong>. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).</p></li>
+<li><p>If you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.</p></li>
+<li><p>If there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES.</p></li>
+</ol>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
+<p><strong>Depth Data</strong></p>
+<ol type="1">
+<li><p>Plug in Reefnet sensor reader &amp; place depth sensor on reader</p></li>
+<li><p>Open Reefnet Sensus Ultra Software (<a href="https://reefnet.ca/downloads/" class="uri">https://reefnet.ca/downloads/</a>)</p>
+<p>a. Settings-&gt; set up appropriate Com Port</p>
+<p>b. Put sensor on reader (small vertical pins align with screws on sensor)</p>
+<p><img src="images/paste-49FB4E21.png" class="img-fluid"></p>
+<p>c. Select Units: meters, celcius, bar</p></li>
+<li><p>Select Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: “ADRIFT_009_Depth_Sensus” (where the number is the number of the drift, and the ‘sensus’ is the type of depth sensor).</p></li>
+</ol>
+</section>
+<section id="deployment-data--google-drive" class="level2">
+<h2 class="anchored" data-anchor-id="deployment-data--google-drive"><strong>Deployment Data- Google Drive</strong></h2>
+<ol type="1">
+<li>Go to Deployment Google Folder &amp; fill in any final data regarding the deployment</li>
+</ol>
+<p>[Note: NEED TO WORK ON THIS!]</p>
+</section>
+<section id="copy-and-ship-data" class="level2">
+<h2 class="anchored" data-anchor-id="copy-and-ship-data"><strong>Copy and Ship Data</strong></h2>
+<ol type="1">
+<li><p>Double check that the folder and file names are accurate.</p></li>
+<li><p>Copy all files to BOTH hard drives (each external hard drive should be identical).</p></li>
+<li><p>The hard drives will be mailed separately. Please box each one up so that they can be securely mailed (ideally in their original box with plastic bits; then this should be shipped in a slightly larger box with bubble wrap or other packing materials.</p></li>
+<li><p>Email kourtney.burger@noaa.gov with the dimensions of the boxes (Length x Width x Height and weight)</p></li>
+<li><p>Kourtney will email shipping labels; these can be attached to the packages and they can be taken to a UPS/FedEx store.</p></li>
+<li><p>Please let Kourtney know if you need extra hard drives (ideally keep 2 around)</p></li>
+</ol>
 
 
 </section>

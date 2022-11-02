@@ -102,14 +102,42 @@
     "href": "content/Data-Download.html",
     "title": "Data Download",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+    "text": "Data from the Soundtrap recorder and the depth sensor need to be downloaded at the end of the deployment to TWO external hard drives and mailed to two different locations."
   },
   {
-    "objectID": "content/Data-Download.html#add-your-pages-the-project",
-    "href": "content/Data-Download.html#add-your-pages-the-project",
+    "objectID": "content/Data-Download.html#prep-external-hard-drive-for-data",
+    "href": "content/Data-Download.html#prep-external-hard-drive-for-data",
     "title": "Data Download",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "section": "Prep External Hard Drive for Data",
+    "text": "Prep External Hard Drive for Data\n\nYou will need TWO external hard drives (two exact copies of the data will be made & shipped to different people). Transfer all data to ONE hard drive, then transfer that data to the second hard drive.\nCreate a folder named after the drift, for example ‘ADRIFT_009’\nCreate subfolder named after the drift followed by ‘_CENSOR’. For example, ‘ADRIFT_009_CENSOR’. This is for the data from the soundtrap—both the SUD files and the extracted files all in this folder.\nThe depth data will be stored in the folder and named with the drift # and the type of depth sensor. For example ‘ADRIFT_001_Depth_Sensus’."
+  },
+  {
+    "objectID": "content/Data-Download.html#soundtrap-data",
+    "href": "content/Data-Download.html#soundtrap-data",
+    "title": "Data Download",
+    "section": "Soundtrap Data",
+    "text": "Soundtrap Data\n\nDownload Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)\nSet computer time to UTC (IMPORTANT!)\nPlug in Soundtrap to computer using special USB cable\n\nIs your computer set to UTC???\nOpen SoundTrap Host Software. Once it has loaded the device, select the device (in left column).\nSave Default File Location.  Tools -> Set Default File Save Location [save ALL data to a folder with the drift number, for example ADRIFT-009]\nDownload Data.  De-Select ‘Decompress’ and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data—so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.\n\nCheck that all files transferred. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).\nIf you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.\nIf there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES."
+  },
+  {
+    "objectID": "content/Data-Download.html#section",
+    "href": "content/Data-Download.html#section",
+    "title": "Data Download",
+    "section": "",
+    "text": "Depth Data\n\nPlug in Reefnet sensor reader & place depth sensor on reader\nOpen Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)\na. Settings-> set up appropriate Com Port\nb. Put sensor on reader (small vertical pins align with screws on sensor)\n\nc. Select Units: meters, celcius, bar\nSelect Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: “ADRIFT_009_Depth_Sensus” (where the number is the number of the drift, and the ‘sensus’ is the type of depth sensor)."
+  },
+  {
+    "objectID": "content/Data-Download.html#deployment-data--google-drive",
+    "href": "content/Data-Download.html#deployment-data--google-drive",
+    "title": "Data Download",
+    "section": "Deployment Data- Google Drive",
+    "text": "Deployment Data- Google Drive\n\nGo to Deployment Google Folder & fill in any final data regarding the deployment\n\n[Note: NEED TO WORK ON THIS!]"
+  },
+  {
+    "objectID": "content/Data-Download.html#copy-and-ship-data",
+    "href": "content/Data-Download.html#copy-and-ship-data",
+    "title": "Data Download",
+    "section": "Copy and Ship Data",
+    "text": "Copy and Ship Data\n\nDouble check that the folder and file names are accurate.\nCopy all files to BOTH hard drives (each external hard drive should be identical).\nThe hard drives will be mailed separately. Please box each one up so that they can be securely mailed (ideally in their original box with plastic bits; then this should be shipped in a slightly larger box with bubble wrap or other packing materials.\nEmail kourtney.burger@noaa.gov with the dimensions of the boxes (Length x Width x Height and weight)\nKourtney will email shipping labels; these can be attached to the packages and they can be taken to a UPS/FedEx store.\nPlease let Kourtney know if you need extra hard drives (ideally keep 2 around)"
   },
   {
     "objectID": "content/Field-Retrieval.html",
