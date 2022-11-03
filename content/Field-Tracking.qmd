@@ -78,7 +78,10 @@ Also fill out the "Contacts" tab with the following columnsL
 
 Messages are sent out every 30 minutes, at approximately XX:10 and XX:40. The message will contain the most recent coordinates for the drift selected, as well as an approximate heading and speed (knots) calculated using the last two GPS points. The message will also list the time of the last update (local / PDT), so users can tell if it has been a long time since the last update and use the speed/heading to estimate a potential current location.
 
-> **NOTE:** We currently are only allowed 200 messages per day, so please limit the number of people receiving messages! Estimate how many you will be sending per day (2 per hour per drift per person) to make sure you fall within this limit, and set your start / end times sensibly. 
+::: callout-note
+We currently are only allowed 200 messages per day, so please limit the number of people receiving messages! Estimate how many you will be sending per day (2 per hour per drift per person) to make sure you fall within this limit, and set your start / end times sensibly. 
+:::
 
-> \
-> **NOTE:** This is currently in very beta mode, and is still being tested. Some users have been able to receive test messages prior to fieldwork, but then no messages were received while out. Other users have not been able to receive messages at all. Please test before you plan on using it, reach out if you need help.
+::: callout-note
+This is currently in very beta mode, and is still being tested. Some users have been able to receive test messages prior to fieldwork, but then no messages were received while out. Other users have not been able to receive messages at all. Please test before you plan on using it, reach out if you need help.
+:::
