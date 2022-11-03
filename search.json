@@ -109,7 +109,7 @@
     "href": "content/Data-Download.html#prep-external-hard-drive-for-data",
     "title": "Data Download",
     "section": "Prep External Hard Drive for Data",
-    "text": "Prep External Hard Drive for Data\n\nYou will need TWO external hard drives (two exact copies of the data will be made & shipped to different people). Transfer all data to ONE hard drive, then transfer that data to the second hard drive.\nCreate a folder named after the drift, for example ‘ADRIFT_009’\nCreate subfolder named after the drift followed by ‘_CENSOR’. For example, ‘ADRIFT_009_CENSOR’. This is for the data from the soundtrap—both the SUD files and the extracted files all in this folder.\nThe depth data will be stored in the folder and named with the drift # and the type of depth sensor. For example ‘ADRIFT_001_Depth_Sensus’."
+    "text": "Prep External Hard Drive for Data\n\nYou will need TWO external hard drives (two exact copies of the data will be made & shipped to different people). Transfer all data to ONE hard drive, then transfer that data to the second hard drive.\nCreate a folder named after the drift, for example ‘ADRIFT_009’\nCreate subfolder named after the drift followed by ‘_CENSOR’. For example, ‘ADRIFT_009_CENSOR’. This is for the data from the soundtrap—both the SUD files and the extracted files will go in this folder.\nThe depth data will be stored in the folder and named with the drift # and the type of depth sensor. For example ‘ADRIFT_001_Depth_Sensus’."
   },
   {
     "objectID": "content/Data-Download.html#soundtrap-data",
@@ -119,18 +119,18 @@
     "text": "Soundtrap Data\n\nDownload Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)\nSet computer time to UTC (IMPORTANT!)\nPlug in Soundtrap to computer using special USB cable\n\nIs your computer set to UTC???\nOpen SoundTrap Host Software. Once it has loaded the device, select the device (in left column).\nSave Default File Location.  Tools -> Set Default File Save Location [save ALL data to a folder with the drift number, for example ADRIFT-009]\nDownload Data.  De-Select ‘Decompress’ and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data—so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.\n\nCheck that all files transferred. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).\nIf you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.\nIf there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES."
   },
   {
-    "objectID": "content/Data-Download.html#section",
-    "href": "content/Data-Download.html#section",
+    "objectID": "content/Data-Download.html#depth-data",
+    "href": "content/Data-Download.html#depth-data",
     "title": "Data Download",
-    "section": "",
+    "section": "Depth Data",
     "text": "Depth Data\n\nPlug in Reefnet sensor reader & place depth sensor on reader\nOpen Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)\na. Settings-> set up appropriate Com Port\nb. Put sensor on reader (small vertical pins align with screws on sensor)\n\nc. Select Units: meters, celcius, bar\nSelect Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: “ADRIFT_009_Depth_Sensus” (where the number is the number of the drift, and the ‘sensus’ is the type of depth sensor)."
   },
   {
-    "objectID": "content/Data-Download.html#deployment-data--google-drive",
-    "href": "content/Data-Download.html#deployment-data--google-drive",
+    "objectID": "content/Data-Download.html#deployment-details-metadata",
+    "href": "content/Data-Download.html#deployment-details-metadata",
     "title": "Data Download",
-    "section": "Deployment Data- Google Drive",
-    "text": "Deployment Data- Google Drive\n\nGo to Deployment Google Folder & fill in any final data regarding the deployment\n\n[Note: NEED TO WORK ON THIS!]"
+    "section": "Deployment Details Metadata",
+    "text": "Deployment Details Metadata\nGo to Deployment Details spreadsheet & ensure the following fields are filled in regarding deployment metadata;\n[NEED TO WORK ON THIS]"
   },
   {
     "objectID": "content/Data-Download.html#copy-and-ship-data",
