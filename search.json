@@ -39,21 +39,21 @@
     "href": "content/Field-Metadata.html#pre-deployment-metadata",
     "title": "Metadata",
     "section": "Pre-Deployment Metadata",
-    "text": "Pre-Deployment Metadata\nPrior to deployment, record the following information in Deployment Details spreadsheet\n\nArray label (on yellow tag a top of array)\nGPS ID\nDate/Time\nExpected latitude and longitude of deployment"
+    "text": "Pre-Deployment Metadata\nPrior to deployment, record the following information in Deployment Details spreadsheet\n\nFill in Status column (J) as ‘In Prep’\nArray label (on yellow tag a top of array)\nGPS ID\nDate/Time\nExpected latitude and longitude of deployment"
   },
   {
     "objectID": "content/Field-Metadata.html#deployment-metadata",
     "href": "content/Field-Metadata.html#deployment-metadata",
     "title": "Metadata",
     "section": "Deployment Metadata",
-    "text": "Deployment Metadata\nImmediately after the buoy has been deployed, record the following information and sent it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nDate/time\nUpdated location of the deployment (lat/lon)\nArray ID"
+    "text": "Deployment Metadata\nImmediately after the buoy has been deployed, record the following information and sent it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nFill in Status column (J) as ‘Active’\nDate/time\nUpdated location of the deployment (lat/lon)\nArray ID"
   },
   {
     "objectID": "content/Field-Metadata.html#retrieval-metadata",
     "href": "content/Field-Metadata.html#retrieval-metadata",
     "title": "Metadata",
     "section": "Retrieval Metadata",
-    "text": "Retrieval Metadata\nAfter the buoy has been successfully retrieved, record the following information and send it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nDate/time\nLocation of the retrieval (lat/lon)\nAny important notes (buoy sunk/not retrievable, recorder issues, etc.)"
+    "text": "Retrieval Metadata\nAfter the buoy has been successfully retrieved, record the following information and send it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nFill in Status column (J) as ‘Complete’\nDate/time\nLocation of the retrieval (lat/lon)\nAny important notes (buoy sunk/not retrievable, recorder issues, etc.)"
   },
   {
     "objectID": "content/Hardware-GPS-Solar.html",
@@ -130,7 +130,7 @@
     "href": "content/Data-Download.html#deployment-details-metadata",
     "title": "Data Download",
     "section": "Deployment Details Metadata",
-    "text": "Deployment Details Metadata\nGo to Deployment Details spreadsheet & ensure the following fields are filled in regarding deployment metadata;\n[NEED TO WORK ON THIS]"
+    "text": "Deployment Details Metadata\nGo to Deployment Details spreadsheet & ensure all fields regarding deployment metadata are filled in\n\nFill in the Status column (J) to complete, lost, or sunk\nFill in Deployment_Date_UTC (column U) and Recovery_Date_UTC (column X) with updated date and times\nEnsure all other fields are filled in and updated\n\nContact Kourtney Burger (kourtney.burger@noaa.gov) with any questions regarding the Deployment Details Spreadsheet"
   },
   {
     "objectID": "content/Data-Download.html#copy-and-ship-data",
