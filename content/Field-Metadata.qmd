@@ -20,6 +20,7 @@ All marine mammal takes, must be recorded and reported under NOAA Protected Reso
 
 Prior to deployment, record the following information in [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing)
 
+-   Fill in Status column (J) as 'In Prep'
 -   Array label (on yellow tag a top of array)
 -   GPS ID
 -   Date/Time
@@ -29,6 +30,7 @@ Prior to deployment, record the following information in [Deployment Details spr
 
 Immediately after the buoy has been deployed, record the following information and sent it to Kourtney Burger ([kourtney.burger\@noaa.gov](mailto:kourtney.burger@noaa.gov));
 
+-   Fill in Status column (J) as 'Active'
 -   Date/time
 -   Updated location of the deployment (lat/lon)
 -   Array ID
@@ -37,6 +39,7 @@ Immediately after the buoy has been deployed, record the following information a
 
 After the buoy has been successfully retrieved, record the following information and send it to Kourtney Burger ([kourtney.burger\@noaa.gov](mailto:kourtney.burger@noaa.gov));
 
+-   Fill in Status column (J) as 'Complete'
 -   Date/time
 -   Location of the retrieval (lat/lon)
 -   Any important notes (buoy sunk/not retrievable, recorder issues, etc.)
