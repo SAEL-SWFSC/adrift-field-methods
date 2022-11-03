@@ -10,7 +10,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 2.  Create a folder named after the drift, for example 'ADRIFT_009'
 
-3.  Create subfolder named after the drift followed by '\_CENSOR'. For example, 'ADRIFT_009_CENSOR'. *This is for the data from the soundtrap---both the SUD files and the extracted files all in this folder.*
+3.  Create subfolder named after the drift followed by '\_CENSOR'. For example, 'ADRIFT_009_CENSOR'. *This is for the data from the soundtrap---both the SUD files and the extracted files will go in this folder.*
 
 4.  The depth data will be stored in the folder and named with the drift \# and the type of depth sensor. For example 'ADRIFT_001_Depth_Sensus'.
 
@@ -40,9 +40,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 10. If there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES.
 
-## 
-
-**Depth Data**
+## **Depth Data**
 
 1.  Plug in Reefnet sensor reader & place depth sensor on reader
 
@@ -60,7 +58,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 ## **Deployment Data- Google Drive**
 
-1.  Go to Deployment Google Folder & fill in any final data regarding the deployment
+1.  Go to [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing) & fill in any final data regarding the deployment
 
 \[Note: NEED TO WORK ON THIS!\]
 
