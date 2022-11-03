@@ -56,11 +56,11 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 3.  Select Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: "ADRIFT_009_Depth_Sensus" (where the number is the number of the drift, and the 'sensus' is the type of depth sensor).
 
-## **Deployment Data- Google Drive**
+## **Deployment Details Metadata**
 
-1.  Go to [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing) & fill in any final data regarding the deployment
+Go to [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing) & ensure the following fields are filled in regarding deployment metadata;
 
-\[Note: NEED TO WORK ON THIS!\]
+\[NEED TO WORK ON THIS\]
 
 ## **Copy and Ship Data**
 
