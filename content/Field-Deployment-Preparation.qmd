@@ -14,7 +14,7 @@ Please review all preparation and deployment information prior to deployment (in
 
 1.  Charge Recorder and confirm recorder settings
 
-    ![Screenshot of recommended settings in soundtrap host software.](images/soundtrap-host-programming-screenshot.png){width="398"}
+    ![Screenshot of recommended settings in soundtrap host software.](images/soundtrap-host-programming-screenshot.png){width="663"}
 
     a.  Recording Starts. *We recommend selecting a specific start date/time when you expect the recorder to be deployed.* While the remote control is very convenient, it can be very difficult to see the green light indictator (to show that you turned it on) on the ST4300, and it is impossible to see it on the ST640 (it is internal).
 

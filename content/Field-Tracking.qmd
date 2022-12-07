@@ -52,7 +52,7 @@ DriftWatch will also create CSV files of the coordinates for any completed drift
 -   knots- the average speed between consecutive points. Note that if multiple GPS devices are used on a single drift, then this speed value is only calculated between points from the same device. 
 -   recordingEffort - a TRUE/FALSE column marking where recording effort is on, defined by the DataStart and DataEnd columns in the deploymentDetails worksheet. If these have not been filled in, then the entire column will be FALSE. 
 
-If you notice that one of the GPS tracks has incorrect start or end times (obvious boat track included in the image), then the most likely cause is that the Deployment or Recovery times are still listed as just dates in the deploymentDetails, and need to be updated to an accurate Date Time. Once this has been done, then you can trigger a new version of the CSV to be created by deleting it within the GPS_CSV folder. If there are still issues with the GPS then contact me and I will adjust it manually.
+If you notice that one of the GPS tracks has incorrect start or end times (obvious boat track included in the image), then the most likely cause is that the Deployment or Recovery times are still listed as just dates in the deploymentDetails, and need to be updated to an accurate Date Time. Once this has been done, then you can trigger a new version of the CSV to be created by deleting it within the GPS_CSV folder. If there are still issues with the GPS then contact Taiki Sakai (taiki.sakai\@noaa.gov) and he will adjust it manually.
 
 ### Test Deployments
 
@@ -80,7 +80,7 @@ Setup requires filling out information in the TextUpdates worksheet. The "Schedu
 -   Coord_Style - Tag specifying formatting style for coordinates. One of dms, deciminute, or decidegree corresponding to 32°24'54", 32°24.9', or 32.415
 -   Note - Contains reminders, otherwise for personal use
 
-Also fill out the "Contacts" tab with the following columnsL
+Also fill out the "Contacts" tab with the following columns
 
 -   Id - The ID number you refer to from the "Schedule" tab
 -   Name - Name of person receiving message

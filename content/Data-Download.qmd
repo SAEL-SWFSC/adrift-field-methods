@@ -22,7 +22,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 3.  **Plug in Soundtrap** to computer using special USB cable
 
-    ![](images/paste-848B31C5.png){width="216"}
+    ![](images/paste-848B31C5.png){width="341"}
 
 4.  **Is your computer set to UTC???**
 
@@ -32,7 +32,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 7.  **Download Data**.  De-Select 'Decompress' and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data---so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.
 
-    ![](images/paste-3CC5186B.png){width="315"}
+    ![](images/paste-3CC5186B.png){width="636"}
 
 8.  **Check that all files transferred**. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).
 
@@ -50,7 +50,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
     b\. Put sensor on reader (small vertical pins align with screws on sensor)
 
-    ![](images/paste-49FB4E21.png)
+    ![](images/paste-49FB4E21.png){width="367"}
 
     c\. Select Units: meters, celcius, bar
 
