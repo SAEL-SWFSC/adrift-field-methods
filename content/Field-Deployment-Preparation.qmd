@@ -1,24 +1,49 @@
 ---
-title: Preparation for Deployment
+title: Prep for Deployment
 ---
 
 Please review all preparation and deployment information prior to deployment (including viewing all videos). Pre-deployment electronics check should be completed 1 day prior to deployment, and final preparation can be completed \~ 20 minutes prior to deployment. Ensure the following steps are followed and completed to allow for a smooth deployment. 
 
+### Pre-Deployment Planning (1 week prior to deployment)
+
+1.  Weather. Examine weather (winds, swell, currents) on windy.com for your area to identify environmental conditions conducive for deployment *and* retrieval. You can also use the test deployments in [Driftwatch](https://sael-swfsc.github.io/adrift-field-methods/content/Field-Tracking.html) to identify currents in your preferred deployment location. Under many circumstances, we will want to identify a weather window for buoy retrieval \~ 5 days after deployment.
+
+2.  Permits. If deployments will be in or near a NOAA Marine Sanctuary, submit information according to the instructions [here](https://sael-swfsc.github.io/adrift-field-methods/content/Field-Metadata.html).
+
 ### Pre-Deployment Electronics Check (1 day prior to deployment)
 
-1.  Charge Recorder and confirm recorder settings \[need to link to this here\]
+1.  Charge Recorder and confirm recorder settings
+
+    ![Screenshot of recommended settings in soundtrap host software.](images/soundtrap-host-programming-screenshot.png){width="398"}
+
+    a.  Recording Starts. *We recommend selecting a specific start date/time when you expect the recorder to be deployed.* While the remote control is very convenient, it can be very difficult to see the green light indictator (to show that you turned it on) on the ST4300, and it is impossible to see it on the ST640 (it is internal).
+
+    b.  Recording Schedule. DO NOT SELECT Periodic Recording. By leaving this unchecked, the recording schedule will be set to continuous sampling to the maximum file size.
+
+    c.  Sample Rate: Select the maximum sample rate for the recorder (this varies by recorder)
+
+    d.  Detector. DO NOT SELECT any detectors.
+
+    e.  Ancillary Sensors. **✓** Acceleration (Not temperature), Log ever 10 seconds.
+
+    f.  Other: **✓** Disable calibration tones
+
 2.  Confirm the status of the Sound Trap after it is programmed
+
     a.  After a ST640 is programmed and disconnected from a laptop, the LED should flash red to indicate it is programmed to start at a later time. The LED will flash green if it is actively recording.
     b.  If the LED does not flash at all after the Sound Trap is disconnected, it must be re-connected to the laptop and re-programmed.
+
 3.  Check Solar GPS
+
     a.  Place solar GPS in view of sky (satellites) and remove magnet
     b.  Check online to ensure that the solar GPS is being updated (check with ADRIFT team to obtain login information)
+
 4.  Set up [Driftwatch auto-text update](https://sael-swfsc.github.io/adrift-field-methods/content/Field-Tracking.html#driftwatch) (if desired). 
 
 ### Deployment Preparation (\>20 minutes before deployment)
 
 1.  Assemble High Flyer for deployment
-    a.  Attach  solar GPS to GPS Mount on High Flyer
+    a.  Attach solar GPS to GPS Mount on High Flyer (zip ties)
     b.  Remove Magnet on solar GPS
 2.  Lay out the entire array on deck to make sure there are no tangles
     a.  If you can't fully lay it out, you can remove the bottom portion (including the array and the anchor) and the top (top trawl float), then loosely flake the line into the tote, starting from the bottom end closest to the array. 
@@ -29,7 +54,7 @@ Please review all preparation and deployment information prior to deployment (in
 
 3.  Attach the locking carabiner on the orange line to the High Flyer using the bridle, and lock snugly. 
 4.  Attach the anchor (30 lb river anchor) to the bottom of the array using a bowline and zip tie to secure the knot.
-5.  If Soundtrap was not programmed to turn on by remote, then turn on 
+5.  If Soundtrap was programmed to turn on by remote, then turn on 
     a.  Point remote at clear end of Recorder, press START
     b.  RED will light, then GREEN will light, then GREEN will blink 1x/4sec (hard to see in direct sunlight).
     c.  After 2 min, will go into SLEEP MODE, and will flash briefly every 20 min (hard to see)

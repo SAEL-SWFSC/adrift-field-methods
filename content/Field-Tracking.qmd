@@ -2,11 +2,25 @@
 title: Tracking
 ---
 
+We use two platforms for tracking our solar GPS trackers: (1) Lonestar Tracking and (2) Driftwatch.
+
+## Lonestar Tracking
+
+Lonestar Tracking (https://fleetone.lonestartracking.com) is an online tracking platform provided by our satellite tracking provider. This platform provides updates on the most recent position updates (and time since last position update) for all devices in our inventory.
+
+Contact Shannon Rankin (shannon.rankin\@noaa.gov) if you require login information.
+
 ## Driftwatch
 
-### Overview
+DriftWatch was developed by our team (Taiki Sakai) to help us track our buoys. Ocean currents can be unpredictable, so having a near-real-time tool to keep track of buoy positions is very useful. DriftWatch automatically downloads GPS data for each buoy, and creates plots of their drift tracks with the ocean currents every hour. These get uploaded to a [Google Drive folder](https://drive.google.com/drive/folders/10LOJhEUO6mfjY0LmXwmm2iu0JH70uj6x?usp=sharing) so that it is easy for anyone to access them.
 
-The goal of DriftWatch is to help us keep track of our buoys. Ocean currents can be unpredictable, so having a near-real-time tool to keep track of buoy positions is very useful. DriftWatch automatically downloads GPS data for each buoy, and creates plots of their drift tracks with the ocean currents every hour. These get uploaded to a [Google Drive folder](https://drive.google.com/drive/folders/10LOJhEUO6mfjY0LmXwmm2iu0JH70uj6x?usp=sharing) so that it is easy for anyone to access them. There are also two additional capabilities currently implemented - creating plots of the currents at specific locations to help plan future deployments, and sending text message or e-mail updates of the current locations of deployed buoys to aid in retrieval. 
+Driftwatch currently consists of 3 functions:
+
+1.  Drift Maps. Maps of current deployments, updated hourly
+
+2.  Test Deployments. Allows user to create a map of potential deployment locations overlaid on ocean currents
+
+3.  Text Location Updates. Sends text message updates on buoy location to aid retrieval.
 
 ### Drift Maps
 
