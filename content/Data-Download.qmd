@@ -14,7 +14,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 4.  The depth data will be stored in the folder and named with the drift \# and the type of depth sensor. For example 'ADRIFT_001_Depth_Sensus'.
 
-## **Soundtrap Data**
+## **Soundtrap 300/4300 Data**
 
 1.  Download Soundtrap Host Software (<https://www.oceaninstruments.co.nz/downloads/>)
 
@@ -33,6 +33,30 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 7.  **Download Data**.  De-Select 'Decompress' and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data---so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.
 
     ![](images/paste-3CC5186B.png){width="636"}
+
+8.  **Check that all files transferred**. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).
+
+9.  If you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.
+
+10. If there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES.
+
+## **Soundtrap 600/640 Data**
+
+1.  Download Soundtrap Host Software (<https://www.oceaninstruments.co.nz/downloads/>)
+
+2.  **Set computer time to UTC** (IMPORTANT!)
+
+3.  **Carefully open Soundtrap and remove internal SD cards**
+
+4.  **Is your computer set to UTC???**
+
+5.  **Open SoundTrap Card Reader**. Once it has loaded, select the card from the drop down menu in the upper left corner
+
+6.  **Save Default File Location.**  Tools -\> Set Default File Save Location \[save ALL data to a folder with the drift number, for example ADRIFT-009\]
+
+7.  **Download Data**.  De-Select 'Decompress' and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data---so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.
+
+    ![](images/Screenshot%202023-01-17%20092513.png){width="592"}
 
 8.  **Check that all files transferred**. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).
 
