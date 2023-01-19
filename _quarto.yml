@@ -56,9 +56,8 @@ website:
         contents:
           - section: "Alternative/Past Hardware Configurations"
             contents: 
-              - section: "Pole Buoy Configurations"
-                contents:
-                    - content/Hardware-Original-PoleBuoy.qmd
+              - href: content/AltHardware-PoleBuoy-Configuarations.qmd
+                text: Pole Buoy Configurations
               - section: "GPS Devices"
                 contents:
                     - content/Hardware-SPOT-GPS.qmd
