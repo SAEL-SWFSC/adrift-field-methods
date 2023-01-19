@@ -1,25 +1,27 @@
 ---
-title: Original Pole Buoy
+title: Alternative Pole Buoy Configurations and Assembly Steps
 ---
 
-## Original Pole Buoy
+## Configurations
 
-Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).
+## Assembly
 
-Each page should start with
+1.  Basic Assembly
 
-    ---
-    title: your title
-    ---
+    1.  Put crab floats on pole (flat ends to each other in the middle). Add tape, hose clamp or other temporary device to hold floats in place. If the center hole of the crab float is not wide enough to fit over the pole, an auger can be used to drill out the middle (ask for more help).
 
-and the first header will be the 2nd level, so `##`. Note, there are situations where you leave off
+    2.  Add weights to one end of the pole at the very bottom. The pole mounted cylindrical weights should be drilled to fit the pole. Once this weight is secured in place, add the 5 lb flexible wire weight over the top of the pole weight.
 
-    ---
-    title: your title
-    ---
+    3.  Add radar reflector (first) and then insert the Solar GPS mount on top. Drill a hole through all three (pole, radar reflector, and gps mount) and use a thru-bolt to secure in place. Add a locking nut or electrical tape over the top of the nut to reduce chance of nut working itself loose.
 
-and start the qmd file with a level header `#`, but if using the default title yaml (in the `---` fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).
+    4.  Add reflector tape near the top of the buoy.
 
-## Add your pages the project
+    5.  Add bridle to the pole buoy: 12 strand crab fishing line with 2\@ hose for reducing wear on the line. Tie one end of the line around the pole buoy above the crab floats, and one below the crab floats (with the hose protecting where the line encircles the pole). Tie well and use zip ties to secure the line if needed. Put a loop in the middle of this line so that the surface floats can be clipped onto this loop using a caribiner.
 
--   Add the files to `_quarto.yml`
+2.  Float test
+
+Put in calm water (at a marina or pool) to determine positioning of the crab floats vertically on the pole. If the floats are too low, the buoy will be unstable (pull the top of the pole over and see how well the buoy rights itself). We want the pole buoy to be stable, but also to have sufficient height for viewing (for retrieval!) and for good GPS transmission.
+
+Mark the top/bottom position of the crab floats on the pole.
+
+Put thru-bolts above and below the crab floats to secure them in place.
