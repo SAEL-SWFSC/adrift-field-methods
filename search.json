@@ -133,6 +133,20 @@
     "text": "Line, Floats, Drogue, & Dampener Plate\nThe ~100m line attaches the surface floats to the hydrophone array at depth. At the surface, the line attaches to the surface float (orange 11” float with 18.5 lbs buoyancy), which is connected to the High Flyer by a thick orange dyneema line and a bridle (⅜” crab rope attached above/below the High Flyer float). At the deep end, the line attaches to a drogue to minimize horizontal movement and rubber ‘snubber’ (or bungee) to reduce vertical motion. Below the drogue and snubber is a  sub-surface float (orange 11” float with 18.5 buoyancy) and Dampener Plate to maintain vertical orientation and minimize vertical movement. The hydrophone array is attached to the bottom of the Dampener Plate. \nSee Alternative Array Configurations Section for previous/alternative array configurations"
   },
   {
+    "objectID": "content/AltHardware-PoleBuoy-Configuarations.html",
+    "href": "content/AltHardware-PoleBuoy-Configuarations.html",
+    "title": "Original Pole Buoy",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+  },
+  {
+    "objectID": "content/AltHardware-PoleBuoy-Configuarations.html#add-your-pages-the-project",
+    "href": "content/AltHardware-PoleBuoy-Configuarations.html#add-your-pages-the-project",
+    "title": "Original Pole Buoy",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+  },
+  {
     "objectID": "content/Field-Retrieval.html",
     "href": "content/Field-Retrieval.html",
     "title": "Retrieval",
@@ -201,20 +215,6 @@
     "title": "Deployment",
     "section": "",
     "text": "Note\n\n\n\nONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. \n\n\nIMPORTANT:\n\nNone of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight. \nDiscuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. \nBefore deployment: Watch this video for an overview of the entire deployment and retrieval process (old video). Also see other detailed videos (links embedded below)\n\n\nRequirements for Deployment\n\n>200m water depth (preferably more!), not too close to a rapid decrease in water depth\n\nBuoy  will run aground at ~110m depth.\n\nNot too close to shipping lane or significant shipping traffic\nNot too close to fishing gear\nBoat speed must remain at 2-3 knots for the entirety of the deployment\nOnly deploy off stern\n\n\n\nDeployment\n\nSlow the boat speed to 2-3 knots\nAnchor ready, but deploy last!\n\nHave one person hold onto the line with the anchor, and lower until the weight is over the water but close to railing level. Use an extra line to loop through the anchor as a leash, and attach one of the lines to the vessel. The buoy should not be lowered into the water until all of the array line is paid out. Video here\n\nLower the High Flyer, then the 11” surface float Video here\nPay out the line at vessel speed. Pay out line only as fast as the vessel moves away from the buoy (avoid loose line in the water that could get sucked into the propellers). Video here\nOnce all the line is paid out, lower the drogue, sub-surface buoy, and dampener plate into the water\nCarefully lower the array/recorder and anchor into the water. Video here\n\nLower the anchor with the loose end of the leash line, and let go once the anchor is in the water, you can collect this line from where it is attached to the boat)\nTry to not drop the recorder splat into the water, rather carefully lower it from the boat into the water\n\nLog the date, time, and updated location of the deployment (lat/lon) with the array ID in the Deployment Details spreadsheet, and send this information to Kourtney ASAP (kourtney.burger@noaa.gov)"
-  },
-  {
-    "objectID": "content/Hardware-Original-PoleBuoy.html",
-    "href": "content/Hardware-Original-PoleBuoy.html",
-    "title": "Original Pole Buoy",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-Original-PoleBuoy.html#add-your-pages-the-project",
-    "href": "content/Hardware-Original-PoleBuoy.html#add-your-pages-the-project",
-    "title": "Original Pole Buoy",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
   {
     "objectID": "content/Hardware-Sensus-Depth.html",
