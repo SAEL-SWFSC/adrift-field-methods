@@ -10,11 +10,15 @@ editor:
 The purpose of the pole buoy is to help track, find, and support the
 drifting recorder. The pole buoy consists of;
 
-1.  Weighted pole
-2.  Floats
-3.  Bridle
-4.  Radar reflector
-5.  GPS mount
+1.  **Aluminum Pole:** 9' length, 1.25" 6063 aluminum round tube
+2.  **Lead Weight:** approximately 17 lbs, attached to the bottom of the
+    pole to keep buoy vertical
+3.  **Crab Floats:** to keep pole buoy floating, with bolts above and
+    below it to keep it from sliding along the pole
+4.  **Bridle:** 12 strand line that links the pole buoy to the rest of
+    the drifting recorder setup and arrray
+5.  **Radar reflector:** so ships can see the pole buoy
+6.  **GPS mount:** to hold the solar GPS and strobe light
 
 ![*Diagram of High Flyer Pole
 Buoy*](images/Screenshot%202022-10-26%20092651.png){fig-align="left"}
