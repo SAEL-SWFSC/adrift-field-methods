@@ -50,6 +50,7 @@ website:
           - content/Field-Metadata.qmd
           - content/Field-Tracking.qmd
           - content/Field-Retrieval.qmd
+          - content/Field-Sightings.qmd
       - href: content/Data-Download.qmd
         text: Data Download
       - section: "Additional Information"
