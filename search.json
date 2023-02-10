@@ -210,6 +210,34 @@
     "text": "Note\n\n\n\nONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. \n\n\nIMPORTANT:\n\nNone of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight. \nDiscuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. \nBefore deployment: Watch this video for an overview of the entire deployment and retrieval process (old video). Also see other detailed videos (links embedded below)\n\n\nRequirements for Deployment\n\n>200m water depth (preferably more!), not too close to a rapid decrease in water depth\n\nBuoy  will run aground at ~110m depth.\n\nNot too close to shipping lane or significant shipping traffic\nNot too close to fishing gear\nBoat speed must remain at 2-3 knots for the entirety of the deployment\nOnly deploy off stern\n\n\n\nDeployment\n\nSlow the boat speed to 2-3 knots\nAnchor ready, but deploy last!\n\nHave one person hold onto the line with the anchor, and lower until the weight is over the water but close to railing level. Use an extra line to loop through the anchor as a leash, and attach one of the lines to the vessel. The buoy should not be lowered into the water until all of the array line is paid out. Video here\n\nLower the High Flyer, then the 11” surface float Video here\nPay out the line at vessel speed. Pay out line only as fast as the vessel moves away from the buoy (avoid loose line in the water that could get sucked into the propellers). Video here\nOnce all the line is paid out, lower the drogue, sub-surface buoy, and dampener plate into the water\nCarefully lower the array/recorder and anchor into the water. Video here\n\nLower the anchor with the loose end of the leash line, and let go once the anchor is in the water, you can collect this line from where it is attached to the boat)\nTry to not drop the recorder splat into the water, rather carefully lower it from the boat into the water\n\nLog the date, time, and updated location of the deployment (lat/lon) with the array ID in the Deployment Details spreadsheet, and send this information to Kourtney ASAP (kourtney.burger@noaa.gov)"
   },
   {
+    "objectID": "content/Field-Sightings.html",
+    "href": "content/Field-Sightings.html",
+    "title": "Ocean Alert App",
+    "section": "",
+    "text": "The Ocean Alert app is used to collect sighting data and record deployment/recovery details for our drifters."
+  },
+  {
+    "objectID": "content/Field-Sightings.html#sighting-data",
+    "href": "content/Field-Sightings.html#sighting-data",
+    "title": "Ocean Alert App",
+    "section": "Sighting Data",
+    "text": "Sighting Data"
+  },
+  {
+    "objectID": "content/Field-Sightings.html#drifter-deployment-and-recovery-data",
+    "href": "content/Field-Sightings.html#drifter-deployment-and-recovery-data",
+    "title": "Ocean Alert App",
+    "section": "Drifter Deployment and Recovery Data",
+    "text": "Drifter Deployment and Recovery Data"
+  },
+  {
+    "objectID": "content/Field-Sightings.html#manuals-for-reference",
+    "href": "content/Field-Sightings.html#manuals-for-reference",
+    "title": "Ocean Alert App",
+    "section": "Manuals For Reference",
+    "text": "Manuals For Reference\nOcean Alert ADRIFT Instructions\nOcean Alert CINMS Whale Spotting Manual"
+  },
+  {
     "objectID": "content/Hardware-Sensus-Depth.html",
     "href": "content/Hardware-Sensus-Depth.html",
     "title": "Sensus Depth Sensor",

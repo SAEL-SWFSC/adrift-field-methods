@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ADRIFT Field Methods - ST640 Recorder</title>
+<title>ADRIFT Field Methods - Ocean Alert App</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/Hardware-Sensus-Depth.html" rel="next">
-<link href="../content/Hardware-ST4300.html" rel="prev">
+<link href="../content/Data-Download.html" rel="next">
+<link href="../content/Field-Retrieval.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
   <header id="quarto-header" class="headroom fixed-top">
   <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
     <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title">ST640 Recorder</h1>
+      <h1 class="quarto-secondary-nav-title">Ocean Alert App</h1>
       <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
         <i class="bi bi-chevron-right"></i>
       </button>
@@ -107,12 +107,12 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">Hardware</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">Hardware</a>
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/Hardware-Summary.html" class="sidebar-item-text sidebar-link">Summary</a>
@@ -145,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Hardware-ST640.html" class="sidebar-item-text sidebar-link active">ST640 Recorder</a>
+  <a href="../content/Hardware-ST640.html" class="sidebar-item-text sidebar-link">ST640 Recorder</a>
   </div>
 </li>
           <li class="sidebar-item">
@@ -157,12 +157,12 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">Field Methods</a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">Field Methods</a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/Field-Deployment-Preparation.html" class="sidebar-item-text sidebar-link">Prep for Deployment</a>
@@ -190,7 +190,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Field-Sightings.html" class="sidebar-item-text sidebar-link">Ocean Alert App</a>
+  <a href="../content/Field-Sightings.html" class="sidebar-item-text sidebar-link active">Ocean Alert App</a>
   </div>
 </li>
       </ul>
@@ -279,16 +279,18 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#st640-recorder" id="toc-st640-recorder" class="nav-link active" data-scroll-target="#st640-recorder">ST640 Recorder</a></li>
+  <li><a href="#sighting-data" id="toc-sighting-data" class="nav-link active" data-scroll-target="#sighting-data">Sighting Data</a></li>
+  <li><a href="#drifter-deployment-and-recovery-data" id="toc-drifter-deployment-and-recovery-data" class="nav-link" data-scroll-target="#drifter-deployment-and-recovery-data">Drifter Deployment and Recovery Data</a></li>
+  <li><a href="#manuals-for-reference" id="toc-manuals-for-reference" class="nav-link" data-scroll-target="#manuals-for-reference">Manuals For Reference</a></li>
   </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Hardware-ST640.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Hardware-ST640.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Field-Sightings.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Field-Sightings.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title d-none d-lg-block">ST640 Recorder</h1>
+<h1 class="title d-none d-lg-block">Ocean Alert App</h1>
 </div>
 
 
@@ -303,18 +305,17 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="st640-recorder" class="level2">
-<h2 class="anchored" data-anchor-id="st640-recorder">ST640 Recorder</h2>
-<p>The Soundtrap 640 HF is a four channel digital sound recorder by <a href="https://www.oceaninstruments.co.nz/">Ocean Instruments</a>.</p>
-<p>This is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.</p>
-<p><a href="https://www.oceaninstruments.co.nz/product/soundtrap-st640-hf-four-channel-long-term-recorder/">Link to website.</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Screenshot 2022-10-27 124743.png" class="img-fluid figure-img"></p>
-<p></p><figcaption class="figure-caption"><em>ST640HF</em></figcaption><p></p>
-</figure>
-</div>
-<p>See <a href="https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Alt-Soundtraps.html#alternative-soundtraps">Alternative Soundtraps Section</a> for previous/alternative recording devices used</p>
+<p>The Ocean Alert app is used to collect sighting data and record deployment/recovery details for our drifters.</p>
+<section id="sighting-data" class="level2">
+<h2 class="anchored" data-anchor-id="sighting-data">Sighting Data</h2>
+</section>
+<section id="drifter-deployment-and-recovery-data" class="level2">
+<h2 class="anchored" data-anchor-id="drifter-deployment-and-recovery-data">Drifter Deployment and Recovery Data</h2>
+</section>
+<section id="manuals-for-reference" class="level2">
+<h2 class="anchored" data-anchor-id="manuals-for-reference">Manuals For Reference</h2>
+<p><a href="https://drive.google.com/file/d/1bqZR9ar4-QImobS6tcbloou8f4ImYVSa/view?usp=share_link">Ocean Alert ADRIFT Instructions</a></p>
+<p><a href="https://drive.google.com/file/d/1UapmQE_rihtly_KTtPZLYqWm-EJupFnh/view?usp=share_link">Ocean Alert CINMS Whale Spotting Manual</a></p>
 
 
 </section>
@@ -570,13 +571,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/Hardware-ST4300.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">ST4300 Recorder</span>
+      <a href="../content/Field-Retrieval.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Retrieval</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/Hardware-Sensus-Depth.html" class="pagination-link">
-        <span class="nav-page-text">Sensus Depth Sensor</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/Data-Download.html" class="pagination-link">
+        <span class="nav-page-text">Data Download</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
