@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>ADRIFT Field Methods - Sensus Depth Sensor</title>
+<title>ADRIFT Field Methods - Safety Protocol for Flooded SoundTraps</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -29,8 +29,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../">
-<link href="../content/Field-Deployment-Preparation.html" rel="next">
-<link href="../content/Hardware-ST640.html" rel="prev">
+<link href="../content/Data-Download.html" rel="next">
+<link href="../content/Field-Sightings.html" rel="prev">
 <link href="../images/favicon.ico" rel="icon">
 <script src="../site_libs/quarto-html/quarto.js"></script>
 <script src="../site_libs/quarto-html/popper.min.js"></script>
@@ -75,7 +75,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/Hardware-Summary.html">Hardware</a></li><li class="breadcrumb-item"><a href="../content/Hardware-Sensus-Depth.html">Sensus Depth Sensor</a></li></ol></nav>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="../content/Field-Deployment-Preparation.html">Field Methods</a></li><li class="breadcrumb-item"><a href="../content/Safety-Protocol-Flooded-SoundTrap.html">Safety Protocol for Flooded SoundTraps</a></li></ol></nav>
       <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
       </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -113,13 +113,13 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false">
  <span class="menu-text">Hardware</span></a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="false" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/Hardware-Summary.html" class="sidebar-item-text sidebar-link">
@@ -164,7 +164,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Hardware-Sensus-Depth.html" class="sidebar-item-text sidebar-link active">
+  <a href="../content/Hardware-Sensus-Depth.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text">Sensus Depth Sensor</span></a>
   </div>
 </li>
@@ -172,13 +172,13 @@ ul.task-list li input[type="checkbox"] {
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false">
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
  <span class="menu-text">Field Methods</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="false" aria-label="Toggle section">
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
   <a href="../content/Field-Deployment-Preparation.html" class="sidebar-item-text sidebar-link">
@@ -217,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../content/Safety-Protocol-Flooded-SoundTrap.html" class="sidebar-item-text sidebar-link">
+  <a href="../content/Safety-Protocol-Flooded-SoundTrap.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text">Safety Protocol for Flooded SoundTraps</span></a>
   </div>
 </li>
@@ -314,20 +314,14 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#sensus-depth-sensor" id="toc-sensus-depth-sensor" class="nav-link active" data-scroll-target="#sensus-depth-sensor">Sensus Depth Sensor</a></li>
-  </ul>
-<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Hardware-Sensus-Depth.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Hardware-Sensus-Depth.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+        
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Sensus Depth Sensor</h1>
+<h1 class="title">Safety Protocol for Flooded SoundTraps</h1>
 </div>
 
 
@@ -342,19 +336,51 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<section id="sensus-depth-sensor" class="level2">
-<h2 class="anchored" data-anchor-id="sensus-depth-sensor">Sensus Depth Sensor</h2>
-<p>Each drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Sensus Ultra depth senor, made by <a href="https://reefnet.ca/">ReefNet</a>, is a small device that can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.</p>
-<p><a href="https://reefnet.ca/products/sensus/">Link to website.</a></p>
-<div class="quarto-figure quarto-figure-center">
-<figure class="figure">
-<p><img src="images/Screenshot 2022-10-27 131215.png" class="img-fluid figure-img"></p>
-<figcaption class="figure-caption"><em>Sensus Ultra Depth Sensor</em></figcaption>
-</figure>
-</div>
+<p>Whenever a SoundTrap is recovered, it is necessary to check for potential flooding of the instrument. Hold the SoundTrap with the end caps facing away from your body and tilt the instrument back and forth to listen for the movement of water within the housing. If the SoundTrap contains water, the batteries have likely been damaged, and the recorder may be pressurized with electrolytic gasses from the batteries. If flooded, you may also notice gas bubbles emerging from the end cap.</p>
+<p>These gasses and contaminated seawater are hazardous if exposed to eyes, skin, or airways. Special precautions are needed to ensure your safety before the SoundTrap can be opened. See first aid information below.</p>
+<p><strong>Personnel</strong></p>
+<p>Two people who have training in handling hazardous materials, including</p>
+<ul>
+<li>One person to open the SoundTrap</li>
+<li>One person to assist and take photos</li>
+</ul>
+<p><strong>Materials</strong></p>
+<ul>
+<li>Full Personal Protective Equipment for each person present, including:&nbsp;
+<ul>
+<li>Lab coat</li>
+<li>Safety goggles</li>
+<li>Face mask</li>
+<li>Thick latex gloves (dishwashing gloves are fine)</li>
+</ul></li>
+<li>Fire extinguisher</li>
+<li>Allen wrench</li>
+<li>Bucket to collect hazardous waste, rinse water, and contaminated paper towels</li>
+<li>Cardboard sheet (an old box is fine)</li>
+<li>Chemical Absorbent pads</li>
+<li>Paper towels</li>
+<li>Large plastic bags to store contaminated batteries and instrument</li>
+<li>Camera to document damage</li>
+</ul>
+<p><strong>Instructions</strong></p>
+<ol type="1">
+<li>Identify a safe, well-ventilated area to open the SoundTrap which is away from any flammable materials</li>
+<li>Wear full PPE, including lab coat, safety goggles, face mask, thick latex gloves</li>
+<li>Have fire extinguisher standing by, with an assistant standing by to call for help if needed</li>
+<li>Lay cardboard on ground, and absorbent pads on top of cardboard to collect contaminated seawater and battery contents</li>
+<li>Take photos to document the external condition of the SoundTrap</li>
+<li>DO NOT OPEN THE TOP OF THE SOUNDTRAP. Locate the set screw in the base of the SoundTrap. This is designed as a safe pressure release valve. Slowly open this safety valve, with the end cap facing away from all people. Allow any gas to escape and drain contaminated water into a bucket.&nbsp;</li>
+<li>Take photos to document the internal condition of the SoundTrap before it is cleaned up</li>
+<li>Use paper towels to dry off all batteries and the instrument. Store contaminated paper towels within the bucket.</li>
+<li>Remove batteries, dry them off, and store them in a separate plastic bag</li>
+<li>Remove SD cards, rinse them with fresh water, dry them off, and set aside to check for usable data.&nbsp;</li>
+<li>Hold the SoundTrap canister and recorder over the hazardous waste bucket and rinse with fresh water. Capture all rinse water in the bucket. Use paper towels to dry the SoundTrap completely. Leave SoundTrap on a counter to dry out completely, if possible.</li>
+<li>Take photos of cleaned SoundTrap components.&nbsp;</li>
+<li>Label and arrange for appropriate disposal of hazardous waste bucket and batteries. Contact lab safety or environmental health &amp; safety team for assistance. Refer to the [battery product information sheet](../content/Panasonic_LithiumIon_Battery_Product_Information_Sheet.pdf) for more information on first aid and appropriate disposal. Note that local authorities may have more stringent rules than federal guidelines.</li>
+</ol>
+<p><strong>First Aid</strong> If you get electrolyte in your eyes, flush with water for 15 minutes without rubbing and immediately contact a physician. If you get electrolyte on your skin, wash the area immediately with soap and water. If irritation continues, contact a physician. If the battery is ingested, call the National Capital Poison Control (NCPC) at 202-625-3333 or your local poison control center immediately.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -707,13 +733,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="../content/Hardware-ST640.html" class="pagination-link">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">ST640 Recorder</span>
+      <a href="../content/Field-Sightings.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Ocean Alert App</span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="../content/Field-Deployment-Preparation.html" class="pagination-link">
-        <span class="nav-page-text">Prep for Deployment</span> <i class="bi bi-arrow-right-short"></i>
+      <a href="../content/Data-Download.html" class="pagination-link">
+        <span class="nav-page-text">Data Download</span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -723,7 +749,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">© CC-1.0</div>   
     <div class="nav-footer-center">
       &nbsp;
-    </div>
+    <div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Safety-Protocol-Flooded-SoundTrap.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Safety-Protocol-Flooded-SoundTrap.qmd" class="toc-action">View source</a></p><p><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action">Report an issue</a></p></div></div></div>
     <div class="nav-footer-right">This page is built with <a href="https://quarto.org/">Quarto</a>.</div>
   </div>
 </footer>
