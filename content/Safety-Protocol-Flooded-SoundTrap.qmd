@@ -1,0 +1,50 @@
+---
+title: "Safety Protocol for Flooded SoundTraps"
+editor: visual
+---
+
+Whenever a SoundTrap is recovered, it is necessary to check for potential flooding of the instrument. Hold the SoundTrap with the end caps facing away from your body and tilt the instrument back and forth to listen for the movement of water within the housing. If the SoundTrap contains water, the batteries have likely been damaged, and the recorder may be pressurized with electrolytic gasses from the batteries. If flooded, you may also notice gas bubbles emerging from the end cap.
+
+These gasses and contaminated seawater are hazardous if exposed to eyes, skin, or airways. Special precautions are needed to ensure your safety before the SoundTrap can be opened. See first aid information below.
+
+**Personnel**
+
+Two people who have training in handling hazardous materials, including
+
+-   One person to open the SoundTrap
+-   One person to assist and take photos
+
+**Materials**
+
+-   Full Personal Protective Equipment for each person present, including: 
+    -   Lab coat
+    -   Safety goggles
+    -   Face mask
+    -   Thick latex gloves (dishwashing gloves are fine)
+-   Fire extinguisher
+-   Allen wrench
+-   Bucket to collect hazardous waste, rinse water, and contaminated paper towels
+-   Cardboard sheet (an old box is fine)
+-   Chemical Absorbent pads
+-   Paper towels
+-   Large plastic bags to store contaminated batteries and instrument
+-   Camera to document damage
+
+**Instructions**
+
+1.  Identify a safe, well-ventilated area to open the SoundTrap which is away from any flammable materials
+2.  Wear full PPE, including lab coat, safety goggles, face mask, thick latex gloves
+3.  Have fire extinguisher standing by, with an assistant standing by to call for help if needed
+4.  Lay cardboard on ground, and absorbent pads on top of cardboard to collect contaminated seawater and battery contents
+5.  Take photos to document the external condition of the SoundTrap
+6.  DO NOT OPEN THE TOP OF THE SOUNDTRAP. Locate the set screw in the base of the SoundTrap. This is designed as a safe pressure release valve. Slowly open this safety valve, with the end cap facing away from all people. Allow any gas to escape and drain contaminated water into a bucket. 
+7.  Take photos to document the internal condition of the SoundTrap before it is cleaned up
+8.  Use paper towels to dry off all batteries and the instrument. Store contaminated paper towels within the bucket.
+9.  Remove batteries, dry them off, and store them in a separate plastic bag
+10. Remove SD cards, rinse them with fresh water, dry them off, and set aside to check for usable data. 
+11. Hold the SoundTrap canister and recorder over the hazardous waste bucket and rinse with fresh water. Capture all rinse water in the bucket. Use paper towels to dry the SoundTrap completely. Leave SoundTrap on a counter to dry out completely, if possible.
+12. Take photos of cleaned SoundTrap components. 
+13. Label and arrange for appropriate disposal of hazardous waste bucket and batteries. Contact lab safety or environmental health & safety team for assistance. Refer to the \[battery product information sheet\](../content/Panasonic_LithiumIon_Battery_Product_Information_Sheet.pdf) for more information on first aid and appropriate disposal. Note that local authorities may have more stringent rules than federal guidelines.
+
+**First Aid**
+If you get electrolyte in your eyes, flush with water for 15 minutes without rubbing and immediately contact a physician. If you get electrolyte on your skin, wash the area immediately with soap and water. If irritation continues, contact a physician. If the battery is ingested, call the National Capital Poison Control (NCPC) at 202-625-3333 or your local poison control center immediately.
