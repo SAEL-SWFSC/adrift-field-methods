@@ -22,7 +22,7 @@ Complete 1 day prior to deployment
 
 #### Charge Recorder and confirm recorder settings
 
-![Screenshot of recommended settings in soundtrap host software.](images/soundtrap-host-programming-screenshot.png){width="663"}
+![Screenshot of recommended settings in soundtrap host software.](images/soundtrap-host-programming-screenshot-periodic6_6.JPG){width="663"}
 
 #### Recording Starts
 
