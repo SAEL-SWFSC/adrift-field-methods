@@ -4,7 +4,7 @@ title: Prep for Deployment
 
 Please review all preparation and deployment information prior to deployment (including viewing all videos). Pre-deployment electronics check should be completed 1 day prior to deployment, and final preparation can be completed \~ 20 minutes prior to deployment. Ensure the following steps are followed and completed to allow for a smooth deployment. 
 
-## Pre-Deployment Planning 
+## Pre-Deployment Planning
 
 Complete 1 week prior to deployment
 
@@ -16,7 +16,7 @@ Examine weather (winds, swell, currents) on windy.com for your area to identify 
 
 If deployments will be in or near a NOAA Marine Sanctuary, submit information according to the instructions [here](https://sael-swfsc.github.io/adrift-field-methods/content/Field-Metadata.html).
 
-## Pre-Deployment Electronics Check 
+## Pre-Deployment Electronics Check
 
 Complete 1 day prior to deployment
 
@@ -36,7 +36,7 @@ Select Periodic Recording. Record for a period of 6 minutes every 6 minutes. Thi
 
 Select the maximum sample rate for the recorder (this varies by recorder)
 
-#### Detector 
+#### Detector
 
 DO NOT SELECT any detectors.
 
@@ -54,6 +54,18 @@ After a ST640 is programmed and disconnected from a laptop, the LED should flash
 
 If the LED does not flash at all after the Sound Trap is disconnected, it must be re-connected to the laptop and re-programmed.
 
+#### Clean Sound Trap O-rings and seal the unit
+
+1.  Remove O-rings and clean the gaps. Replace the O-rings if any irregularity is found. Apply a thin layer of lubricant to the rings.
+
+2.  Close the unit, and tighten the screw until it resists. Then unscrew it just a hair to be sure.
+
+3.  Apply a layer of plumbers tape (roughly 3 layers thick) around the crease, and ensure the tape settles into the crease.
+
+4.  Apply a layer of self-sealing tape. Cut roughly 6 inches off the roll and tightly stretch it around the outside, covering all of the pipe tape.
+
+5.  Secure in place with electrical tape, covering all of the self-sealing tape.
+
 #### Check Solar GPS
 
 1.  Place solar GPS in view of sky (satellites) and remove magnet
@@ -62,7 +74,7 @@ If the LED does not flash at all after the Sound Trap is disconnected, it must b
 
 3.  Set up [Driftwatch auto-text update](https://sael-swfsc.github.io/adrift-field-methods/content/Field-Tracking.html#driftwatch) (if desired). 
 
-## Final Deployment Preparation 
+## Final Deployment Preparation
 
 Complete \>20 minutes before deployment
 
