@@ -54,8 +54,8 @@ website:
           - content/Safety-Protocol-Flooded-SoundTrap.qmd
       - section: "Post Deployment"
         contents:
-          -content/Cleaning-Protocol.qmd
-          -content/Data-Download.qmd
+          - content/Cleaning-Protocol.qmd
+          - content/Data-Download.qmd
       - section: "Additional Information"
         contents:
           - section: "Alternative/Past Hardware Configurations"
