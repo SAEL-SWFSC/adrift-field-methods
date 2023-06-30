@@ -2,90 +2,94 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://sael-swfsc.github.io/adrift-field-methods/index.html</loc>
-    <lastmod>2023-06-29T22:55:25.911Z</lastmod>
+    <lastmod>2023-06-30T18:45:34.999Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Deployment-Preparation.html</loc>
-    <lastmod>2023-06-29T22:55:24.855Z</lastmod>
+    <lastmod>2023-06-30T18:45:34.207Z</lastmod>
   </url>
   <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Sensus-Depth.html</loc>
-    <lastmod>2023-06-29T22:55:23.347Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Tote-Contents.html</loc>
-    <lastmod>2023-06-29T22:55:22.411Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-V1-Array.html</loc>
-    <lastmod>2023-06-29T22:55:21.367Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Array.html</loc>
-    <lastmod>2023-06-29T22:55:20.271Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/AltHardware-PoleBuoy-Configuarations.html</loc>
-    <lastmod>2023-06-29T22:55:19.099Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-ST640.html</loc>
-    <lastmod>2023-06-29T22:55:18.131Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Summary.html</loc>
-    <lastmod>2023-06-29T22:55:17.227Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-GPS-Solar.html</loc>
-    <lastmod>2023-06-29T22:55:16.299Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Data-Download.html</loc>
-    <lastmod>2023-06-29T22:55:15.419Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Sightings.html</loc>
-    <lastmod>2023-06-29T22:55:12.855Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-SPOT-GPS.html</loc>
-    <lastmod>2023-06-29T22:55:15.875Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Recorder.html</loc>
-    <lastmod>2023-06-29T22:55:16.775Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-ST4300.html</loc>
-    <lastmod>2023-06-29T22:55:17.651Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Model-Soundtrap.html</loc>
-    <lastmod>2023-06-29T22:55:18.583Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Safety-Protocol-Flooded-SoundTrap.html</loc>
-    <lastmod>2023-06-29T22:55:19.751Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Retrieval.html</loc>
-    <lastmod>2023-06-29T22:55:20.887Z</lastmod>
-  </url>
-  <url>
-    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Deployment.html</loc>
-    <lastmod>2023-06-29T22:55:21.939Z</lastmod>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Cleaning-Protocol.html</loc>
+    <lastmod>2023-06-30T18:45:32.923Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Metadata.html</loc>
-    <lastmod>2023-06-29T22:55:22.919Z</lastmod>
+    <lastmod>2023-06-30T18:45:32.199Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Deployment.html</loc>
+    <lastmod>2023-06-30T18:45:31.395Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Retrieval.html</loc>
+    <lastmod>2023-06-30T18:45:30.571Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Safety-Protocol-Flooded-SoundTrap.html</loc>
+    <lastmod>2023-06-30T18:45:29.711Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Model-Soundtrap.html</loc>
+    <lastmod>2023-06-30T18:45:28.795Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-ST4300.html</loc>
+    <lastmod>2023-06-30T18:45:28.067Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Recorder.html</loc>
+    <lastmod>2023-06-30T18:45:27.319Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-SPOT-GPS.html</loc>
+    <lastmod>2023-06-30T18:45:26.587Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Sightings.html</loc>
+    <lastmod>2023-06-30T18:45:23.883Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Data-Download.html</loc>
+    <lastmod>2023-06-30T18:45:26.211Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-GPS-Solar.html</loc>
+    <lastmod>2023-06-30T18:45:26.951Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Summary.html</loc>
+    <lastmod>2023-06-30T18:45:27.679Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-ST640.html</loc>
+    <lastmod>2023-06-30T18:45:28.427Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/AltHardware-PoleBuoy-Configuarations.html</loc>
+    <lastmod>2023-06-30T18:45:29.195Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Array.html</loc>
+    <lastmod>2023-06-30T18:45:30.087Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-V1-Array.html</loc>
+    <lastmod>2023-06-30T18:45:30.931Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Tote-Contents.html</loc>
+    <lastmod>2023-06-30T18:45:31.751Z</lastmod>
+  </url>
+  <url>
+    <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Sensus-Depth.html</loc>
+    <lastmod>2023-06-30T18:45:32.559Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Field-Tracking.html</loc>
-    <lastmod>2023-06-29T22:55:24.251Z</lastmod>
+    <lastmod>2023-06-30T18:45:33.671Z</lastmod>
   </url>
   <url>
     <loc>https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-PoleBuoy.html</loc>
-    <lastmod>2023-06-29T22:55:25.447Z</lastmod>
+    <lastmod>2023-06-30T18:45:34.647Z</lastmod>
   </url>
 </urlset>
