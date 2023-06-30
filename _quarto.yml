@@ -52,8 +52,10 @@ website:
           - content/Field-Retrieval.qmd
           - content/Field-Sightings.qmd
           - content/Safety-Protocol-Flooded-SoundTrap.qmd
-      - href: content/Data-Download.qmd
-        text: Data Download
+      - section: "Post Deployment"
+        contents:
+          -content/Cleaning-Protocol.qmd
+          -content/Data-Download.qmd
       - section: "Additional Information"
         contents:
           - section: "Alternative/Past Hardware Configurations"

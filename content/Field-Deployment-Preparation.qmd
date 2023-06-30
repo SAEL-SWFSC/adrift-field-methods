@@ -20,6 +20,8 @@ If deployments will be in or near a NOAA Marine Sanctuary, submit information ac
 
 Complete 1 day prior to deployment
 
+### Soundtrap Preperation
+
 #### Charge Recorder and confirm recorder settings
 
 ![Screenshot of recommended settings in soundtrap host software.](images/soundtrap-host-programming-screenshot-periodic6_6.JPG){width="663"}
@@ -54,7 +56,7 @@ After a ST640 is programmed and disconnected from a laptop, the LED should flash
 
 If the LED does not flash at all after the Sound Trap is disconnected, it must be re-connected to the laptop and re-programmed.
 
-#### Clean Sound Trap O-rings and seal the unit
+### Clean Sound Trap O-rings and seal the unit
 
 1.  Remove O-rings and clean the gaps. Replace the O-rings if any irregularity is found. Apply a thin layer of lubricant to the rings.
 
@@ -66,7 +68,39 @@ If the LED does not flash at all after the Sound Trap is disconnected, it must b
 
 5.  Secure in place with electrical tape, covering all of the self-sealing tape.
 
-#### Check Solar GPS
+### Greasing SoundTrap/Hydrophone Connectors
+
+Grease the SoundTrap sockets prior to connecting it to the hydrophone array
+
+1.  Apply a layer of grease to the socket. Ensure all sockets are completely sealed with approximately 30% of the hole filled, and leave a transparent layer of grease on the socket face
+
+2.  Connect the hydrophone array plugs to the SoundTrap sockets and remove any excess grease from the joint
+
+3.  Firmly attach the locking sleeve
+
+4.  See links below for detailed greasing protocol (steps with pictures and video) 
+
+    -   [Greasing steps with pictures](https://docs.rbr-global.com/support/instruments/instrument-connections/underwater-connector-maintenance)
+
+    -   [SubConn greasing and mating under water (wet mate)](https://www.youtube.com/watch?v=yVsfgu9CILw)
+
+Securing Hydrophones before next deployment
+
+1.  Over time, the hydrophones may become loose in the array mounts leading to noise in the data
+
+2.  If the hydrophone is loose, tighten the bolts and nuts or remove the mount and reposition the hydrophone 
+
+3.  Some hydrophone models may fit into the mount better, but all should be tightly secured and not hitting the surrounding array parts
+
+    -   Grey mount
+
+![](images/IMG_3933.jpg){fig-align="center" width="537"}
+
+-   Black mount
+
+![](images/IMG_3932-01.jpg){fig-align="center" width="554"}
+
+### Check Solar GPS
 
 1.  Place solar GPS in view of sky (satellites) and remove magnet
 

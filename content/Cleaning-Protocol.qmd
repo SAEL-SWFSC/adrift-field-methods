@@ -1,0 +1,23 @@
+---
+title: Cleaning Protocol
+---
+
+# **Freshwater Rinse and Array Inspection**
+
+1.  At the end of each deployment, always rinse all equipment with fresh water
+
+2.  Inspect equipment for any corrosion, debris, or damage to the lines, cables, hydrophones, and SoundTraps
+
+3.  Remove the SoundTrap, carefully place the array into its tote and ensure there are no kinks in the cable or anything pushing against the hydrophones
+
+# **Cleaning SoundTrap/Hydrophone Connectors**
+
+The hydrophone plugs and SoundTrap sockets should be cleaned after each deployment
+
+1.  Use a spray based contact cleaner and a soft applicator (Q-tip) to clean any debris off and wipe dry with a KimWipe
+
+2.  See videos below for detailed cleaning protocol 
+
+    -   [SubConn cleaning instructions (female connector)](https://www.youtube.com/watch?v=1zim2aG7LSk)
+
+    -   [SubConn cleaning instructions (male connector)](https://www.youtube.com/watch?v=FSaOogjx08E)
