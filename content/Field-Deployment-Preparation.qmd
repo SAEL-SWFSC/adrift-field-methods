@@ -84,7 +84,7 @@ Grease the SoundTrap sockets prior to connecting it to the hydrophone array
 
     -   [SubConn greasing and mating under water (wet mate)](https://www.youtube.com/watch?v=yVsfgu9CILw)
 
-Securing Hydrophones before next deployment
+### Securing Hydrophones before next deployment
 
 1.  Over time, the hydrophones may become loose in the array mounts leading to noise in the data
 
