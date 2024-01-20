@@ -9,3 +9,7 @@ Each drifting acoustic buoy has a depth sensor attached to the end of the hydrop
 [Link to website.](https://reefnet.ca/products/sensus/)
 
 ![*Sensus Ultra Depth Sensor*](images/Screenshot%202022-10-27%20131215.png)
+
+### Downloading & Converting Data
+
+All data downloaded from the depth sensor must be cleaned and processed to recieve usable depths. Follow protocols [here](https://sael-swfsc.github.io/adrift-field-methods/content/Data-Download.html#depth-data)
