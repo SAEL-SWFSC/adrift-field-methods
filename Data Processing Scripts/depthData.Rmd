@@ -20,12 +20,12 @@ library(lubridate)
 # 1. Read in raw depth data
 ```{r}
 #set temporary working directory
-setwd('Z:\\METADATA\\ADRIFT\\ADRIFT_036\\ADRIFT_036_Depth_Sensus')
+setwd('Z:\\METADATA\\ADRIFT\\ADRIFT_042\\ADRIFT_042_Depth_Sensus')
 
 #Read in data
-rawDepth <- read.csv('ADRIFT_036_Depth_Sensus.csv', header = FALSE)
-#rawDepth <- read.csv('15865.csv', header = FALSE)
-write.csv(rawDepth, "Z:\\METADATA\\ADRIFT\\ADRIFT_036\\ADRIFT_036_Depth_Sensus\\ADRIFT_036_Depth_Sensus_RAW.csv", row.names = FALSE)
+#rawDepth <- read.csv('ADRIFT_042_Depth_Sensus.csv', header = FALSE)
+rawDepth <- read.csv('SU-17434.csv', header = FALSE)
+write.csv(rawDepth, "Z:\\METADATA\\ADRIFT\\ADRIFT_042\\ADRIFT_042_Depth_Sensus\\ADRIFT_042_Depth_Sensus_RAW.csv", row.names = FALSE)
 ```
 
 # 2. Add column names and additional depth/time columns
@@ -87,6 +87,6 @@ finalDepth <- subset(rawDepth, select = c("Sensus ID","DateTime_UTC","mBar","deg
 ```
 
 ```{r}
-write.csv(finalDepth, "Z:\\METADATA\\ADRIFT\\ADRIFT_036\\ADRIFT_036_Depth_Sensus\\ADRIFT_036_Depth_Sensus.csv", row.names=FALSE)
+write.csv(finalDepth, "Z:\\METADATA\\ADRIFT\\ADRIFT_042\\ADRIFT_042_Depth_Sensus\\ADRIFT_042_Depth_Sensus.csv", row.names=FALSE)
 ```
 
