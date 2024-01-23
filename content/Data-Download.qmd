@@ -82,7 +82,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 ### Depth Data Post-Processing
 
-The downloaded depth data must be cleaned and processed to receive usable data. Run the following script to prepare data
+The downloaded depth data must be cleaned and processed to receive usable data. Run the following script to prepare data.
 
 ```{r}
 
