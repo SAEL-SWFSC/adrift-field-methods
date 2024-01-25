@@ -34,11 +34,11 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
     ![](images/paste-3CC5186B.png){width="636"}
 
-8.  **Check that all files transferred**. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).
+8.  **Check that all files transferred**. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software). You can also review the 'Saved' column in the file listing in the Soundtrap host software. If a file did not fully download it will be highlighted red and say 'Partial'. Review SUD file sizes in your file explorer and make sure all the sizes are as expected (if a file fails to download it will be show up in your file explorer as 1KB). Redownload any failed files.
 
-9.  If you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.
+9.  If you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%. **DO NOT DELETE FILES UNTIL YOU ARE CONFIDENT THAT ALL DATA FROM THE PREVIOUS DRIFT HAS BEEN SUCCESSFULLY OFFLOADED**
 
-10. If there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES.
+10. If there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. **KEEP THE ORIGINAL SUD FILES.**
 
 ## **Soundtrap 600/640 Data**
 
