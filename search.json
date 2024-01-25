@@ -390,7 +390,7 @@
     "href": "content/Data-Download.html#depth-data",
     "title": "Data Download",
     "section": "Depth Data",
-    "text": "Depth Data\n\nPlug in Reefnet sensor reader & place depth sensor on reader\nOpen Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)\na. Settings-&gt; set up appropriate Com Port\nb. Put sensor on reader (small vertical pins align with screws on sensor)\n\nc. Select Units: meters, celcius, bar\nSelect Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: “ADRIFT_009_Depth_Sensus” (where the number is the number of the drift, and the ‘sensus’ is the type of depth sensor).\n\n\nDepth Data Post-Processing\nThe downloaded depth data must be cleaned and processed to receive usable data. Run the following script to prepare data.",
+    "text": "Depth Data\n\nPlug in Reefnet sensor reader & place depth sensor on reader\nOpen Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)\na. Settings-&gt; set up appropriate Com Port\nb. Put sensor on reader (small vertical pins align with screws on sensor)\n\nc. Select Units: meters, celcius, bar\nSelect Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: “ADRIFT_009_Depth_Sensus” (where the number is the number of the drift, and the ‘sensus’ is the type of depth sensor).\n\n\nDepth Data Post-Processing\nThe downloaded depth data must be cleaned and processed to receive usable data. For Loteks, OpenTags, and Sensus depth sensors run the post processing script to prepare data.",
     "crumbs": [
       "Post Deployment",
       "Data Download"
