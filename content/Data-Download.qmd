@@ -82,11 +82,7 @@ Data from the Soundtrap recorder and the depth sensor need to be downloaded at t
 
 ### Depth Data Post-Processing
 
-The downloaded depth data must be cleaned and processed to receive usable data. Run the following script to prepare data.
-
-```{r}
-
-```
+The downloaded depth data must be cleaned and processed to receive usable data. For Loteks, OpenTags, and Sensus depth sensors run the [post processing script](https://github.com/SAEL-SWFSC/adrift-field-methods/blob/5ac92bbe7f874b2e1e577ab6c402bb41a15fff13/Analysis-Scripts/DepthData_PostProcessing.r) to prepare data.
 
 ## **Deployment Details Metadata**
 
