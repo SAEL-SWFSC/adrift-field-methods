@@ -1,164 +1,549 @@
 [
   {
-    "objectID": "content/Hardware-PoleBuoy.html",
-    "href": "content/Hardware-PoleBuoy.html",
-    "title": "Pole Buoy",
+    "objectID": "content/Field-Tracking.html",
+    "href": "content/Field-Tracking.html",
+    "title": "Tracking",
     "section": "",
-    "text": "The purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nAluminum Pole: 9’ length, 1.25” 6063 aluminum round tube\nLead Weight: approximately 17 lbs, attached to the bottom of the pole to keep buoy vertical\nCrab Floats: to keep pole buoy floating, with bolts above and below it to keep it from sliding along the pole\nBridle: 12 strand line that links the pole buoy to the rest of the drifting recorder setup and arrray\nRadar reflector: so ships can see the pole buoy\nGPS mount: to hold the solar GPS and strobe light\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\n\n\n\nPrepare the bridle:\n\nThere should be 3 pieces of clear abrasion resistant hose along with the 12-strand thick blue/green line in the tote\nThe bridle will have 3 loops in it: two go around the pole (1 loop below the crab floats, 1 loop above the crab floats) and one loop is in the middle to attach to the rest of the gear\nThese loops get a BIG workout– put the hose on the line at each of these loops to minimize abrasion of the line during deployment\n\nPut lower loop of bridle onto the pole\nAdd crab floats:\n\nPut 2 orange crab floats onto the pole so that the flat ends of the crab floats butt up against each other\nThere are bolts that go through the pole at the top and bottom of the floats to help keep them in place\nWe have also been putting a hose clamp between the buoys & the bolts, and then wrapping this in electrical tape\n\nRadar reflector and GPS mount:\n\nAt the top are the radar reflector and the GPS mount\nThe radar reflector goes over the pole, and then the GPS mount is inserted into the top of the pole\nA bolt (currently attached to the GPS mount) holds both in place\nThe pole, reflectors, and GPS mounts are labeled A, B, C to identify sets that fit well together previously\n\nStrobe Light- Prior to deployment, add batteries & zip tie the strobe onto the GPS mount\nAdd reflector tape to the pole below the radar reflector\n\n\n\n\n\n\n\nNote\n\n\n\nNote: We are still working on improving this design– all suggestions are welcome!\n\n\n\nSee Alternative Pole Buoy Configurations for previous/alternative Pole Buoy configurations"
+    "text": "We use two platforms for tracking our solar GPS trackers: (1) Lonestar Tracking and (2) Driftwatch.",
+    "crumbs": [
+      "Field Methods",
+      "Tracking"
+    ]
   },
   {
-    "objectID": "content/Hardware-PoleBuoy.html#pole-buoy",
-    "href": "content/Hardware-PoleBuoy.html#pole-buoy",
-    "title": "Pole Buoy",
+    "objectID": "content/Field-Tracking.html#lonestar-tracking",
+    "href": "content/Field-Tracking.html#lonestar-tracking",
+    "title": "Tracking",
+    "section": "Lonestar Tracking",
+    "text": "Lonestar Tracking\nLonestar Tracking (https://fleetone.lonestartracking.com) is an online tracking platform provided by our satellite tracking provider. This platform provides updates on the most recent position updates (and time since last position update) for all devices in our inventory.\nContact Shannon Rankin (shannon.rankin@noaa.gov) if you require login information.",
+    "crumbs": [
+      "Field Methods",
+      "Tracking"
+    ]
+  },
+  {
+    "objectID": "content/Field-Tracking.html#driftwatch",
+    "href": "content/Field-Tracking.html#driftwatch",
+    "title": "Tracking",
+    "section": "Driftwatch",
+    "text": "Driftwatch\nDriftWatch was developed by our team (Taiki Sakai) to help us track our buoys. Ocean currents can be unpredictable, so having a near-real-time tool to keep track of buoy positions is very useful. DriftWatch automatically downloads GPS data for each buoy, and creates plots of their drift tracks with the ocean currents every hour. These get uploaded to a Google Drive folder so that it is easy for anyone to access them.\nDriftwatch currently consists of 3 functions:\n\nDrift Maps. Maps of current deployments, updated hourly\nTest Deployments. Allows user to create a map of potential deployment locations overlaid on ocean currents\nText Location Updates. Sends text message updates on buoy location to aid retrieval.\n\n\nDrift Maps\nMaps will automatically be made for any deployments that DriftWatch knows about. To add a new deployment, you need to fill in information in the NEW DEPLOYMENT TO SAVE tab of the Deployment Details worksheet. The important fields for DriftWatch are:\n\nDeployment_Date_UTC - The date of deployment. This is when DriftWatch will start creating maps. This can just be a date initially, but should eventually be updated to an accurate deployment time.\nData_Start_UTC - To be filled in later, the start of usable data on the recording. \nRecovery_Date_UTC - The date of recovery. This is when DriftWatch will stop creating maps. This can just be a date initially, but should eventually be updated to an accurate deployment time.\nData_End_UTC - To be filled in later, the end of usable data on the recording. \nGPS ID - The ID(s) for the trackers attached to this deployment. Should be letters for SPOT devices, or SO-### for solar devices. If multiple trackers are used, they should be separated by a /\nProject - Project name, e.g ADRIFT\nDeploymentID - Deployment number for this project\nSite - Optional, a 3 letter code for the deployment site. Should be one of the options on the “Site List” tab of the worksheet\n\nOnce these are filled in, DriftWatch will add this drift to its known deployments the next time it runs, and maps will be made. The remainder of the fields are not used by DriftWatch, but should be filled in if you have the information.\nPlots are uploaded to the “DriftPlots” folder every hour, and are named according to the following naming scheme:\n\nProject_DeploymentID_Current_DeployDate_Site.png\n\n“Current” is either HYCOM or HFRADAR depending on which source of ocean current data is being used. DriftWatch will always try to make a plot using both, but occasionally it can run into errors trying to download the data so you may only see one. HYCOM data have excellent coverage everywhere, but the major downside is that they are only updated once a day, typically in the morning. This means that the current picture may not look accurate later in the day. HFRADAR is updated much more frequently, but there are many areas that do not have any coverage for HFRADAR, so your plot may not show any data. Additionally, the HFRADAR data source has been much more finicky, and can often be unavailable for download. All plots show the last time the current data was updated at the bottom.\n\n\n\nGPS CSV Files\nDriftWatch will also create CSV files of the coordinates for any completed drifts. These are stored in the GPS_CSV folder within the main DriftWatch folder, each file is named with DriftName_GPS.csv. Each CSV file is also paired with a map showing the extent of the drift stored in the CSV, the purpose of these is to give a quick visual check of the track to make sure no extra data points are being stored. If the deployment start or recovery dates have not been updated, it is likely that there are a number of coordinates included that are not actually part of the drift but part of the boat track. These should be easy to see within the map, so before using any CSV files you should check the map for any obvious issues. These GPS CSVs also have some quality checks applied to try and remove any incorrect GPS points, or any obvious boat track portions. This works by removing any coordinates where the average speed between points is greater than 4 knots. The CSV files also contain two additional columns other than the coordinates and UTC times:\n\nknots- the average speed between consecutive points. Note that if multiple GPS devices are used on a single drift, then this speed value is only calculated between points from the same device. \nrecordingEffort - a TRUE/FALSE column marking where recording effort is on, defined by the DataStart and DataEnd columns in the deploymentDetails worksheet. If these have not been filled in, then the entire column will be FALSE. \n\nIf you notice that one of the GPS tracks has incorrect start or end times (obvious boat track included in the image), then the most likely cause is that the Deployment or Recovery times are still listed as just dates in the deploymentDetails, and need to be updated to an accurate Date Time. Once this has been done, then you can trigger a new version of the CSV to be created by deleting it within the GPS_CSV folder. If there are still issues with the GPS then contact Taiki Sakai (taiki.sakai@noaa.gov) and he will adjust it manually.\n\n\nTest Deployments\nThere is a Google Sheet within the main DriftWatch folder called “TestDeployments” that lets you create plots of the currents at specific locations. The main idea for this is to keep an eye on the currents of potential deployment sites, since deploying into a strong offshore current can lead to big problems. This worksheet contains the following columns:\n\nLatitude/Longitude - The coordinates to create the plot. A marker will be left at these coordinates, and the map will be centered here\nName - A name for this test deployment, should be unique from other deployments. If you want to draw multiple points on the same plot, then you can give multiple points the same name\nDeploymentSite - Optional, only used for labeling. Same as DeploymentSite in regular plots\nLatRange/LonRange - Optional, lets you control the displayed range of the plot. Can either be given as min, max separated by a comma, or if it is a single value then this defines how far to extend the bounds in each direction from the drawn point. For example, if a point is at a Latitude of 32, then LatRange of 31, 33 OR LatRange of 1 will both give the same result. \nPlotEndDate - Optional (but highly recommended) - This tells DriftWatch when it can stop creating the plots. The plot upload process is quite slow, so if there are too many plots the whole process takes quite a while. So if you want to keep an eye on a location for a potential deployment on October 20th, then setting an end date of 10/21/2022 would be ideal.\nNote - Optional, used only for your personal use. Some rows also contain notes with reminders for how to use this spreadsheet.\n\nThese plots get created every hour, at the same time as the regular plots. They get uploaded to the “TestDeploymentPlots” folder.\n\n\nText Updates\nThis is a very beta feature that has been somewhat unreliable, but when it is working it can send updates of the most recent location of buoys to an email address or as a test message to a cell phone or satellite phone. This is to make sure that people on the boat retrieving buoys can have easy access to the most up-to-date locations to make the process go smoothly. \nSetup requires filling out information in the TextUpdates worksheet. The “Schedule” tab contains the following columns:\n\nStart_Local - Time to start sending text messages (local / PDT). Date format must be YYYY-MM-DD HH:MM:SS\nEnd_Local - Time to stop sending text messages (local / PDT). Date format must be YYYY-MM-DD HH:MM:SS\nDeployment_Name - The name of the drift you want updates for, must exactly match the name of the drift (e.g. ADRIFT_004 not ADRIFT_4). If you want updates on multiple buoys they must be on separate lines\nRecipient_Id - The ID number for who should receive the messages, from the “Contacts” tab. If multiple people want messages, they must be on different rows.\nCoord_Style - Tag specifying formatting style for coordinates. One of dms, deciminute, or decidegree corresponding to 32°24’54”, 32°24.9’, or 32.415\nNote - Contains reminders, otherwise for personal use\n\nAlso fill out the “Contacts” tab with the following columns\n\nId - The ID number you refer to from the “Schedule” tab\nName - Name of person receiving message\nNumber - Phone number\nProvider - Cell service provider. Used to lookup the proper extension for sending text as email\nExtension - Sending a text via e-mail is done by sending an email to PHONENUMBER@EXTENSION where the extension depends on the cell service provider. If you aren’t sure how to find this, let me know and I can look it up for you\nEmail - The combination of the number and extension. Alternatively if you only want an e-mail and not text messages, you can put that here. This is the important field that actually gets read by DriftWatch\nNotes - Contains instructs and personal notes\n\nMessages are sent out every 30 minutes, at approximately XX:10 and XX:40. The message will contain the most recent coordinates for the drift selected, as well as an approximate heading and speed (knots) calculated using the last two GPS points. The message will also list the time of the last update (local / PDT), so users can tell if it has been a long time since the last update and use the speed/heading to estimate a potential current location.\n\n\n\n\n\n\nNote\n\n\n\nWe currently are only allowed 200 messages per day, so please limit the number of people receiving messages! Estimate how many you will be sending per day (2 per hour per drift per person) to make sure you fall within this limit, and set your start / end times sensibly. \n\n\n\n\n\n\n\n\nNote\n\n\n\nThis is currently in very beta mode, and is still being tested. Some users have been able to receive test messages prior to fieldwork, but then no messages were received while out. Other users have not been able to receive messages at all. Please test before you plan on using it, reach out if you need help.",
+    "crumbs": [
+      "Field Methods",
+      "Tracking"
+    ]
+  },
+  {
+    "objectID": "content/Field-Deployment.html",
+    "href": "content/Field-Deployment.html",
+    "title": "Deployment",
     "section": "",
-    "text": "The purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nAluminum Pole: 9’ length, 1.25” 6063 aluminum round tube\nLead Weight: approximately 17 lbs, attached to the bottom of the pole to keep buoy vertical\nCrab Floats: to keep pole buoy floating, with bolts above and below it to keep it from sliding along the pole\nBridle: 12 strand line that links the pole buoy to the rest of the drifting recorder setup and arrray\nRadar reflector: so ships can see the pole buoy\nGPS mount: to hold the solar GPS and strobe light\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\n\n\n\nPrepare the bridle:\n\nThere should be 3 pieces of clear abrasion resistant hose along with the 12-strand thick blue/green line in the tote\nThe bridle will have 3 loops in it: two go around the pole (1 loop below the crab floats, 1 loop above the crab floats) and one loop is in the middle to attach to the rest of the gear\nThese loops get a BIG workout– put the hose on the line at each of these loops to minimize abrasion of the line during deployment\n\nPut lower loop of bridle onto the pole\nAdd crab floats:\n\nPut 2 orange crab floats onto the pole so that the flat ends of the crab floats butt up against each other\nThere are bolts that go through the pole at the top and bottom of the floats to help keep them in place\nWe have also been putting a hose clamp between the buoys & the bolts, and then wrapping this in electrical tape\n\nRadar reflector and GPS mount:\n\nAt the top are the radar reflector and the GPS mount\nThe radar reflector goes over the pole, and then the GPS mount is inserted into the top of the pole\nA bolt (currently attached to the GPS mount) holds both in place\nThe pole, reflectors, and GPS mounts are labeled A, B, C to identify sets that fit well together previously\n\nStrobe Light- Prior to deployment, add batteries & zip tie the strobe onto the GPS mount\nAdd reflector tape to the pole below the radar reflector\n\n\n\n\n\n\n\nNote\n\n\n\nNote: We are still working on improving this design– all suggestions are welcome!\n\n\n\nSee Alternative Pole Buoy Configurations for previous/alternative Pole Buoy configurations"
-  },
-  {
-    "objectID": "content/Data-Download.html",
-    "href": "content/Data-Download.html",
-    "title": "Data Download",
-    "section": "",
-    "text": "Data from the Soundtrap recorder and the depth sensor need to be downloaded at the end of the deployment to external hard drive and mailed to the lab"
-  },
-  {
-    "objectID": "content/Data-Download.html#prep-external-hard-drive-for-data",
-    "href": "content/Data-Download.html#prep-external-hard-drive-for-data",
-    "title": "Data Download",
-    "section": "Prep External Hard Drive for Data",
-    "text": "Prep External Hard Drive for Data\n\nRequest an external hard drive for data transfer from Kourtney Burger (kourtney.burger@noaa.gov)\nCreate a folder named after the drift, for example ‘ADRIFT_009’\nCreate subfolder named after the drift followed by ‘_CENSOR’. For example, ‘ADRIFT_009_CENSOR’. This is for the data from the soundtrap—both the SUD files and the extracted files will go in this folder.\nThe depth data will be stored in the folder and named with the drift # and the type of depth sensor. For example ‘ADRIFT_001_Depth_Sensus’."
-  },
-  {
-    "objectID": "content/Data-Download.html#soundtrap-3004300-data",
-    "href": "content/Data-Download.html#soundtrap-3004300-data",
-    "title": "Data Download",
-    "section": "Soundtrap 300/4300 Data",
-    "text": "Soundtrap 300/4300 Data\n\nDownload Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)\nSet computer time to UTC (IMPORTANT!)\nPlug in Soundtrap to computer using special USB cable\n\nIs your computer set to UTC???\nOpen SoundTrap Host Software. Once it has loaded the device, select the device (in left column).\nSave Default File Location.  Tools -&gt; Set Default File Save Location [save ALL data to a folder with the drift number, for example ADRIFT-009]\nDownload Data.  De-Select ‘Decompress’ and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data—so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.\n\nCheck that all files transferred. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).\nIf you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.\nIf there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES."
-  },
-  {
-    "objectID": "content/Data-Download.html#soundtrap-600640-data",
-    "href": "content/Data-Download.html#soundtrap-600640-data",
-    "title": "Data Download",
-    "section": "Soundtrap 600/640 Data",
-    "text": "Soundtrap 600/640 Data\n\nDownload Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)\nSet computer time to UTC (IMPORTANT!)\nCarefully open Soundtrap and remove internal SD cards\nIs your computer set to UTC???\nOpen SoundTrap Card Reader. Once it has loaded, select the card from the drop down menu in the upper left corner\nSave Default File Location.  Tools -&gt; Set Default File Save Location [save ALL data to a folder with the drift number, for example ADRIFT-009]\nDownload Data.  De-Select ‘Decompress’ and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data—so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.\n\nCheck that all files transferred. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).\nIf you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.\nIf there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES."
-  },
-  {
-    "objectID": "content/Data-Download.html#depth-data",
-    "href": "content/Data-Download.html#depth-data",
-    "title": "Data Download",
-    "section": "Depth Data",
-    "text": "Depth Data\n\nPlug in Reefnet sensor reader & place depth sensor on reader\nOpen Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)\na. Settings-&gt; set up appropriate Com Port\nb. Put sensor on reader (small vertical pins align with screws on sensor)\n\nc. Select Units: meters, celcius, bar\nSelect Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: “ADRIFT_009_Depth_Sensus” (where the number is the number of the drift, and the ‘sensus’ is the type of depth sensor).\n\n\nDepth Data Post-Processing\nThe downloaded depth data must be cleaned and processed to receive usable data. Run the following script to prepare data."
-  },
-  {
-    "objectID": "content/Data-Download.html#deployment-details-metadata",
-    "href": "content/Data-Download.html#deployment-details-metadata",
-    "title": "Data Download",
-    "section": "Deployment Details Metadata",
-    "text": "Deployment Details Metadata\nGo to Deployment Details spreadsheet & ensure all fields regarding deployment metadata are filled in\n\nFill in the Status column (J) to complete, lost, or sunk\nFill in Deployment_Date_UTC (column U) and Recovery_Date_UTC (column X) with updated date and times\nEnsure all other fields are filled in and updated\n\nContact Kourtney Burger (kourtney.burger@noaa.gov) with any questions regarding the Deployment Details Spreadsheet"
-  },
-  {
-    "objectID": "content/Data-Download.html#copy-and-ship-data",
-    "href": "content/Data-Download.html#copy-and-ship-data",
-    "title": "Data Download",
-    "section": "Copy and Ship Data",
-    "text": "Copy and Ship Data\n\nDouble check that the folder and file names are accurate.\nPlease package hard drive so it can be securely mailed (ideally in their original box with plastic bits); then this should be shipped in a slightly larger box with bubble wrap or other packing materials.\nEmail kourtney.burger@noaa.gov with the dimensions of the boxes (Length x Width x Height and weight)\nKourtney will email shipping labels; these can be attached to the packages and they can be taken to a UPS/FedEx store.\nPlease let Kourtney know if you need extra hard drives (ideally keep 2 around)"
-  },
-  {
-    "objectID": "content/Field-Metadata.html",
-    "href": "content/Field-Metadata.html",
-    "title": "Metadata",
-    "section": "",
-    "text": "All planned buoy drifts deployed in or near a National Marine Sanctuary must be reported to the respective Sanctuary Staff no less than 7 days before deployment. Please send the following information to Kourtney Burger (kourtney.burger@noaa.gov) for permit reporting;\n\nPlanned date/time of deployment\nPlanned deployment coordinates\nSanctuaries the drift may pass through\nName and contact information for deployment chief scientist\nSurvey information (if applicable)"
-  },
-  {
-    "objectID": "content/Field-Metadata.html#sanctuary-permit",
-    "href": "content/Field-Metadata.html#sanctuary-permit",
-    "title": "Metadata",
-    "section": "",
-    "text": "All planned buoy drifts deployed in or near a National Marine Sanctuary must be reported to the respective Sanctuary Staff no less than 7 days before deployment. Please send the following information to Kourtney Burger (kourtney.burger@noaa.gov) for permit reporting;\n\nPlanned date/time of deployment\nPlanned deployment coordinates\nSanctuaries the drift may pass through\nName and contact information for deployment chief scientist\nSurvey information (if applicable)"
-  },
-  {
-    "objectID": "content/Field-Metadata.html#protected-resources-permit",
-    "href": "content/Field-Metadata.html#protected-resources-permit",
-    "title": "Metadata",
-    "section": "Protected Resources Permit",
-    "text": "Protected Resources Permit\nAll marine mammal takes, must be recorded and reported under NOAA Protected Resources Permit #22306. For any fieldwork in which we expect an opportunity for a marine mammal ‘take’, we must: (1) have an accepted Co-Investigator prsent on the vessel with a printed copy of the permit, (2) provide written notification of any planned fieldwork at least two weeks prior to initiation of each field trip/season, and (3) record ‘takes’ according to this permit. For more information on this permit and our permit requirements, please contact Kourtney Burger (kourtney.burger@noaa.gov)."
-  },
-  {
-    "objectID": "content/Field-Metadata.html#pre-deployment-metadata",
-    "href": "content/Field-Metadata.html#pre-deployment-metadata",
-    "title": "Metadata",
-    "section": "Pre-Deployment Metadata",
-    "text": "Pre-Deployment Metadata\nPrior to deployment, record the following information in Deployment Details spreadsheet\n\nFill in Status column (J) as ‘In Prep’\nArray label (on yellow tag a top of array)\nGPS ID\nDate/Time\nExpected latitude and longitude of deployment"
-  },
-  {
-    "objectID": "content/Field-Metadata.html#deployment-metadata",
-    "href": "content/Field-Metadata.html#deployment-metadata",
-    "title": "Metadata",
-    "section": "Deployment Metadata",
-    "text": "Deployment Metadata\nImmediately after the buoy has been deployed, record the following information and sent it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nFill in Status column (J) as ‘Active’\nDate/time\nUpdated location of the deployment (lat/lon)\nArray ID"
-  },
-  {
-    "objectID": "content/Field-Metadata.html#retrieval-metadata",
-    "href": "content/Field-Metadata.html#retrieval-metadata",
-    "title": "Metadata",
-    "section": "Retrieval Metadata",
-    "text": "Retrieval Metadata\nAfter the buoy has been successfully retrieved, record the following information and send it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nFill in Status column (J) as ‘Complete’\nDate/time\nLocation of the retrieval (lat/lon)\nAny important notes (buoy sunk/not retrievable, recorder issues, etc.)"
-  },
-  {
-    "objectID": "content/Hardware-Model-Soundtrap.html",
-    "href": "content/Hardware-Model-Soundtrap.html",
-    "title": "Soundtrap Model",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-Model-Soundtrap.html#soundtrap-model",
-    "href": "content/Hardware-Model-Soundtrap.html#soundtrap-model",
-    "title": "Soundtrap Model",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-Model-Soundtrap.html#add-your-pages-the-project",
-    "href": "content/Hardware-Model-Soundtrap.html#add-your-pages-the-project",
-    "title": "Soundtrap Model",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "text": "Note\n\n\n\nONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. \n\n\nIMPORTANT:\n\nNone of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight. \nDiscuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. \nBefore deployment: Watch this video for an overview of the entire deployment and retrieval process (old video). Also see other detailed videos (links embedded below)\n\n\nRequirements for Deployment\n\n&gt;200m water depth (preferably more!), not too close to a rapid decrease in water depth\n\nBuoy  will run aground at ~110m depth.\n\nNot too close to shipping lane or significant shipping traffic\nNot too close to fishing gear\nBoat speed must remain at 2-3 knots for the entirety of the deployment\nOnly deploy off stern\n\n\n\nDeployment\n\nSlow the boat speed to 2-3 knots\nAnchor ready, but deploy last!\n\nHave one person hold onto the line with the anchor, and lower until the weight is over the water but close to railing level. Use an extra line to loop through the anchor as a leash, and attach one of the lines to the vessel. The buoy should not be lowered into the water until all of the array line is paid out. Video here\n\nLower the High Flyer, then the 11” surface float Video here\nPay out the line at vessel speed. Pay out line only as fast as the vessel moves away from the buoy (avoid loose line in the water that could get sucked into the propellers). Video here\nOnce all the line is paid out, lower the drogue, sub-surface buoy, and dampener plate into the water\nCarefully lower the array/recorder and anchor into the water. Video here\n\nLower the anchor with the loose end of the leash line, and let go once the anchor is in the water, you can collect this line from where it is attached to the boat)\nTry to not drop the recorder splat into the water, rather carefully lower it from the boat into the water\n\nLog the date, time, and updated location of the deployment (lat/lon) with the array ID in the Deployment Details spreadsheet, and send this information to Kourtney ASAP (kourtney.burger@noaa.gov)",
+    "crumbs": [
+      "Field Methods",
+      "Deployment"
+    ]
   },
   {
     "objectID": "content/Hardware-V1-Array.html",
     "href": "content/Hardware-V1-Array.html",
     "title": "Array V1",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "Array Configurations",
+      "Array V1"
+    ]
   },
   {
     "objectID": "content/Hardware-V1-Array.html#array-v1",
     "href": "content/Hardware-V1-Array.html#array-v1",
     "title": "Array V1",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "Array Configurations",
+      "Array V1"
+    ]
   },
   {
     "objectID": "content/Hardware-V1-Array.html#add-your-pages-the-project",
     "href": "content/Hardware-V1-Array.html#add-your-pages-the-project",
     "title": "Array V1",
     "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "Array Configurations",
+      "Array V1"
+    ]
   },
   {
-    "objectID": "content/Hardware-ST4300.html",
-    "href": "content/Hardware-ST4300.html",
-    "title": "ST4300 Recorder",
+    "objectID": "content/Hardware-Array.html",
+    "href": "content/Hardware-Array.html",
+    "title": "Array",
     "section": "",
-    "text": "The Soundtrap 4300 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a short-term recorder, capable up to 6 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST4300HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used"
+    "text": "Two hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords.",
+    "crumbs": [
+      "Hardware",
+      "Array"
+    ]
   },
   {
-    "objectID": "content/Hardware-ST4300.html#st4300-recorder",
-    "href": "content/Hardware-ST4300.html#st4300-recorder",
-    "title": "ST4300 Recorder",
+    "objectID": "content/Hardware-Array.html#hydrophones-recorders",
+    "href": "content/Hardware-Array.html#hydrophones-recorders",
+    "title": "Array",
     "section": "",
-    "text": "The Soundtrap 4300 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a short-term recorder, capable up to 6 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST4300HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used"
+    "text": "Two hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords.",
+    "crumbs": [
+      "Hardware",
+      "Array"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Array.html#line-floats-drogue-dampener-plate",
+    "href": "content/Hardware-Array.html#line-floats-drogue-dampener-plate",
+    "title": "Array",
+    "section": "Line, Floats, Drogue, & Dampener Plate",
+    "text": "Line, Floats, Drogue, & Dampener Plate\nThe ~100m line attaches the surface floats to the hydrophone array at depth. At the surface, the line attaches to the surface float (orange 11” float with 18.5 lbs buoyancy), which is connected to the High Flyer by a thick orange dyneema line and a bridle (⅜” crab rope attached above/below the High Flyer float). At the deep end, the line attaches to a drogue to minimize horizontal movement and rubber ‘snubber’ (or bungee) to reduce vertical motion. Below the drogue and snubber is a  sub-surface float (orange 11” float with 18.5 buoyancy) and Dampener Plate to maintain vertical orientation and minimize vertical movement. The hydrophone array is attached to the bottom of the Dampener Plate. \nSee Alternative Array Configurations Section for previous/alternative array configurations",
+    "crumbs": [
+      "Hardware",
+      "Array"
+    ]
+  },
+  {
+    "objectID": "content/Field-Sightings.html",
+    "href": "content/Field-Sightings.html",
+    "title": "Ocean Alert App",
+    "section": "",
+    "text": "The Ocean Alert app is used to collect sighting data and record deployment/recovery details for our drifters.",
+    "crumbs": [
+      "Field Methods",
+      "Ocean Alert App"
+    ]
+  },
+  {
+    "objectID": "content/Field-Sightings.html#sighting-data",
+    "href": "content/Field-Sightings.html#sighting-data",
+    "title": "Ocean Alert App",
+    "section": "Sighting Data",
+    "text": "Sighting Data",
+    "crumbs": [
+      "Field Methods",
+      "Ocean Alert App"
+    ]
+  },
+  {
+    "objectID": "content/Field-Sightings.html#drifter-deployment-and-recovery-data",
+    "href": "content/Field-Sightings.html#drifter-deployment-and-recovery-data",
+    "title": "Ocean Alert App",
+    "section": "Drifter Deployment and Recovery Data",
+    "text": "Drifter Deployment and Recovery Data",
+    "crumbs": [
+      "Field Methods",
+      "Ocean Alert App"
+    ]
+  },
+  {
+    "objectID": "content/Field-Sightings.html#manuals-for-reference",
+    "href": "content/Field-Sightings.html#manuals-for-reference",
+    "title": "Ocean Alert App",
+    "section": "Manuals For Reference",
+    "text": "Manuals For Reference\nOcean Alert ADRIFT Instructions\nOcean Alert CINMS Whale Spotting Manual",
+    "crumbs": [
+      "Field Methods",
+      "Ocean Alert App"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Sensus-Depth.html",
+    "href": "content/Hardware-Sensus-Depth.html",
+    "title": "Sensus Depth Sensor",
+    "section": "",
+    "text": "Each drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Sensus Ultra depth senor, made by ReefNet, is a small device that can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.\nLink to website.\n\n\n\nSensus Ultra Depth Sensor\n\n\n\n\nAll data downloaded from the depth sensor must be cleaned and processed to recieve usable depths. Follow protocols here",
+    "crumbs": [
+      "Hardware",
+      "Sensus Depth Sensor"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Sensus-Depth.html#sensus-depth-sensor",
+    "href": "content/Hardware-Sensus-Depth.html#sensus-depth-sensor",
+    "title": "Sensus Depth Sensor",
+    "section": "",
+    "text": "Each drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Sensus Ultra depth senor, made by ReefNet, is a small device that can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.\nLink to website.\n\n\n\nSensus Ultra Depth Sensor\n\n\n\n\nAll data downloaded from the depth sensor must be cleaned and processed to recieve usable depths. Follow protocols here",
+    "crumbs": [
+      "Hardware",
+      "Sensus Depth Sensor"
+    ]
+  },
+  {
+    "objectID": "content/AltHardware-PoleBuoy-Configuarations.html#assembly",
+    "href": "content/AltHardware-PoleBuoy-Configuarations.html#assembly",
+    "title": "Alternative Pole Buoy Configurations and Assembly Steps",
+    "section": "Assembly",
+    "text": "Assembly\n\nBasic Assembly\n\nPut crab floats on pole (flat ends to each other in the middle). Add tape, hose clamp or other temporary device to hold floats in place. If the center hole of the crab float is not wide enough to fit over the pole, an auger can be used to drill out the middle (ask for more help).\nAdd weights to one end of the pole at the very bottom. The pole mounted cylindrical weights should be drilled to fit the pole. Once this weight is secured in place, add the 5 lb flexible wire weight over the top of the pole weight.\nAdd radar reflector (first) and then insert the Solar GPS mount on top. Drill a hole through all three (pole, radar reflector, and gps mount) and use a thru-bolt to secure in place. Add a locking nut or electrical tape over the top of the nut to reduce chance of nut working itself loose.\nAdd reflector tape near the top of the buoy.\nAdd bridle to the pole buoy: 12 strand crab fishing line with 2@ hose for reducing wear on the line. Tie one end of the line around the pole buoy above the crab floats, and one below the crab floats (with the hose protecting where the line encircles the pole). Tie well and use zip ties to secure the line if needed. Put a loop in the middle of this line so that the surface floats can be clipped onto this loop using a caribiner.\n\nFloat test\n\nPut in calm water (at a marina or pool) to determine positioning of the crab floats vertically on the pole. If the floats are too low, the buoy will be unstable (pull the top of the pole over and see how well the buoy rights itself). We want the pole buoy to be stable, but also to have sufficient height for viewing (for retrieval!) and for good GPS transmission.\nMark the top/bottom position of the crab floats on the pole.\nPut thru-bolts above and below the crab floats to secure them in place.",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "Pole Buoy Configurations"
+    ]
+  },
+  {
+    "objectID": "content/Cleaning-Protocol.html",
+    "href": "content/Cleaning-Protocol.html",
+    "title": "Cleaning Protocol",
+    "section": "",
+    "text": "Freshwater Rinse and Array Inspection\n\nAt the end of each deployment, always rinse all equipment with fresh water\nInspect equipment for any corrosion, debris, or damage to the lines, cables, hydrophones, and SoundTraps\nRemove the SoundTrap, carefully place the array into its tote and ensure there are no kinks in the cable or anything pushing against the hydrophones\n\n\n\nCleaning SoundTrap/Hydrophone Connectors\nThe hydrophone plugs and SoundTrap sockets should be cleaned after each deployment\n\nUse a spray based contact cleaner and a soft applicator (Q-tip) to clean any debris off and wipe dry with a KimWipe\nSee videos below for detailed cleaning protocol \n\nSubConn cleaning instructions (female connector)\nSubConn cleaning instructions (male connector)",
+    "crumbs": [
+      "Post Deployment",
+      "Cleaning Protocol"
+    ]
+  },
+  {
+    "objectID": "content/Safety-Protocol-Flooded-SoundTrap.html",
+    "href": "content/Safety-Protocol-Flooded-SoundTrap.html",
+    "title": "Safety Protocol for Flooded SoundTraps",
+    "section": "",
+    "text": "Whenever a SoundTrap is recovered, it is necessary to check for potential flooding of the instrument. Hold the SoundTrap with the end caps facing away from your body and tilt the instrument back and forth to listen for the movement of water within the housing. If the SoundTrap contains water, the batteries have likely been damaged, and the recorder may be pressurized with electrolytic gasses from the batteries. If flooded, you may also notice gas bubbles emerging from the end cap.\nThese gasses and contaminated seawater are hazardous if exposed to eyes, skin, or airways. Special precautions are needed to ensure your safety before the SoundTrap can be opened. See first aid information below.\nPersonnel\nTwo people who have training in handling hazardous materials, including\n\nOne person to open the SoundTrap\nOne person to assist and take photos\n\nMaterials\n\nFull Personal Protective Equipment for each person present, including: \n\nLab coat\nSafety goggles\nFace mask\nThick latex gloves (dishwashing gloves are fine)\n\nFire extinguisher\nAllen wrench\nBucket to collect hazardous waste, rinse water, and contaminated paper towels\nCardboard sheet (an old box is fine)\nChemical Absorbent pads\nPaper towels\nLarge plastic bags to store contaminated batteries and instrument\nCamera to document damage\n\nInstructions\n\nIdentify a safe, well-ventilated area to open the SoundTrap which is away from any flammable materials\nWear full PPE, including lab coat, safety goggles, face mask, thick latex gloves\nHave fire extinguisher standing by, with an assistant standing by to call for help if needed\nLay cardboard on ground, and absorbent pads on top of cardboard to collect contaminated seawater and battery contents\nTake photos to document the external condition of the SoundTrap\nDO NOT OPEN THE TOP OF THE SOUNDTRAP. Locate the set screw in the base of the SoundTrap. This is designed as a safe pressure release valve. Slowly open this safety valve, with the end cap facing away from all people. Allow any gas to escape and drain contaminated water into a bucket. \nTake photos to document the internal condition of the SoundTrap before it is cleaned up\nUse paper towels to dry off all batteries and the instrument. Store contaminated paper towels within the bucket.\nRemove batteries, dry them off, and store them in a separate plastic bag\nRemove SD cards, rinse them with fresh water, dry them off, and set aside to check for usable data. \nHold the SoundTrap canister and recorder over the hazardous waste bucket and rinse with fresh water. Capture all rinse water in the bucket. Use paper towels to dry the SoundTrap completely. Leave SoundTrap on a counter to dry out completely, if possible.\nTake photos of cleaned SoundTrap components. \nLabel and arrange for appropriate disposal of hazardous waste bucket and batteries. Contact lab safety or environmental health & safety team for assistance. Refer to the [battery product information sheet](../content/Panasonic_LithiumIon_Battery_Product_Information_Sheet.pdf) for more information on first aid and appropriate disposal. Note that local authorities may have more stringent rules than federal guidelines.\n\nFirst Aid If you get electrolyte in your eyes, flush with water for 15 minutes without rubbing and immediately contact a physician. If you get electrolyte on your skin, wash the area immediately with soap and water. If irritation continues, contact a physician. If the battery is ingested, call the National Capital Poison Control (NCPC) at 202-625-3333 or your local poison control center immediately.",
+    "crumbs": [
+      "Field Methods",
+      "Safety Protocol for Flooded SoundTraps"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-SPOT-GPS.html",
+    "href": "content/Hardware-SPOT-GPS.html",
+    "title": "SPOT GPS",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "GPS Devices",
+      "SPOT GPS"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-SPOT-GPS.html#spot-gps",
+    "href": "content/Hardware-SPOT-GPS.html#spot-gps",
+    "title": "SPOT GPS",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "GPS Devices",
+      "SPOT GPS"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-SPOT-GPS.html#add-your-pages-the-project",
+    "href": "content/Hardware-SPOT-GPS.html#add-your-pages-the-project",
+    "title": "SPOT GPS",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "GPS Devices",
+      "SPOT GPS"
+    ]
+  },
+  {
+    "objectID": "content/Field-Retrieval.html",
+    "href": "content/Field-Retrieval.html",
+    "title": "Retrieval",
+    "section": "",
+    "text": "The minimum number of personnel required for the recovery process is two and additional support may be needed based on the size of the vessel and sea state. The two essential roles for recovery include someone to grab the buoy and pull it in, and someone to store gear and watch for the drogue/hydrophones coming out of the water. These tasks can be completed by more than two people as needed.\nDepending on the size of the vessel and sea state, there are two main methods to retrieve the buoy;\n\nApproach the High Flyer and have a crew grab the pole buoy to lift it on board\nUse a boat hook or grapple to grab the line between the pole buoy and the 11” surface float and use the grapple/line to pull the High Flyer on board\n\n\nThe best retrieval location may be from a mid-ship station, but extreme care is needed to ensure that the vessel does not drift over the top of the line (we recommend moving to stern once initial connection is made). The vessel will drift faster than the buoy, and thus the vessel should remain downwind from the buoy (so that it does not drift over the buoy). Try approaching slowly in an upwind direction (going upwind) and ask the vessel to hold position into the wind while the Drifting Acoustic Buoy is retrieved. In windy conditions, extreme care is needed to keep the ship from drifting over the top of the line.\nWatch this video for an overview of the entire deployment and retrieval process (old video).\n\nRetrieval\n\nShip approaches last known location (using solar GPS)\nSlowly approach area to find the buoy\n\nDuring daylight hours, it may be visible via radar, binoculars, or using big-eyes during\nAt night, the reflective tape can be seen at ranges up to ½ mile. Use a spotlight (the ship’s or spare scientist spotlight) to illuminate the reflective tape\n\nUsing a boat hook or grapple, grab the orange floating line \nRetrieve the hook, orange float, and orange line, and pull all components in by hand using gloves\nBring the pole buoy aboard, lift over rail and set it on the deck\nRetrieve the line; if a winch is used, ensure that there is a lookout to remove line from winch before reaching the drogue and subsurface components.\nCarefully retrieve the hydrophone array\n\nHold the hydrophone array away from the vessel lip as you are retrieving it to avoid bumping the hydrophone elements against the ship\nLift the recorders gently over the rail\n\nRetrieve the anchor\nLog the date, time, and updated location of the retrieval with the in the Deployment Details spreadsheet, and send this information to send this information to Kourtney (kourtney.burger@noaa.gov)\nWash, clean, and dry all equipment\n\nRemove any marine fouling with a power washer and rinse everything with fresh water\nStack the line on a dry deck in the sun to fully dry \n\nRemove the High Flyer and the anchor from the array/line/orange buoys\nMove the array, line, and orange hard floats into the tote\n\n\n\n\n\n\n\nNote\n\n\n\nDo not stack floats, the anchor, or other items on top of the hydrophone array (hydrophone and recorder)\n\n\n\nRemember the recorder may be recording, you can turn it off or let it run out of battery\nTurn off the solar GPS by replacing the magnet onto the GPS and secure it with tape. \nContact Shannon Rankin (shannon.rankin@noaa.gov) for next steps",
+    "crumbs": [
+      "Field Methods",
+      "Retrieval"
+    ]
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Adrift Field Methods",
+    "section": "",
+    "text": "This document provides information related to fieldwork for ADRIFT in the California Current, which uses drifting acoustic recorders to monitor marine mammals and the ocean soundscape. These methods include hardware specifications and assembly, preparing for deployment, deployment methods, tracking methods, and retrieval methods.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "content/Field-Metadata.html",
+    "href": "content/Field-Metadata.html",
+    "title": "Metadata",
+    "section": "",
+    "text": "All planned buoy drifts deployed in or near a National Marine Sanctuary must be reported to the respective Sanctuary Staff no less than 7 days before deployment. Please send the following information to Kourtney Burger (kourtney.burger@noaa.gov) for permit reporting;\n\nPlanned date/time of deployment\nPlanned deployment coordinates\nSanctuaries the drift may pass through\nName and contact information for deployment chief scientist\nSurvey information (if applicable)",
+    "crumbs": [
+      "Field Methods",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "content/Field-Metadata.html#sanctuary-permit",
+    "href": "content/Field-Metadata.html#sanctuary-permit",
+    "title": "Metadata",
+    "section": "",
+    "text": "All planned buoy drifts deployed in or near a National Marine Sanctuary must be reported to the respective Sanctuary Staff no less than 7 days before deployment. Please send the following information to Kourtney Burger (kourtney.burger@noaa.gov) for permit reporting;\n\nPlanned date/time of deployment\nPlanned deployment coordinates\nSanctuaries the drift may pass through\nName and contact information for deployment chief scientist\nSurvey information (if applicable)",
+    "crumbs": [
+      "Field Methods",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "content/Field-Metadata.html#protected-resources-permit",
+    "href": "content/Field-Metadata.html#protected-resources-permit",
+    "title": "Metadata",
+    "section": "Protected Resources Permit",
+    "text": "Protected Resources Permit\nAll marine mammal takes, must be recorded and reported under NOAA Protected Resources Permit #22306. For any fieldwork in which we expect an opportunity for a marine mammal ‘take’, we must: (1) have an accepted Co-Investigator prsent on the vessel with a printed copy of the permit, (2) provide written notification of any planned fieldwork at least two weeks prior to initiation of each field trip/season, and (3) record ‘takes’ according to this permit. For more information on this permit and our permit requirements, please contact Kourtney Burger (kourtney.burger@noaa.gov).",
+    "crumbs": [
+      "Field Methods",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "content/Field-Metadata.html#pre-deployment-metadata",
+    "href": "content/Field-Metadata.html#pre-deployment-metadata",
+    "title": "Metadata",
+    "section": "Pre-Deployment Metadata",
+    "text": "Pre-Deployment Metadata\nPrior to deployment, record the following information in Deployment Details spreadsheet\n\nFill in Status column (J) as ‘In Prep’\nArray label (on yellow tag a top of array)\nGPS ID\nDate/Time\nExpected latitude and longitude of deployment",
+    "crumbs": [
+      "Field Methods",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "content/Field-Metadata.html#deployment-metadata",
+    "href": "content/Field-Metadata.html#deployment-metadata",
+    "title": "Metadata",
+    "section": "Deployment Metadata",
+    "text": "Deployment Metadata\nImmediately after the buoy has been deployed, record the following information and sent it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nFill in Status column (J) as ‘Active’\nDate/time\nUpdated location of the deployment (lat/lon)\nArray ID",
+    "crumbs": [
+      "Field Methods",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "content/Field-Metadata.html#retrieval-metadata",
+    "href": "content/Field-Metadata.html#retrieval-metadata",
+    "title": "Metadata",
+    "section": "Retrieval Metadata",
+    "text": "Retrieval Metadata\nAfter the buoy has been successfully retrieved, record the following information and send it to Kourtney Burger (kourtney.burger@noaa.gov);\n\nFill in Status column (J) as ‘Complete’\nDate/time\nLocation of the retrieval (lat/lon)\nAny important notes (buoy sunk/not retrievable, recorder issues, etc.)",
+    "crumbs": [
+      "Field Methods",
+      "Metadata"
+    ]
+  },
+  {
+    "objectID": "content/Data-Download.html",
+    "href": "content/Data-Download.html",
+    "title": "Data Download",
+    "section": "",
+    "text": "Data from the Soundtrap recorder and the depth sensor need to be downloaded at the end of the deployment to external hard drive and mailed to the lab",
+    "crumbs": [
+      "Post Deployment",
+      "Data Download"
+    ]
+  },
+  {
+    "objectID": "content/Data-Download.html#prep-external-hard-drive-for-data",
+    "href": "content/Data-Download.html#prep-external-hard-drive-for-data",
+    "title": "Data Download",
+    "section": "Prep External Hard Drive for Data",
+    "text": "Prep External Hard Drive for Data\n\nRequest an external hard drive for data transfer from Kourtney Burger (kourtney.burger@noaa.gov)\nCreate a folder named after the drift, for example ‘ADRIFT_009’\nCreate subfolder named after the drift followed by ‘_CENSOR’. For example, ‘ADRIFT_009_CENSOR’. This is for the data from the soundtrap—both the SUD files and the extracted files will go in this folder.\nThe depth data will be stored in the folder and named with the drift # and the type of depth sensor. For example ‘ADRIFT_001_Depth_Sensus’.",
+    "crumbs": [
+      "Post Deployment",
+      "Data Download"
+    ]
+  },
+  {
+    "objectID": "content/Data-Download.html#soundtrap-3004300-data",
+    "href": "content/Data-Download.html#soundtrap-3004300-data",
+    "title": "Data Download",
+    "section": "Soundtrap 300/4300 Data",
+    "text": "Soundtrap 300/4300 Data\n\nDownload Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)\nSet computer time to UTC (IMPORTANT!)\nPlug in Soundtrap to computer using special USB cable\n\nIs your computer set to UTC???\nOpen SoundTrap Host Software. Once it has loaded the device, select the device (in left column).\nSave Default File Location.  Tools -&gt; Set Default File Save Location [save ALL data to a folder with the drift number, for example ADRIFT-009]\nDownload Data.  De-Select ‘Decompress’ and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data—so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.\n\nCheck that all files transferred. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).\nIf you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.\nIf there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES.",
+    "crumbs": [
+      "Post Deployment",
+      "Data Download"
+    ]
+  },
+  {
+    "objectID": "content/Data-Download.html#soundtrap-600640-data",
+    "href": "content/Data-Download.html#soundtrap-600640-data",
+    "title": "Data Download",
+    "section": "Soundtrap 600/640 Data",
+    "text": "Soundtrap 600/640 Data\n\nDownload Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)\nSet computer time to UTC (IMPORTANT!)\nCarefully open Soundtrap and remove internal SD cards\nIs your computer set to UTC???\nOpen SoundTrap Card Reader. Once it has loaded, select the card from the drop down menu in the upper left corner\nSave Default File Location.  Tools -&gt; Set Default File Save Location [save ALL data to a folder with the drift number, for example ADRIFT-009]\nDownload Data.  De-Select ‘Decompress’ and then select all and download.  The decompression takes a long time to download, and this added time can make it difficult to download all the data. It can take a long time to download the data—so be sure your computer is plugged in and that you have enough space on the drive where the data is being saved to. When the data download begins, it will tell you how many files will download (in the popup). Record this number so that you can check to be sure that all the files were downloaded to your drive.\n\nCheck that all files transferred. Once all the data has been downloaded, check that the number of files is the same (in the soundtrap host software).\nIf you are preparing the SoundTrap for redeployment, then delete all the files on the SoundTrap and recharge until the battery is at 100%.\nIf there is sufficient space on the hard drive, please extract (decompress) the data. This is best done after it is downloaded to a drive. Open the Soundtrap Card Reader. Select the data and decompress. KEEP THE ORIGINAL SUD FILES.",
+    "crumbs": [
+      "Post Deployment",
+      "Data Download"
+    ]
+  },
+  {
+    "objectID": "content/Data-Download.html#depth-data",
+    "href": "content/Data-Download.html#depth-data",
+    "title": "Data Download",
+    "section": "Depth Data",
+    "text": "Depth Data\n\nPlug in Reefnet sensor reader & place depth sensor on reader\nOpen Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)\na. Settings-&gt; set up appropriate Com Port\nb. Put sensor on reader (small vertical pins align with screws on sensor)\n\nc. Select Units: meters, celcius, bar\nSelect Device and then download data. Save the data in the appropriate ADRIFT folder using the following naming convention: “ADRIFT_009_Depth_Sensus” (where the number is the number of the drift, and the ‘sensus’ is the type of depth sensor).\n\n\nDepth Data Post-Processing\nThe downloaded depth data must be cleaned and processed to receive usable data. Run the following script to prepare data.",
+    "crumbs": [
+      "Post Deployment",
+      "Data Download"
+    ]
+  },
+  {
+    "objectID": "content/Data-Download.html#deployment-details-metadata",
+    "href": "content/Data-Download.html#deployment-details-metadata",
+    "title": "Data Download",
+    "section": "Deployment Details Metadata",
+    "text": "Deployment Details Metadata\nGo to Deployment Details spreadsheet & ensure all fields regarding deployment metadata are filled in\n\nFill in the Status column (J) to complete, lost, or sunk\nFill in Deployment_Date_UTC (column U) and Recovery_Date_UTC (column X) with updated date and times\nEnsure all other fields are filled in and updated\n\nContact Kourtney Burger (kourtney.burger@noaa.gov) with any questions regarding the Deployment Details Spreadsheet",
+    "crumbs": [
+      "Post Deployment",
+      "Data Download"
+    ]
+  },
+  {
+    "objectID": "content/Data-Download.html#copy-and-ship-data",
+    "href": "content/Data-Download.html#copy-and-ship-data",
+    "title": "Data Download",
+    "section": "Copy and Ship Data",
+    "text": "Copy and Ship Data\n\nDouble check that the folder and file names are accurate.\nPlease package hard drive so it can be securely mailed (ideally in their original box with plastic bits); then this should be shipped in a slightly larger box with bubble wrap or other packing materials.\nEmail kourtney.burger@noaa.gov with the dimensions of the boxes (Length x Width x Height and weight)\nKourtney will email shipping labels; these can be attached to the packages and they can be taken to a UPS/FedEx store.\nPlease let Kourtney know if you need extra hard drives (ideally keep 2 around)",
+    "crumbs": [
+      "Post Deployment",
+      "Data Download"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Summary.html",
+    "href": "content/Hardware-Summary.html",
+    "title": "Summary",
+    "section": "",
+    "text": "The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing a satellite geo-locator and a radar reflector), and a floating line/surface float to facilitate retrieval (see Figure 1). The hydrophone array and High Flyer are connected by ~ 100m ¼” line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).\n\n\n\nDiagram of drifting acoustic buoy",
+    "crumbs": [
+      "Hardware",
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Summary.html#summary",
+    "href": "content/Hardware-Summary.html#summary",
+    "title": "Summary",
+    "section": "",
+    "text": "The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing a satellite geo-locator and a radar reflector), and a floating line/surface float to facilitate retrieval (see Figure 1). The hydrophone array and High Flyer are connected by ~ 100m ¼” line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).\n\n\n\nDiagram of drifting acoustic buoy",
+    "crumbs": [
+      "Hardware",
+      "Summary"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-ST640.html",
+    "href": "content/Hardware-ST640.html",
+    "title": "ST640 Recorder",
+    "section": "",
+    "text": "The Soundtrap 640 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST640HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used",
+    "crumbs": [
+      "Hardware",
+      "ST640 Recorder"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-ST640.html#st640-recorder",
+    "href": "content/Hardware-ST640.html#st640-recorder",
+    "title": "ST640 Recorder",
+    "section": "",
+    "text": "The Soundtrap 640 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST640HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used",
+    "crumbs": [
+      "Hardware",
+      "ST640 Recorder"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-GPS-Solar.html",
+    "href": "content/Hardware-GPS-Solar.html",
+    "title": "GPS Solar",
+    "section": "",
+    "text": "A Solar GPS is mounted on top of the pole buoy (atop the GPS mount). It has a magnet taped to the top. Keep the magnet on whenever the GPS is not in use or is stored (not in view of the sky); the magnet can fall off easily, please tape in place. Only remove the magnet for testing or when the buoy is outside and in view of the sky (satellites). When the magnet is removed, be sure to store it in a SAFE spot! The GPS is labeled (sticker on top with ID#)\nSee Alternative GPS section for previous/alternative GPS devices used",
+    "crumbs": [
+      "Hardware",
+      "GPS Solar"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-GPS-Solar.html#gps-solar",
+    "href": "content/Hardware-GPS-Solar.html#gps-solar",
+    "title": "GPS Solar",
+    "section": "",
+    "text": "A Solar GPS is mounted on top of the pole buoy (atop the GPS mount). It has a magnet taped to the top. Keep the magnet on whenever the GPS is not in use or is stored (not in view of the sky); the magnet can fall off easily, please tape in place. Only remove the magnet for testing or when the buoy is outside and in view of the sky (satellites). When the magnet is removed, be sure to store it in a SAFE spot! The GPS is labeled (sticker on top with ID#)\nSee Alternative GPS section for previous/alternative GPS devices used",
+    "crumbs": [
+      "Hardware",
+      "GPS Solar"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Model-Soundtrap.html",
+    "href": "content/Hardware-Model-Soundtrap.html",
+    "title": "Soundtrap Model",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "Recording Devices",
+      "Soundtrap Model"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Model-Soundtrap.html#soundtrap-model",
+    "href": "content/Hardware-Model-Soundtrap.html#soundtrap-model",
+    "title": "Soundtrap Model",
+    "section": "",
+    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "Recording Devices",
+      "Soundtrap Model"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Model-Soundtrap.html#add-your-pages-the-project",
+    "href": "content/Hardware-Model-Soundtrap.html#add-your-pages-the-project",
+    "title": "Soundtrap Model",
+    "section": "Add your pages the project",
+    "text": "Add your pages the project\n\nAdd the files to _quarto.yml",
+    "crumbs": [
+      "Additional Information",
+      "Alternative/Past Hardware Configurations",
+      "Recording Devices",
+      "Soundtrap Model"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Tote-Contents.html",
+    "href": "content/Hardware-Tote-Contents.html",
+    "title": "Tote Contents",
+    "section": "",
+    "text": "The large, red tote contains the recorder, hydrophone array, line, dampener plate, drogue, surface and subsurface buoy, and can hold the anchor (anchor is frequently removed for transport due to weight). Take care to ensure the recorder and array do not get damaged by the anchor or floats while being stored in the tote. The array is labeled at the top of the array (yellow tag).\n\n\n\nTote with all components of the drift",
+    "crumbs": [
+      "Hardware",
+      "Tote Contents"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Tote-Contents.html#tote-contents",
+    "href": "content/Hardware-Tote-Contents.html#tote-contents",
+    "title": "Tote Contents",
+    "section": "",
+    "text": "The large, red tote contains the recorder, hydrophone array, line, dampener plate, drogue, surface and subsurface buoy, and can hold the anchor (anchor is frequently removed for transport due to weight). Take care to ensure the recorder and array do not get damaged by the anchor or floats while being stored in the tote. The array is labeled at the top of the array (yellow tag).\n\n\n\nTote with all components of the drift",
+    "crumbs": [
+      "Hardware",
+      "Tote Contents"
+    ]
   },
   {
     "objectID": "content/Hardware-Recorder.html",
@@ -182,234 +567,91 @@
     "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
   },
   {
-    "objectID": "content/Safety-Protocol-Flooded-SoundTrap.html",
-    "href": "content/Safety-Protocol-Flooded-SoundTrap.html",
-    "title": "Safety Protocol for Flooded SoundTraps",
-    "section": "",
-    "text": "Whenever a SoundTrap is recovered, it is necessary to check for potential flooding of the instrument. Hold the SoundTrap with the end caps facing away from your body and tilt the instrument back and forth to listen for the movement of water within the housing. If the SoundTrap contains water, the batteries have likely been damaged, and the recorder may be pressurized with electrolytic gasses from the batteries. If flooded, you may also notice gas bubbles emerging from the end cap.\nThese gasses and contaminated seawater are hazardous if exposed to eyes, skin, or airways. Special precautions are needed to ensure your safety before the SoundTrap can be opened. See first aid information below.\nPersonnel\nTwo people who have training in handling hazardous materials, including\n\nOne person to open the SoundTrap\nOne person to assist and take photos\n\nMaterials\n\nFull Personal Protective Equipment for each person present, including: \n\nLab coat\nSafety goggles\nFace mask\nThick latex gloves (dishwashing gloves are fine)\n\nFire extinguisher\nAllen wrench\nBucket to collect hazardous waste, rinse water, and contaminated paper towels\nCardboard sheet (an old box is fine)\nChemical Absorbent pads\nPaper towels\nLarge plastic bags to store contaminated batteries and instrument\nCamera to document damage\n\nInstructions\n\nIdentify a safe, well-ventilated area to open the SoundTrap which is away from any flammable materials\nWear full PPE, including lab coat, safety goggles, face mask, thick latex gloves\nHave fire extinguisher standing by, with an assistant standing by to call for help if needed\nLay cardboard on ground, and absorbent pads on top of cardboard to collect contaminated seawater and battery contents\nTake photos to document the external condition of the SoundTrap\nDO NOT OPEN THE TOP OF THE SOUNDTRAP. Locate the set screw in the base of the SoundTrap. This is designed as a safe pressure release valve. Slowly open this safety valve, with the end cap facing away from all people. Allow any gas to escape and drain contaminated water into a bucket. \nTake photos to document the internal condition of the SoundTrap before it is cleaned up\nUse paper towels to dry off all batteries and the instrument. Store contaminated paper towels within the bucket.\nRemove batteries, dry them off, and store them in a separate plastic bag\nRemove SD cards, rinse them with fresh water, dry them off, and set aside to check for usable data. \nHold the SoundTrap canister and recorder over the hazardous waste bucket and rinse with fresh water. Capture all rinse water in the bucket. Use paper towels to dry the SoundTrap completely. Leave SoundTrap on a counter to dry out completely, if possible.\nTake photos of cleaned SoundTrap components. \nLabel and arrange for appropriate disposal of hazardous waste bucket and batteries. Contact lab safety or environmental health & safety team for assistance. Refer to the [battery product information sheet](../content/Panasonic_LithiumIon_Battery_Product_Information_Sheet.pdf) for more information on first aid and appropriate disposal. Note that local authorities may have more stringent rules than federal guidelines.\n\nFirst Aid If you get electrolyte in your eyes, flush with water for 15 minutes without rubbing and immediately contact a physician. If you get electrolyte on your skin, wash the area immediately with soap and water. If irritation continues, contact a physician. If the battery is ingested, call the National Capital Poison Control (NCPC) at 202-625-3333 or your local poison control center immediately."
-  },
-  {
-    "objectID": "content/Hardware-SPOT-GPS.html",
-    "href": "content/Hardware-SPOT-GPS.html",
-    "title": "SPOT GPS",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-SPOT-GPS.html#spot-gps",
-    "href": "content/Hardware-SPOT-GPS.html#spot-gps",
-    "title": "SPOT GPS",
-    "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
-  },
-  {
-    "objectID": "content/Hardware-SPOT-GPS.html#add-your-pages-the-project",
-    "href": "content/Hardware-SPOT-GPS.html#add-your-pages-the-project",
-    "title": "SPOT GPS",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
-  },
-  {
-    "objectID": "content/Field-Retrieval.html",
-    "href": "content/Field-Retrieval.html",
-    "title": "Retrieval",
-    "section": "",
-    "text": "The minimum number of personnel required for the recovery process is two and additional support may be needed based on the size of the vessel and sea state. The two essential roles for recovery include someone to grab the buoy and pull it in, and someone to store gear and watch for the drogue/hydrophones coming out of the water. These tasks can be completed by more than two people as needed.\nDepending on the size of the vessel and sea state, there are two main methods to retrieve the buoy;\n\nApproach the High Flyer and have a crew grab the pole buoy to lift it on board\nUse a boat hook or grapple to grab the line between the pole buoy and the 11” surface float and use the grapple/line to pull the High Flyer on board\n\n\nThe best retrieval location may be from a mid-ship station, but extreme care is needed to ensure that the vessel does not drift over the top of the line (we recommend moving to stern once initial connection is made). The vessel will drift faster than the buoy, and thus the vessel should remain downwind from the buoy (so that it does not drift over the buoy). Try approaching slowly in an upwind direction (going upwind) and ask the vessel to hold position into the wind while the Drifting Acoustic Buoy is retrieved. In windy conditions, extreme care is needed to keep the ship from drifting over the top of the line.\nWatch this video for an overview of the entire deployment and retrieval process (old video).\n\nRetrieval\n\nShip approaches last known location (using solar GPS)\nSlowly approach area to find the buoy\n\nDuring daylight hours, it may be visible via radar, binoculars, or using big-eyes during\nAt night, the reflective tape can be seen at ranges up to ½ mile. Use a spotlight (the ship’s or spare scientist spotlight) to illuminate the reflective tape\n\nUsing a boat hook or grapple, grab the orange floating line \nRetrieve the hook, orange float, and orange line, and pull all components in by hand using gloves\nBring the pole buoy aboard, lift over rail and set it on the deck\nRetrieve the line; if a winch is used, ensure that there is a lookout to remove line from winch before reaching the drogue and subsurface components.\nCarefully retrieve the hydrophone array\n\nHold the hydrophone array away from the vessel lip as you are retrieving it to avoid bumping the hydrophone elements against the ship\nLift the recorders gently over the rail\n\nRetrieve the anchor\nLog the date, time, and updated location of the retrieval with the in the Deployment Details spreadsheet, and send this information to send this information to Kourtney (kourtney.burger@noaa.gov)\nWash, clean, and dry all equipment\n\nRemove any marine fouling with a power washer and rinse everything with fresh water\nStack the line on a dry deck in the sun to fully dry \n\nRemove the High Flyer and the anchor from the array/line/orange buoys\nMove the array, line, and orange hard floats into the tote\n\n\n\n\n\n\n\nNote\n\n\n\nDo not stack floats, the anchor, or other items on top of the hydrophone array (hydrophone and recorder)\n\n\n\nRemember the recorder may be recording, you can turn it off or let it run out of battery\nTurn off the solar GPS by replacing the magnet onto the GPS and secure it with tape. \nContact Shannon Rankin (shannon.rankin@noaa.gov) for next steps"
-  },
-  {
-    "objectID": "content/Hardware-Array.html",
-    "href": "content/Hardware-Array.html",
-    "title": "Array",
-    "section": "",
-    "text": "Two hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords."
-  },
-  {
-    "objectID": "content/Hardware-Array.html#hydrophones-recorders",
-    "href": "content/Hardware-Array.html#hydrophones-recorders",
-    "title": "Array",
-    "section": "",
-    "text": "Two hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords."
-  },
-  {
-    "objectID": "content/Hardware-Array.html#line-floats-drogue-dampener-plate",
-    "href": "content/Hardware-Array.html#line-floats-drogue-dampener-plate",
-    "title": "Array",
-    "section": "Line, Floats, Drogue, & Dampener Plate",
-    "text": "Line, Floats, Drogue, & Dampener Plate\nThe ~100m line attaches the surface floats to the hydrophone array at depth. At the surface, the line attaches to the surface float (orange 11” float with 18.5 lbs buoyancy), which is connected to the High Flyer by a thick orange dyneema line and a bridle (⅜” crab rope attached above/below the High Flyer float). At the deep end, the line attaches to a drogue to minimize horizontal movement and rubber ‘snubber’ (or bungee) to reduce vertical motion. Below the drogue and snubber is a  sub-surface float (orange 11” float with 18.5 buoyancy) and Dampener Plate to maintain vertical orientation and minimize vertical movement. The hydrophone array is attached to the bottom of the Dampener Plate. \nSee Alternative Array Configurations Section for previous/alternative array configurations"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Adrift Field Methods",
-    "section": "",
-    "text": "This document provides information related to fieldwork for ADRIFT in the California Current, which uses drifting acoustic recorders to monitor marine mammals and the ocean soundscape. These methods include hardware specifications and assembly, preparing for deployment, deployment methods, tracking methods, and retrieval methods."
-  },
-  {
-    "objectID": "content/Hardware-GPS-Solar.html",
-    "href": "content/Hardware-GPS-Solar.html",
-    "title": "GPS Solar",
-    "section": "",
-    "text": "A Solar GPS is mounted on top of the pole buoy (atop the GPS mount). It has a magnet taped to the top. Keep the magnet on whenever the GPS is not in use or is stored (not in view of the sky); the magnet can fall off easily, please tape in place. Only remove the magnet for testing or when the buoy is outside and in view of the sky (satellites). When the magnet is removed, be sure to store it in a SAFE spot! The GPS is labeled (sticker on top with ID#)\nSee Alternative GPS section for previous/alternative GPS devices used"
-  },
-  {
-    "objectID": "content/Hardware-GPS-Solar.html#gps-solar",
-    "href": "content/Hardware-GPS-Solar.html#gps-solar",
-    "title": "GPS Solar",
-    "section": "",
-    "text": "A Solar GPS is mounted on top of the pole buoy (atop the GPS mount). It has a magnet taped to the top. Keep the magnet on whenever the GPS is not in use or is stored (not in view of the sky); the magnet can fall off easily, please tape in place. Only remove the magnet for testing or when the buoy is outside and in view of the sky (satellites). When the magnet is removed, be sure to store it in a SAFE spot! The GPS is labeled (sticker on top with ID#)\nSee Alternative GPS section for previous/alternative GPS devices used"
-  },
-  {
-    "objectID": "content/Hardware-Tote-Contents.html",
-    "href": "content/Hardware-Tote-Contents.html",
-    "title": "Tote Contents",
-    "section": "",
-    "text": "The large, red tote contains the recorder, hydrophone array, line, dampener plate, drogue, surface and subsurface buoy, and can hold the anchor (anchor is frequently removed for transport due to weight). Take care to ensure the recorder and array do not get damaged by the anchor or floats while being stored in the tote. The array is labeled at the top of the array (yellow tag).\n\n\n\nTote with all components of the drift"
-  },
-  {
-    "objectID": "content/Hardware-Tote-Contents.html#tote-contents",
-    "href": "content/Hardware-Tote-Contents.html#tote-contents",
-    "title": "Tote Contents",
-    "section": "",
-    "text": "The large, red tote contains the recorder, hydrophone array, line, dampener plate, drogue, surface and subsurface buoy, and can hold the anchor (anchor is frequently removed for transport due to weight). Take care to ensure the recorder and array do not get damaged by the anchor or floats while being stored in the tote. The array is labeled at the top of the array (yellow tag).\n\n\n\nTote with all components of the drift"
-  },
-  {
-    "objectID": "content/Field-Deployment.html",
-    "href": "content/Field-Deployment.html",
-    "title": "Deployment",
-    "section": "",
-    "text": "Note\n\n\n\nONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. \n\n\nIMPORTANT:\n\nNone of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight. \nDiscuss the deployment plan with the crew and read all of the following instructions BEFORE you begin to deploy. \nBefore deployment: Watch this video for an overview of the entire deployment and retrieval process (old video). Also see other detailed videos (links embedded below)\n\n\nRequirements for Deployment\n\n&gt;200m water depth (preferably more!), not too close to a rapid decrease in water depth\n\nBuoy  will run aground at ~110m depth.\n\nNot too close to shipping lane or significant shipping traffic\nNot too close to fishing gear\nBoat speed must remain at 2-3 knots for the entirety of the deployment\nOnly deploy off stern\n\n\n\nDeployment\n\nSlow the boat speed to 2-3 knots\nAnchor ready, but deploy last!\n\nHave one person hold onto the line with the anchor, and lower until the weight is over the water but close to railing level. Use an extra line to loop through the anchor as a leash, and attach one of the lines to the vessel. The buoy should not be lowered into the water until all of the array line is paid out. Video here\n\nLower the High Flyer, then the 11” surface float Video here\nPay out the line at vessel speed. Pay out line only as fast as the vessel moves away from the buoy (avoid loose line in the water that could get sucked into the propellers). Video here\nOnce all the line is paid out, lower the drogue, sub-surface buoy, and dampener plate into the water\nCarefully lower the array/recorder and anchor into the water. Video here\n\nLower the anchor with the loose end of the leash line, and let go once the anchor is in the water, you can collect this line from where it is attached to the boat)\nTry to not drop the recorder splat into the water, rather carefully lower it from the boat into the water\n\nLog the date, time, and updated location of the deployment (lat/lon) with the array ID in the Deployment Details spreadsheet, and send this information to Kourtney ASAP (kourtney.burger@noaa.gov)"
-  },
-  {
-    "objectID": "content/AltHardware-PoleBuoy-Configuarations.html#assembly",
-    "href": "content/AltHardware-PoleBuoy-Configuarations.html#assembly",
-    "title": "Alternative Pole Buoy Configurations and Assembly Steps",
-    "section": "Assembly",
-    "text": "Assembly\n\nBasic Assembly\n\nPut crab floats on pole (flat ends to each other in the middle). Add tape, hose clamp or other temporary device to hold floats in place. If the center hole of the crab float is not wide enough to fit over the pole, an auger can be used to drill out the middle (ask for more help).\nAdd weights to one end of the pole at the very bottom. The pole mounted cylindrical weights should be drilled to fit the pole. Once this weight is secured in place, add the 5 lb flexible wire weight over the top of the pole weight.\nAdd radar reflector (first) and then insert the Solar GPS mount on top. Drill a hole through all three (pole, radar reflector, and gps mount) and use a thru-bolt to secure in place. Add a locking nut or electrical tape over the top of the nut to reduce chance of nut working itself loose.\nAdd reflector tape near the top of the buoy.\nAdd bridle to the pole buoy: 12 strand crab fishing line with 2@ hose for reducing wear on the line. Tie one end of the line around the pole buoy above the crab floats, and one below the crab floats (with the hose protecting where the line encircles the pole). Tie well and use zip ties to secure the line if needed. Put a loop in the middle of this line so that the surface floats can be clipped onto this loop using a caribiner.\n\nFloat test\n\nPut in calm water (at a marina or pool) to determine positioning of the crab floats vertically on the pole. If the floats are too low, the buoy will be unstable (pull the top of the pole over and see how well the buoy rights itself). We want the pole buoy to be stable, but also to have sufficient height for viewing (for retrieval!) and for good GPS transmission.\nMark the top/bottom position of the crab floats on the pole.\nPut thru-bolts above and below the crab floats to secure them in place."
-  },
-  {
-    "objectID": "content/Cleaning-Protocol.html",
-    "href": "content/Cleaning-Protocol.html",
-    "title": "Cleaning Protocol",
-    "section": "",
-    "text": "Freshwater Rinse and Array Inspection\n\nAt the end of each deployment, always rinse all equipment with fresh water\nInspect equipment for any corrosion, debris, or damage to the lines, cables, hydrophones, and SoundTraps\nRemove the SoundTrap, carefully place the array into its tote and ensure there are no kinks in the cable or anything pushing against the hydrophones\n\n\n\nCleaning SoundTrap/Hydrophone Connectors\nThe hydrophone plugs and SoundTrap sockets should be cleaned after each deployment\n\nUse a spray based contact cleaner and a soft applicator (Q-tip) to clean any debris off and wipe dry with a KimWipe\nSee videos below for detailed cleaning protocol \n\nSubConn cleaning instructions (female connector)\nSubConn cleaning instructions (male connector)"
-  },
-  {
-    "objectID": "content/Hardware-Sensus-Depth.html",
-    "href": "content/Hardware-Sensus-Depth.html",
-    "title": "Sensus Depth Sensor",
-    "section": "",
-    "text": "Each drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Sensus Ultra depth senor, made by ReefNet, is a small device that can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.\nLink to website.\n\n\n\nSensus Ultra Depth Sensor\n\n\n\n\nAll data downloaded from the depth sensor must be cleaned and processed to recieve usable depths. Follow protocols here"
-  },
-  {
-    "objectID": "content/Hardware-Sensus-Depth.html#sensus-depth-sensor",
-    "href": "content/Hardware-Sensus-Depth.html#sensus-depth-sensor",
-    "title": "Sensus Depth Sensor",
-    "section": "",
-    "text": "Each drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Sensus Ultra depth senor, made by ReefNet, is a small device that can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.\nLink to website.\n\n\n\nSensus Ultra Depth Sensor\n\n\n\n\nAll data downloaded from the depth sensor must be cleaned and processed to recieve usable depths. Follow protocols here"
-  },
-  {
-    "objectID": "content/Hardware-Summary.html",
-    "href": "content/Hardware-Summary.html",
-    "title": "Summary",
-    "section": "",
-    "text": "The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing a satellite geo-locator and a radar reflector), and a floating line/surface float to facilitate retrieval (see Figure 1). The hydrophone array and High Flyer are connected by ~ 100m ¼” line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).\n\n\n\nDiagram of drifting acoustic buoy"
-  },
-  {
-    "objectID": "content/Hardware-Summary.html#summary",
-    "href": "content/Hardware-Summary.html#summary",
-    "title": "Summary",
-    "section": "",
-    "text": "The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing a satellite geo-locator and a radar reflector), and a floating line/surface float to facilitate retrieval (see Figure 1). The hydrophone array and High Flyer are connected by ~ 100m ¼” line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).\n\n\n\nDiagram of drifting acoustic buoy"
-  },
-  {
-    "objectID": "content/Hardware-ST640.html",
-    "href": "content/Hardware-ST640.html",
-    "title": "ST640 Recorder",
-    "section": "",
-    "text": "The Soundtrap 640 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST640HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used"
-  },
-  {
-    "objectID": "content/Hardware-ST640.html#st640-recorder",
-    "href": "content/Hardware-ST640.html#st640-recorder",
-    "title": "ST640 Recorder",
-    "section": "",
-    "text": "The Soundtrap 640 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST640HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used"
-  },
-  {
-    "objectID": "content/Field-Tracking.html",
-    "href": "content/Field-Tracking.html",
-    "title": "Tracking",
-    "section": "",
-    "text": "We use two platforms for tracking our solar GPS trackers: (1) Lonestar Tracking and (2) Driftwatch."
-  },
-  {
-    "objectID": "content/Field-Tracking.html#lonestar-tracking",
-    "href": "content/Field-Tracking.html#lonestar-tracking",
-    "title": "Tracking",
-    "section": "Lonestar Tracking",
-    "text": "Lonestar Tracking\nLonestar Tracking (https://fleetone.lonestartracking.com) is an online tracking platform provided by our satellite tracking provider. This platform provides updates on the most recent position updates (and time since last position update) for all devices in our inventory.\nContact Shannon Rankin (shannon.rankin@noaa.gov) if you require login information."
-  },
-  {
-    "objectID": "content/Field-Tracking.html#driftwatch",
-    "href": "content/Field-Tracking.html#driftwatch",
-    "title": "Tracking",
-    "section": "Driftwatch",
-    "text": "Driftwatch\nDriftWatch was developed by our team (Taiki Sakai) to help us track our buoys. Ocean currents can be unpredictable, so having a near-real-time tool to keep track of buoy positions is very useful. DriftWatch automatically downloads GPS data for each buoy, and creates plots of their drift tracks with the ocean currents every hour. These get uploaded to a Google Drive folder so that it is easy for anyone to access them.\nDriftwatch currently consists of 3 functions:\n\nDrift Maps. Maps of current deployments, updated hourly\nTest Deployments. Allows user to create a map of potential deployment locations overlaid on ocean currents\nText Location Updates. Sends text message updates on buoy location to aid retrieval.\n\n\nDrift Maps\nMaps will automatically be made for any deployments that DriftWatch knows about. To add a new deployment, you need to fill in information in the NEW DEPLOYMENT TO SAVE tab of the Deployment Details worksheet. The important fields for DriftWatch are:\n\nDeployment_Date_UTC - The date of deployment. This is when DriftWatch will start creating maps. This can just be a date initially, but should eventually be updated to an accurate deployment time.\nData_Start_UTC - To be filled in later, the start of usable data on the recording. \nRecovery_Date_UTC - The date of recovery. This is when DriftWatch will stop creating maps. This can just be a date initially, but should eventually be updated to an accurate deployment time.\nData_End_UTC - To be filled in later, the end of usable data on the recording. \nGPS ID - The ID(s) for the trackers attached to this deployment. Should be letters for SPOT devices, or SO-### for solar devices. If multiple trackers are used, they should be separated by a /\nProject - Project name, e.g ADRIFT\nDeploymentID - Deployment number for this project\nSite - Optional, a 3 letter code for the deployment site. Should be one of the options on the “Site List” tab of the worksheet\n\nOnce these are filled in, DriftWatch will add this drift to its known deployments the next time it runs, and maps will be made. The remainder of the fields are not used by DriftWatch, but should be filled in if you have the information.\nPlots are uploaded to the “DriftPlots” folder every hour, and are named according to the following naming scheme:\n\nProject_DeploymentID_Current_DeployDate_Site.png\n\n“Current” is either HYCOM or HFRADAR depending on which source of ocean current data is being used. DriftWatch will always try to make a plot using both, but occasionally it can run into errors trying to download the data so you may only see one. HYCOM data have excellent coverage everywhere, but the major downside is that they are only updated once a day, typically in the morning. This means that the current picture may not look accurate later in the day. HFRADAR is updated much more frequently, but there are many areas that do not have any coverage for HFRADAR, so your plot may not show any data. Additionally, the HFRADAR data source has been much more finicky, and can often be unavailable for download. All plots show the last time the current data was updated at the bottom.\n\n\n\nGPS CSV Files\nDriftWatch will also create CSV files of the coordinates for any completed drifts. These are stored in the GPS_CSV folder within the main DriftWatch folder, each file is named with DriftName_GPS.csv. Each CSV file is also paired with a map showing the extent of the drift stored in the CSV, the purpose of these is to give a quick visual check of the track to make sure no extra data points are being stored. If the deployment start or recovery dates have not been updated, it is likely that there are a number of coordinates included that are not actually part of the drift but part of the boat track. These should be easy to see within the map, so before using any CSV files you should check the map for any obvious issues. These GPS CSVs also have some quality checks applied to try and remove any incorrect GPS points, or any obvious boat track portions. This works by removing any coordinates where the average speed between points is greater than 4 knots. The CSV files also contain two additional columns other than the coordinates and UTC times:\n\nknots- the average speed between consecutive points. Note that if multiple GPS devices are used on a single drift, then this speed value is only calculated between points from the same device. \nrecordingEffort - a TRUE/FALSE column marking where recording effort is on, defined by the DataStart and DataEnd columns in the deploymentDetails worksheet. If these have not been filled in, then the entire column will be FALSE. \n\nIf you notice that one of the GPS tracks has incorrect start or end times (obvious boat track included in the image), then the most likely cause is that the Deployment or Recovery times are still listed as just dates in the deploymentDetails, and need to be updated to an accurate Date Time. Once this has been done, then you can trigger a new version of the CSV to be created by deleting it within the GPS_CSV folder. If there are still issues with the GPS then contact Taiki Sakai (taiki.sakai@noaa.gov) and he will adjust it manually.\n\n\nTest Deployments\nThere is a Google Sheet within the main DriftWatch folder called “TestDeployments” that lets you create plots of the currents at specific locations. The main idea for this is to keep an eye on the currents of potential deployment sites, since deploying into a strong offshore current can lead to big problems. This worksheet contains the following columns:\n\nLatitude/Longitude - The coordinates to create the plot. A marker will be left at these coordinates, and the map will be centered here\nName - A name for this test deployment, should be unique from other deployments. If you want to draw multiple points on the same plot, then you can give multiple points the same name\nDeploymentSite - Optional, only used for labeling. Same as DeploymentSite in regular plots\nLatRange/LonRange - Optional, lets you control the displayed range of the plot. Can either be given as min, max separated by a comma, or if it is a single value then this defines how far to extend the bounds in each direction from the drawn point. For example, if a point is at a Latitude of 32, then LatRange of 31, 33 OR LatRange of 1 will both give the same result. \nPlotEndDate - Optional (but highly recommended) - This tells DriftWatch when it can stop creating the plots. The plot upload process is quite slow, so if there are too many plots the whole process takes quite a while. So if you want to keep an eye on a location for a potential deployment on October 20th, then setting an end date of 10/21/2022 would be ideal.\nNote - Optional, used only for your personal use. Some rows also contain notes with reminders for how to use this spreadsheet.\n\nThese plots get created every hour, at the same time as the regular plots. They get uploaded to the “TestDeploymentPlots” folder.\n\n\nText Updates\nThis is a very beta feature that has been somewhat unreliable, but when it is working it can send updates of the most recent location of buoys to an email address or as a test message to a cell phone or satellite phone. This is to make sure that people on the boat retrieving buoys can have easy access to the most up-to-date locations to make the process go smoothly. \nSetup requires filling out information in the TextUpdates worksheet. The “Schedule” tab contains the following columns:\n\nStart_Local - Time to start sending text messages (local / PDT). Date format must be YYYY-MM-DD HH:MM:SS\nEnd_Local - Time to stop sending text messages (local / PDT). Date format must be YYYY-MM-DD HH:MM:SS\nDeployment_Name - The name of the drift you want updates for, must exactly match the name of the drift (e.g. ADRIFT_004 not ADRIFT_4). If you want updates on multiple buoys they must be on separate lines\nRecipient_Id - The ID number for who should receive the messages, from the “Contacts” tab. If multiple people want messages, they must be on different rows.\nCoord_Style - Tag specifying formatting style for coordinates. One of dms, deciminute, or decidegree corresponding to 32°24’54”, 32°24.9’, or 32.415\nNote - Contains reminders, otherwise for personal use\n\nAlso fill out the “Contacts” tab with the following columns\n\nId - The ID number you refer to from the “Schedule” tab\nName - Name of person receiving message\nNumber - Phone number\nProvider - Cell service provider. Used to lookup the proper extension for sending text as email\nExtension - Sending a text via e-mail is done by sending an email to PHONENUMBER@EXTENSION where the extension depends on the cell service provider. If you aren’t sure how to find this, let me know and I can look it up for you\nEmail - The combination of the number and extension. Alternatively if you only want an e-mail and not text messages, you can put that here. This is the important field that actually gets read by DriftWatch\nNotes - Contains instructs and personal notes\n\nMessages are sent out every 30 minutes, at approximately XX:10 and XX:40. The message will contain the most recent coordinates for the drift selected, as well as an approximate heading and speed (knots) calculated using the last two GPS points. The message will also list the time of the last update (local / PDT), so users can tell if it has been a long time since the last update and use the speed/heading to estimate a potential current location.\n\n\n\n\n\n\nNote\n\n\n\nWe currently are only allowed 200 messages per day, so please limit the number of people receiving messages! Estimate how many you will be sending per day (2 per hour per drift per person) to make sure you fall within this limit, and set your start / end times sensibly. \n\n\n\n\n\n\n\n\nNote\n\n\n\nThis is currently in very beta mode, and is still being tested. Some users have been able to receive test messages prior to fieldwork, but then no messages were received while out. Other users have not been able to receive messages at all. Please test before you plan on using it, reach out if you need help."
-  },
-  {
-    "objectID": "content/Field-Sightings.html",
-    "href": "content/Field-Sightings.html",
-    "title": "Ocean Alert App",
-    "section": "",
-    "text": "The Ocean Alert app is used to collect sighting data and record deployment/recovery details for our drifters."
-  },
-  {
-    "objectID": "content/Field-Sightings.html#sighting-data",
-    "href": "content/Field-Sightings.html#sighting-data",
-    "title": "Ocean Alert App",
-    "section": "Sighting Data",
-    "text": "Sighting Data"
-  },
-  {
-    "objectID": "content/Field-Sightings.html#drifter-deployment-and-recovery-data",
-    "href": "content/Field-Sightings.html#drifter-deployment-and-recovery-data",
-    "title": "Ocean Alert App",
-    "section": "Drifter Deployment and Recovery Data",
-    "text": "Drifter Deployment and Recovery Data"
-  },
-  {
-    "objectID": "content/Field-Sightings.html#manuals-for-reference",
-    "href": "content/Field-Sightings.html#manuals-for-reference",
-    "title": "Ocean Alert App",
-    "section": "Manuals For Reference",
-    "text": "Manuals For Reference\nOcean Alert ADRIFT Instructions\nOcean Alert CINMS Whale Spotting Manual"
-  },
-  {
     "objectID": "content/Field-Deployment-Preparation.html",
     "href": "content/Field-Deployment-Preparation.html",
     "title": "Prep for Deployment",
     "section": "",
-    "text": "Please review all preparation and deployment information prior to deployment (including viewing all videos). Pre-deployment electronics check should be completed 1 day prior to deployment, and final preparation can be completed ~ 20 minutes prior to deployment. Ensure the following steps are followed and completed to allow for a smooth deployment."
+    "text": "Please review all preparation and deployment information prior to deployment (including viewing all videos). Pre-deployment electronics check should be completed 1 day prior to deployment, and final preparation can be completed ~ 20 minutes prior to deployment. Ensure the following steps are followed and completed to allow for a smooth deployment.",
+    "crumbs": [
+      "Field Methods",
+      "Prep for Deployment"
+    ]
   },
   {
     "objectID": "content/Field-Deployment-Preparation.html#pre-deployment-planning",
     "href": "content/Field-Deployment-Preparation.html#pre-deployment-planning",
     "title": "Prep for Deployment",
     "section": "Pre-Deployment Planning",
-    "text": "Pre-Deployment Planning\nComplete 1 week prior to deployment\n\nWeather\nExamine weather (winds, swell, currents) on windy.com for your area to identify environmental conditions conducive for deployment and retrieval. You can also use the test deployments in Driftwatch to identify currents in your preferred deployment location. Under many circumstances, we will want to identify a weather window for buoy retrieval ~ 5 days after deployment.\n\n\nPermits\nIf deployments will be in or near a NOAA Marine Sanctuary, submit information according to the instructions here."
+    "text": "Pre-Deployment Planning\nComplete 1 week prior to deployment\n\nWeather\nExamine weather (winds, swell, currents) on windy.com for your area to identify environmental conditions conducive for deployment and retrieval. You can also use the test deployments in Driftwatch to identify currents in your preferred deployment location. Under many circumstances, we will want to identify a weather window for buoy retrieval ~ 5 days after deployment.\n\n\nPermits\nIf deployments will be in or near a NOAA Marine Sanctuary, submit information according to the instructions here.",
+    "crumbs": [
+      "Field Methods",
+      "Prep for Deployment"
+    ]
   },
   {
     "objectID": "content/Field-Deployment-Preparation.html#pre-deployment-electronics-check",
     "href": "content/Field-Deployment-Preparation.html#pre-deployment-electronics-check",
     "title": "Prep for Deployment",
     "section": "Pre-Deployment Electronics Check",
-    "text": "Pre-Deployment Electronics Check\nComplete 1 day prior to deployment\n\nSoundtrap Preperation\n\nCharge Recorder and confirm recorder settings\n\n\n\nScreenshot of recommended settings in soundtrap host software.\n\n\n\n\nRecording Starts\nWe recommend selecting a specific start date/time when you expect the recorder to be deployed. While the remote control is very convenient, it can be very difficult to see the green light indictator (to show that you turned it on) on the ST4300, and it is impossible to see it on the ST640 (it is internal).\n\n\nRecording Schedule\nSelect Periodic Recording. Record for a period of 6 minutes every 6 minutes. This will allow the recording schedule to be set to continuous sampling with 6 minute files.\n\n\nSample Rate\nSelect the maximum sample rate for the recorder (this varies by recorder)\n\n\nDetector\nDO NOT SELECT any detectors.\n\n\nAncillary Sensors\n✓ Acceleration (Not temperature), Log every 10 seconds.\n\n\nOther\n✓ Disable calibration tones\n\n\nConfirm the status of the Sound Trap after it is programmed\nAfter a ST640 is programmed and disconnected from a laptop, the LED should flash red to indicate it is programmed to start at a later time. The LED will flash green if it is actively recording.\nIf the LED does not flash at all after the Sound Trap is disconnected, it must be re-connected to the laptop and re-programmed.\n\n\n\nClean Sound Trap O-rings and seal the unit\n\nRemove O-rings and clean the gaps. Replace the O-rings if any irregularity is found. Apply a thin layer of lubricant to the rings.\nClose the unit, and tighten the screw until it resists. Then unscrew it just a hair to be sure.\nApply a layer of plumbers tape (roughly 3 layers thick) around the crease, and ensure the tape settles into the crease.\nApply a layer of self-sealing tape. Cut roughly 6 inches off the roll and tightly stretch it around the outside, covering all of the pipe tape.\nSecure in place with electrical tape, covering all of the self-sealing tape.\n\n\n\nGreasing SoundTrap/Hydrophone Connectors\nGrease the SoundTrap sockets prior to connecting it to the hydrophone array\n\nApply a layer of grease to the socket. Ensure all sockets are completely sealed with approximately 30% of the hole filled, and leave a transparent layer of grease on the socket face\nConnect the hydrophone array plugs to the SoundTrap sockets and remove any excess grease from the joint\nFirmly attach the locking sleeve\nSee links below for detailed greasing protocol (steps with pictures and video) \n\nGreasing steps with pictures\nSubConn greasing and mating under water (wet mate)\n\n\n\n\nSecuring Hydrophones before next deployment\n\nOver time, the hydrophones may become loose in the array mounts leading to noise in the data\nIf the hydrophone is loose, tighten the bolts and nuts or remove the mount and reposition the hydrophone \nSome hydrophone models may fit into the mount better, but all should be tightly secured and not hitting the surrounding array parts\n\nGrey mount\n\n\n\n\n\n\n\n\nBlack mount\n\n\n\n\n\n\n\n\nCheck Solar GPS\n\nPlace solar GPS in view of sky (satellites) and remove magnet\nCheck online to ensure that the solar GPS is being updated (check with ADRIFT team to obtain login information)\nSet up Driftwatch auto-text update (if desired)."
+    "text": "Pre-Deployment Electronics Check\nComplete 1 day prior to deployment\n\nSoundtrap Preperation\n\nCharge Recorder and confirm recorder settings\n\n\n\nScreenshot of recommended settings in soundtrap host software.\n\n\n\n\nRecording Starts\nWe recommend selecting a specific start date/time when you expect the recorder to be deployed. While the remote control is very convenient, it can be very difficult to see the green light indictator (to show that you turned it on) on the ST4300, and it is impossible to see it on the ST640 (it is internal).\n\n\nRecording Schedule\nSelect Periodic Recording. Record for a period of 6 minutes every 6 minutes. This will allow the recording schedule to be set to continuous sampling with 6 minute files.\n\n\nSample Rate\nSelect the maximum sample rate for the recorder (this varies by recorder)\n\n\nDetector\nDO NOT SELECT any detectors.\n\n\nAncillary Sensors\n✓ Acceleration (Not temperature), Log every 10 seconds.\n\n\nOther\n✓ Disable calibration tones\n\n\nConfirm the status of the Sound Trap after it is programmed\nAfter a ST640 is programmed and disconnected from a laptop, the LED should flash red to indicate it is programmed to start at a later time. The LED will flash green if it is actively recording.\nIf the LED does not flash at all after the Sound Trap is disconnected, it must be re-connected to the laptop and re-programmed.\n\n\n\nClean Sound Trap O-rings and seal the unit\n\nRemove O-rings and clean the gaps. Replace the O-rings if any irregularity is found. Apply a thin layer of lubricant to the rings.\nClose the unit, and tighten the screw until it resists. Then unscrew it just a hair to be sure.\nApply a layer of plumbers tape (roughly 3 layers thick) around the crease, and ensure the tape settles into the crease.\nApply a layer of self-sealing tape. Cut roughly 6 inches off the roll and tightly stretch it around the outside, covering all of the pipe tape.\nSecure in place with electrical tape, covering all of the self-sealing tape.\n\n\n\nGreasing SoundTrap/Hydrophone Connectors\nGrease the SoundTrap sockets prior to connecting it to the hydrophone array\n\nApply a layer of grease to the socket. Ensure all sockets are completely sealed with approximately 30% of the hole filled, and leave a transparent layer of grease on the socket face\nConnect the hydrophone array plugs to the SoundTrap sockets and remove any excess grease from the joint\nFirmly attach the locking sleeve\nSee links below for detailed greasing protocol (steps with pictures and video) \n\nGreasing steps with pictures\nSubConn greasing and mating under water (wet mate)\n\n\n\n\nSecuring Hydrophones before next deployment\n\nOver time, the hydrophones may become loose in the array mounts leading to noise in the data\nIf the hydrophone is loose, tighten the bolts and nuts or remove the mount and reposition the hydrophone \nSome hydrophone models may fit into the mount better, but all should be tightly secured and not hitting the surrounding array parts\n\nGrey mount\n\n\n\n\n\n\n\n\nBlack mount\n\n\n\n\n\n\n\n\nCheck Solar GPS\n\nPlace solar GPS in view of sky (satellites) and remove magnet\nCheck online to ensure that the solar GPS is being updated (check with ADRIFT team to obtain login information)\nSet up Driftwatch auto-text update (if desired).",
+    "crumbs": [
+      "Field Methods",
+      "Prep for Deployment"
+    ]
   },
   {
     "objectID": "content/Field-Deployment-Preparation.html#final-deployment-preparation",
     "href": "content/Field-Deployment-Preparation.html#final-deployment-preparation",
     "title": "Prep for Deployment",
     "section": "Final Deployment Preparation",
-    "text": "Final Deployment Preparation\nComplete &gt;20 minutes before deployment\n\n1. Assemble High Flyer for deployment\n\nAttach solar GPS to GPS Mount on High Flyer (zip ties)\nRemove Magnet on solar GPS\n\n\n\n2. Lay out the entire array on deck to make sure there are no tangles\n\nIf you can’t fully lay it out, you can remove the bottom portion (including the array and the anchor) and the top (top trawl float), then loosely flake the line into the tote, starting from the bottom end closest to the array. \n\n\n\n\n\n\n\nNote\n\n\n\nCAUTION - this line does tangle easily and you want to ensure there are no tangles or knots while you are trying to deploy the buoy\n\n\n\n\n3. Attach the locking carabiner on the orange line to the High Flyer using the bridle, and lock snugly. \n\n\n4. Attach the anchor (30 lb river anchor) to the bottom of the array using a bowline and zip tie to secure the knot.\n\n\n5. If Soundtrap was programmed to turn on by remote, then turn on \n\nPoint remote at clear end of Recorder, press START\nRED will light, then GREEN will light, then GREEN will blink 1x/4sec (hard to see in direct sunlight).\nAfter 2 min, will go into SLEEP MODE, and will flash briefly every 20 min (hard to see)\n\n\n\n6. In Deployment Details spreadsheet, record array label (on yellow tag a top of array), GPS ID, date, time, and expected latitude and longitude of deployment"
+    "text": "Final Deployment Preparation\nComplete &gt;20 minutes before deployment\n\n1. Assemble High Flyer for deployment\n\nAttach solar GPS to GPS Mount on High Flyer (zip ties)\nRemove Magnet on solar GPS\n\n\n\n2. Lay out the entire array on deck to make sure there are no tangles\n\nIf you can’t fully lay it out, you can remove the bottom portion (including the array and the anchor) and the top (top trawl float), then loosely flake the line into the tote, starting from the bottom end closest to the array. \n\n\n\n\n\n\n\nNote\n\n\n\nCAUTION - this line does tangle easily and you want to ensure there are no tangles or knots while you are trying to deploy the buoy\n\n\n\n\n3. Attach the locking carabiner on the orange line to the High Flyer using the bridle, and lock snugly. \n\n\n4. Attach the anchor (30 lb river anchor) to the bottom of the array using a bowline and zip tie to secure the knot.\n\n\n5. If Soundtrap was programmed to turn on by remote, then turn on \n\nPoint remote at clear end of Recorder, press START\nRED will light, then GREEN will light, then GREEN will blink 1x/4sec (hard to see in direct sunlight).\nAfter 2 min, will go into SLEEP MODE, and will flash briefly every 20 min (hard to see)\n\n\n\n6. In Deployment Details spreadsheet, record array label (on yellow tag a top of array), GPS ID, date, time, and expected latitude and longitude of deployment",
+    "crumbs": [
+      "Field Methods",
+      "Prep for Deployment"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-ST4300.html",
+    "href": "content/Hardware-ST4300.html",
+    "title": "ST4300 Recorder",
+    "section": "",
+    "text": "The Soundtrap 4300 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a short-term recorder, capable up to 6 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST4300HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used",
+    "crumbs": [
+      "Hardware",
+      "ST4300 Recorder"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-ST4300.html#st4300-recorder",
+    "href": "content/Hardware-ST4300.html#st4300-recorder",
+    "title": "ST4300 Recorder",
+    "section": "",
+    "text": "The Soundtrap 4300 HF is a four channel digital sound recorder by Ocean Instruments.\nThis is a short-term recorder, capable up to 6 days of continuous recording at 384 kHz sampling rate.\nLink to website.\n\n\n\nST4300HF\n\n\nSee Alternative Soundtraps Section for previous/alternative recording devices used",
+    "crumbs": [
+      "Hardware",
+      "ST4300 Recorder"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-PoleBuoy.html",
+    "href": "content/Hardware-PoleBuoy.html",
+    "title": "Pole Buoy",
+    "section": "",
+    "text": "The purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nAluminum Pole: 9’ length, 1.25” 6063 aluminum round tube\nLead Weight: approximately 17 lbs, attached to the bottom of the pole to keep buoy vertical\nCrab Floats: to keep pole buoy floating, with bolts above and below it to keep it from sliding along the pole\nBridle: 12 strand line that links the pole buoy to the rest of the drifting recorder setup and arrray\nRadar reflector: so ships can see the pole buoy\nGPS mount: to hold the solar GPS and strobe light\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\n\n\n\nPrepare the bridle:\n\nThere should be 3 pieces of clear abrasion resistant hose along with the 12-strand thick blue/green line in the tote\nThe bridle will have 3 loops in it: two go around the pole (1 loop below the crab floats, 1 loop above the crab floats) and one loop is in the middle to attach to the rest of the gear\nThese loops get a BIG workout– put the hose on the line at each of these loops to minimize abrasion of the line during deployment\n\nPut lower loop of bridle onto the pole\nAdd crab floats:\n\nPut 2 orange crab floats onto the pole so that the flat ends of the crab floats butt up against each other\nThere are bolts that go through the pole at the top and bottom of the floats to help keep them in place\nWe have also been putting a hose clamp between the buoys & the bolts, and then wrapping this in electrical tape\n\nRadar reflector and GPS mount:\n\nAt the top are the radar reflector and the GPS mount\nThe radar reflector goes over the pole, and then the GPS mount is inserted into the top of the pole\nA bolt (currently attached to the GPS mount) holds both in place\nThe pole, reflectors, and GPS mounts are labeled A, B, C to identify sets that fit well together previously\n\nStrobe Light- Prior to deployment, add batteries & zip tie the strobe onto the GPS mount\nAdd reflector tape to the pole below the radar reflector\n\n\n\n\n\n\n\nNote\n\n\n\nNote: We are still working on improving this design– all suggestions are welcome!\n\n\n\nSee Alternative Pole Buoy Configurations for previous/alternative Pole Buoy configurations",
+    "crumbs": [
+      "Hardware",
+      "Pole Buoy"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-PoleBuoy.html#pole-buoy",
+    "href": "content/Hardware-PoleBuoy.html#pole-buoy",
+    "title": "Pole Buoy",
+    "section": "",
+    "text": "The purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nAluminum Pole: 9’ length, 1.25” 6063 aluminum round tube\nLead Weight: approximately 17 lbs, attached to the bottom of the pole to keep buoy vertical\nCrab Floats: to keep pole buoy floating, with bolts above and below it to keep it from sliding along the pole\nBridle: 12 strand line that links the pole buoy to the rest of the drifting recorder setup and arrray\nRadar reflector: so ships can see the pole buoy\nGPS mount: to hold the solar GPS and strobe light\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\n\n\n\nPrepare the bridle:\n\nThere should be 3 pieces of clear abrasion resistant hose along with the 12-strand thick blue/green line in the tote\nThe bridle will have 3 loops in it: two go around the pole (1 loop below the crab floats, 1 loop above the crab floats) and one loop is in the middle to attach to the rest of the gear\nThese loops get a BIG workout– put the hose on the line at each of these loops to minimize abrasion of the line during deployment\n\nPut lower loop of bridle onto the pole\nAdd crab floats:\n\nPut 2 orange crab floats onto the pole so that the flat ends of the crab floats butt up against each other\nThere are bolts that go through the pole at the top and bottom of the floats to help keep them in place\nWe have also been putting a hose clamp between the buoys & the bolts, and then wrapping this in electrical tape\n\nRadar reflector and GPS mount:\n\nAt the top are the radar reflector and the GPS mount\nThe radar reflector goes over the pole, and then the GPS mount is inserted into the top of the pole\nA bolt (currently attached to the GPS mount) holds both in place\nThe pole, reflectors, and GPS mounts are labeled A, B, C to identify sets that fit well together previously\n\nStrobe Light- Prior to deployment, add batteries & zip tie the strobe onto the GPS mount\nAdd reflector tape to the pole below the radar reflector\n\n\n\n\n\n\n\nNote\n\n\n\nNote: We are still working on improving this design– all suggestions are welcome!\n\n\n\nSee Alternative Pole Buoy Configurations for previous/alternative Pole Buoy configurations",
+    "crumbs": [
+      "Hardware",
+      "Pole Buoy"
+    ]
   }
 ]
