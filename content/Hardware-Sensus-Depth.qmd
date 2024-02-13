@@ -13,3 +13,11 @@ Each drifting acoustic buoy has a depth sensor attached to the end of the hydrop
 ### Downloading & Converting Data
 
 All data downloaded from the depth sensor must be cleaned and processed to recieve usable depths. Follow protocols [here](https://sael-swfsc.github.io/adrift-field-methods/content/Data-Download.html#depth-data)
+
+### Battery and Memory Status
+
+The Sensus Ultra contains a permanent lithium cell battery. It is not rechargeable and normal voltage levels range between 3.2 - 3.6 V. Before deployments, the battery should be checked for any significant drop in voltage (anything more than 0.2 V) and should not be used if the voltage is under 3 V.
+
+To check battery voltage, connect the sensor to a computer and open the Sensus Manager software. Click "Configure Device" and then "Read Device Information" to see the battery voltage.
+
+The Sensus will automatically overwrite the oldest data as necessary to store new data. Depth data should be offloaded immediately after each deployment.
