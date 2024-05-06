@@ -37,6 +37,7 @@ website:
         contents:
           - content/Hardware-Summary.qmd
           - content/Hardware-PoleBuoy.qmd
+          - content/Hardware-PIFSCbuoy.qmd
           - content/Hardware-GPS-Solar.qmd
           - content/Hardware-Tote-Contents.qmd
           - content/Hardware-Array.qmd

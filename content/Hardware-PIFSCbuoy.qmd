@@ -1,0 +1,78 @@
+---
+title: Pole Buoy
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## PIFSC Spar Buoy (page in progress)
+
+The purpose of the PIFSC buoy is to help track, find, and support the
+drifting recorder. We will be using these on the CCES 2024 cruise along
+with our pole buoys. The PIFSC buoy consists of;
+
+1.  **Aluminum Pole:** 9' length, 1.25" 6063 aluminum round tube
+2.  **Lead Weight:** approximately 17 lbs, attached to the bottom of the
+    pole to keep buoy vertical
+3.  **Crab Floats:** to keep pole buoy floating, with bolts above and
+    below it to keep it from sliding along the pole
+4.  **Bridle:** 12 strand line that links the pole buoy to the rest of
+    the drifting recorder setup and arrray
+5.  **Radar reflector:** so ships can see the pole buoy
+6.  **GPS mount:** to hold the solar GPS and strobe light
+
+### Pole Buoy Assembly
+
+1.  Prepare the bridle:
+
+    -   There should be 3 pieces of clear abrasion resistant hose along
+        with the 12-strand thick blue/green line in the tote
+
+    -   The bridle will have 3 loops in it: two go around the pole (1
+        loop below the crab floats, 1 loop above the crab floats) and
+        one loop is in the middle to attach to the rest of the gear
+
+    -   These loops get a BIG workout-- put the hose on the line at each
+        of these loops to minimize abrasion of the line during
+        deployment
+
+2.  Put lower loop of bridle onto the pole
+
+3.  Add crab floats:
+
+    -   Put 2 orange crab floats onto the pole so that the flat ends of
+        the crab floats butt up against each other
+
+    -   There are bolts that go through the pole at the top and bottom
+        of the floats to help keep them in place
+
+    -   We have also been putting a hose clamp between the buoys & the
+        bolts, and then wrapping this in electrical tape
+
+4.  Radar reflector and GPS mount:
+
+    -   At the top are the radar reflector and the GPS mount
+
+    -   The radar reflector goes over the pole, and then the GPS mount
+        is inserted into the top of the pole
+
+    -   A bolt (currently attached to the GPS mount) holds both in place
+
+    -   The pole, reflectors, and GPS mounts are labeled A, B, C to
+        identify sets that fit well together previously
+
+5.  Strobe Light- Prior to deployment, add batteries & zip tie the
+    strobe onto the GPS mount
+
+6.  Add reflector tape to the pole below the radar reflector
+
+::: callout-note
+Note: We are still working on improving this design-- all suggestions
+are welcome!
+:::
+
+------------------------------------------------------------------------
+
+See [Alternative Pole Buoy
+Configurations](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Alt-PoleBuoy.html#alternative-pole-buoy-configurations)
+for previous/alternative Pole Buoy configurations
