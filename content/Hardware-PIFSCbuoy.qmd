@@ -33,37 +33,41 @@ along with our pole buoys. The PIFSC buoy consists of;
 
 1.  Check the hand strap that has been stored. Straighten it out
 
+    ![Hand strap](images/PIFSC_Handstrap.jpg)
+
 2.  Unpack the spar whip under the main body.
 
-    1.  You may need to removethe eyebolt to easily do this
+    1.  You may need to remove the eye bolt to easily do this
 
-3.  Add crab floats:
+    ![](images/PIFSC_SparWhip.jpg)![](images/PIFSC_SparWhip_2.jpg){width="226"}
 
-    -   Put 2 orange crab floats onto the pole so that the flat ends of
-        the crab floats butt up against each other
+3.  Unpack O-Rings and inspect for damage. Insert into union.
 
-    -   There are bolts that go through the pole at the top and bottom
-        of the floats to help keep them in place
+    ![](images/PIFSC_ORing_HeadPiece.jpg)
 
-    -   We have also been putting a hose clamp between the buoys & the
-        bolts, and then wrapping this in electrical tape
+4.  Attach Spot holder onto small pipe on bulkhead. Secure with fastener
+    and space spots and battery pack inside.
 
-4.  Radar reflector and GPS mount:
+    ![](images/PIFSCS_SpotHolder.jpg){width="256"}![](images/PIFSCS_SpotHolder_2.jpg){width="250"}![](images/PIFSCS_SpotHolder_3.jpg){width="143"}
 
-    -   At the top are the radar reflector and the GPS mount
+5.  Secure head piece on
 
-    -   The radar reflector goes over the pole, and then the GPS mount
-        is inserted into the top of the pole
+    ![](images/PIFSC_SecureHeadPiece.jpg)
 
-    -   A bolt (currently attached to the GPS mount) holds both in place
+6.  Match up float collar pairs with fastener assemblies
 
-    -   The pole, reflectors, and GPS mounts are labeled A, B, C to
-        identify sets that fit well together previously
+    ![](images/PIFSC_FloatCollar.png)![](images/PIFSC_CollarFastener.png){width="205"}
 
-5.  Strobe Light- Prior to deployment, add batteries & zip tie the
-    strobe onto the GPS mount
+7.  Attach hand strap to hole on assembly plate of floating shackle
 
-6.  Add reflector tape to the pole below the radar reflector
+    ![](images/PIFSC_AttachHandStrap.jpg)
+
+8.  Tighten hose clamp (plastic encased metal clamp) up underneath the
+    yellow float collar to keep it in place.
+
+    ![](images/PIFSC_TightenHoseClamp.jpg){width="224"}
+
+9.  Attach trailing buoy to the floating collar using a shackle.
 
 ::: callout-note
 Note: We are still working on improving this design-- all suggestions
@@ -71,7 +75,3 @@ are welcome!
 :::
 
 ------------------------------------------------------------------------
-
-See [Alternative Pole Buoy
-Configurations](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Alt-PoleBuoy.html#alternative-pole-buoy-configurations)
-for previous/alternative Pole Buoy configurations
