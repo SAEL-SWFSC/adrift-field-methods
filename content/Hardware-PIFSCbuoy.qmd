@@ -69,6 +69,10 @@ along with our pole buoys. The PIFSC buoy consists of;
 
 9.  Attach trailing buoy to the floating collar using a shackle.
 
+## Before each deployment Tips
+
+1.  See the following link for checklists from PIFSC. W
+
 ::: callout-note
 Note: We are still working on improving this design-- all suggestions
 are welcome!
