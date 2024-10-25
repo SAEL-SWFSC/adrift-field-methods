@@ -1,23 +1,95 @@
 ---
 title: Sensus Depth Sensor
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-## Sensus Depth Sensor
+To Do: Need to modify based on comments from Anne Simonis in comments
+\[here\](<https://docs.google.com/document/d/1aZlt35hdcS8rShcebh86d_tzudtN4Cht/edit?usp=sharing&ouid=102241654798114401528&rtpof=true&sd=true>)
 
-Each drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Sensus Ultra depth senor, made by [ReefNet](https://reefnet.ca/), is a small device that can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.
+## Configure
 
-[Link to website.](https://reefnet.ca/products/sensus/)
+1.  Set computer clock to UTC
 
-![*Sensus Ultra Depth Sensor*](images/Screenshot%202022-10-27%20131215.png)
+2.  Plug in Reefnet sensor reader & place depth sensor on reader
 
-### Downloading & Converting Data
+3.  Open Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)
 
-All data downloaded from the depth sensor must be cleaned and processed to recieve usable depths. Follow protocols [here](https://sael-swfsc.github.io/adrift-field-methods/content/Data-Download.html#depth-data)
+    1.  Settings-\> set up appropriate Com Port
+
+    2.  Put sensor on reader (small vertical pins align with screws on
+        sensor)
+
+        ![](images/sensusReader.png){width="186"}
+
+    3.  Select Units: meters, celcius, bar
+
+        ![](images/sensusUnits.png)
+
+    4.  Data Library-\> Configure Device (select Read Device
+        Information)
+
+    5.  Configurable Options-\> select 60 seconds (apply)
+
+        ![](images/sensusConfigure.png){width="297"}
+
+    6.  Once you get popup stating “Settings changed successfully!”, it
+        is ready for use!
+
+## Prepare for Deployment
+
+1.  Ensure data downloaded & sensor set to 60 second update (see other
+    sections in this document)
+
+2.  Attach sensor with zip tie to the top of the array (\>1m from
+    nearest hydrophone)
+
+    ![](images/sensusAttach.JPG){width="275"}
+
+3.  Log Depth Sensor ID on instrument log (which Array is it with?)
+
+## Download Depth Data
+
+1.  Plug in Reefnet sensor reader & place depth sensor on reader
+
+2.  Note Depth Sensor ID & array/buoy it was deployed with
+
+    ![](images/sensus FindDepthID.jpg){width="147"}
+
+3.  Open Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)
+
+    1.  Settings-\> set up appropriate Com Port
+
+    2.  Put sensor on reader (small vertical pins align with screws on
+        sensor)
+
+        ![](images/sensusReader.png){width="227"}
+
+    3.  Press ‘Configure Device’
+
+    4.  Select Read user data/Write User Data
+
+    5.  Ensure ID and deployment \# is saved on filename
+
+    6.  Save file in appropriate location (with relevant data)
+
+    7.  Ensure data is saved, and sensor is configured properly (see
+        previous sections in this document), and it is ready for the
+        next deployment!
 
 ### Battery and Memory Status
 
-The Sensus Ultra contains a permanent lithium cell battery. It is not rechargeable and normal voltage levels range between 3.2 - 3.6 V. Before deployments, the battery should be checked for any significant drop in voltage (anything more than 0.2 V) and should not be used if the voltage is under 3 V.
+The Sensus Ultra contains a permanent lithium cell battery. It is not
+rechargeable and normal voltage levels range between 3.2 - 3.6 V. Before
+deployments, the battery should be checked for any significant drop in
+voltage (anything more than 0.2 V) and should not be used if the voltage
+is under 3 V.
 
-To check battery voltage, connect the sensor to a computer and open the Sensus Manager software. Click "Configure Device" and then "Read Device Information" to see the battery voltage.
+To check battery voltage, connect the sensor to a computer and open the
+Sensus Manager software. Click "Configure Device" and then "Read Device
+Information" to see the battery voltage.
 
-The Sensus will automatically overwrite the oldest data as necessary to store new data. Depth data should be offloaded immediately after each deployment.
+The Sensus will automatically overwrite the oldest data as necessary to
+store new data. Depth data should be offloaded immediately after each
+deployment.

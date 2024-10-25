@@ -1,0 +1,30 @@
+---
+title: Recorders
+---
+
+## ST4300 Recorder
+
+The Soundtrap 4300 HF is a four channel digital sound recorder by [Ocean Instruments](https://www.oceaninstruments.co.nz/).
+
+This is a short-term recorder, capable up to 6 days of continuous recording at 384 kHz sampling rate.
+
+[Link to website.](http://www.oceaninstruments.co.nz/product/soundtrap-st4300-hf-four-channel-recorder/)
+
+![*ST4300HF*](images/Screenshot%202022-10-27%20124144.png){fig-align="left"}
+
+Add links to information for pre-deployment (field methods?_) and post-deployment.
+
+
+## ST640 Recorder
+
+The Soundtrap 640 HF is a four channel digital sound recorder by [Ocean Instruments](https://www.oceaninstruments.co.nz/).
+
+This is a long-term recorder, capable up to 50 days of continuous recording at 384 kHz sampling rate.
+
+[Link to website.](https://www.oceaninstruments.co.nz/product/soundtrap-st640-hf-four-channel-long-term-recorder/)
+
+![*ST640HF*](images/Screenshot%202022-10-27%20124743.png)
+
+Add links to information for pre-deployment (field methods?_) and post-deployment.
+
+See [Alternative Soundtraps Section](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Alt-Soundtraps.html#alternative-soundtraps) for previous/alternative recording devices used

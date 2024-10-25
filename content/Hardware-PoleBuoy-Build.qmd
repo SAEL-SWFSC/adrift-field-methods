@@ -1,0 +1,51 @@
+---
+title: Pole Buoy Build Instructions
+---
+
+Add detailed info on pole buoy build including: parts table, detailed instructions with images. Stuff below was taken from another page
+
+### Pole Buoy Assembly
+
+1.  Prepare the bridle:
+
+    -   There should be 3 pieces of clear abrasion resistant hose along
+        with the 12-strand thick blue/green line in the tote
+
+    -   The bridle will have 3 loops in it: two go around the pole (1
+        loop below the crab floats, 1 loop above the crab floats) and
+        one loop is in the middle to attach to the rest of the gear
+
+    -   These loops get a BIG workout-- put the hose on the line at each
+        of these loops to minimize abrasion of the line during
+        deployment
+
+2.  Put lower loop of bridle onto the pole
+
+3.  Add crab floats:
+
+    -   Put 2 orange crab floats onto the pole so that the flat ends of
+        the crab floats butt up against each other
+
+    -   There are bolts that go through the pole at the top and bottom
+        of the floats to help keep them in place
+
+    -   We have also been putting a hose clamp between the buoys & the
+        bolts, and then wrapping this in electrical tape
+
+4.  Radar reflector and GPS mount:
+
+    -   At the top are the radar reflector and the GPS mount
+
+    -   The radar reflector goes over the pole, and then the GPS mount
+        is inserted into the top of the pole
+
+    -   A bolt (currently attached to the GPS mount) holds both in place
+
+    -   The pole, reflectors, and GPS mounts are labeled A, B, C to
+        identify sets that fit well together previously
+
+5.  Strobe Light- Prior to deployment, add batteries & zip tie the
+    strobe onto the GPS mount
+
+6.  Add reflector tape to the pole below the radar reflector
+

@@ -1,0 +1,41 @@
+---
+title: Subsurface Components
+---
+The subsurface components include the 'backbone', hydrophone array, recorder, depth sensor, and anchor. The subsurface gear (minus the anchor) are typically stored in a large, red tote. 
+
+![*Tote with all components of the drift*](images/Screenshot%202022-10-26%20120437-01.png){fig-align="left"}
+
+## Backbone
+The backbone consists of ~100m line attaches the surface floats to the hydrophone array at depth. At the surface, the line attaches to the surface float (orange 11" float with 18.5 lbs buoyancy), which is connected to the High Flyer by a thick orange dyneema line and a bridle (⅜" crab rope attached above/below the High Flyer float). At the deep end, the line attaches to a drogue to minimize horizontal movement and rubber 'snubber' (or bungee) to reduce vertical motion. Below the drogue and snubber is a  sub-surface float (orange 11" float with 18.5 buoyancy) and Dampener Plate to maintain vertical orientation and minimize vertical movement. The hydrophone array is attached to the bottom of the Dampener Plate. 
+
+## Hydrophone Array
+Two hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords.
+
+### Hydrophones
+Add a bit about the hydrophone models, maybe link to website & calibration info?
+
+### Recorder
+Two types of [Ocean Instruments Soundtrap](https://www.oceaninstruments.co.nz/) recorders were used: 
+
+(1) The (now discontinued) [Soundtrap 4300](http://www.oceaninstruments.co.nz/product/soundtrap-st4300-hf-four-channel-recorder/) is a four channel digital sound recorder capable up to 6 days of continuous recording at 384 kHz sampling rate. 
+
+![*ST4300HF*](images/Screenshot%202022-10-27%20124144.png){fig-align="left"}
+
+
+(2) The [Soundtrap 640 HF](https://www.oceaninstruments.co.nz/product/soundtrap-st640-hf-four-channel-long-term-recorder/) is a four channel digital sound recorder capable up to 50 days of continuous recording at 384 kHz sampling rate.
+
+![*ST640HF*](images/Screenshot%202022-10-27%20124743.png)
+
+Add links to information for pre-deployment (field methods?_) and post-deployment.
+
+
+### Depth Sensor
+Each drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The [Reefnet Sensus Ultra](https://reefnet.ca/products/sensus/) depth sensor is small and can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.
+
+![*Sensus Ultra Depth Sensor*](images/Screenshot%202022-10-27%20131215.png)
+
+(Link to page on Sensus Depth Sensor)
+
+
+## Anchor
+Say something about the types of anchors used, and describe the attchment bit to reduce risk of entanglement
