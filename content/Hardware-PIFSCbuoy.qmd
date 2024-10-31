@@ -71,7 +71,7 @@ along with our pole buoys. The PIFSC buoy consists of;
 
 ## Before each deployment Tips
 
-1.  See the following link for checklists from PIFSC.
+1.  See the following link for checklists from PIFSC. W
 
 ::: callout-note
 Note: We are still working on improving this design-- all suggestions
