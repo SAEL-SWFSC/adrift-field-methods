@@ -29,26 +29,22 @@ website:
 
     style: "docked"
     search: true
-    collapse-level: 1
+    collapse-level: 2
     contents:
       - href: index.qmd
         text: Home
-      - section: "Hardware"
+      - section: content/Hardware-Summary.qmd
+        text: Hardware
         contents:
-          - content/Hardware-Summary.qmd
-          - content/Hardware-PoleBuoy.qmd
-          - content/Hardware-PIFSCbuoy.qmd
-          - content/Hardware-GPS-Solar.qmd
-          - content/Hardware-Tote-Contents.qmd
-          - content/Hardware-Array.qmd
-          - content/Hardware-ST4300.qmd
-          - content/Hardware-ST640.qmd
-          - content/Hardware-Sensus-Depth.qmd
-      - section: "Field Methods"      
+          - content/Hardware-Buoy.qmd
+          - content/Hardware-Satellite.qmd
+          - content/Hardware-Subsurface.qmd
+      - section: content/Field-Summary.qmd
+        text: Field Methods
         contents:
-          - content/Field-Deployment-Preparation.qmd
+          - content/PreDeploy.qmd    
           - content/Field-Deployment.qmd
-          - content/Field-Metadata.qmd
+          - content/Metadata.qmd
           - content/Field-Tracking.qmd
           - content/Field-Retrieval.qmd
           - content/Field-Sightings.qmd
@@ -57,21 +53,9 @@ website:
         contents:
           - content/Cleaning-Protocol.qmd
           - content/Data-Download.qmd
-      - section: "Additional Information"
-        contents:
-          - section: "Alternative/Past Hardware Configurations"
-            contents: 
-              - href: content/AltHardware-PoleBuoy-Configuarations.qmd
-                text: Pole Buoy Configurations
-              - section: "GPS Devices"
-                contents:
-                    - content/Hardware-SPOT-GPS.qmd
-              - section: "Array Configurations"
-                contents:
-                    - content/Hardware-V1-Array.qmd
-              - section: "Recording Devices"
-                contents:
-                    - content/Hardware-Model-Soundtrap.qmd
+
+
+
 format:
   html:
     theme:

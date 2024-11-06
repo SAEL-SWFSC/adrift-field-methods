@@ -1,9 +1,0 @@
----
-title: Tote Contents
----
-
-## Tote Contents
-
-The large, red tote contains the recorder, hydrophone array, line, dampener plate, drogue, surface and subsurface buoy, and can hold the anchor (anchor is frequently removed for transport due to weight). Take care to ensure the recorder and array do not get damaged by the anchor or floats while being stored in the tote. The array is labeled at the top of the array (yellow tag).
-
-![*Tote with all components of the drift*](images/Screenshot%202022-10-26%20120437-01.png){fig-align="left"}

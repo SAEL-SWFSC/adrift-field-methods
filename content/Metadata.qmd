@@ -1,0 +1,45 @@
+---
+title: Metadata
+---
+
+## Sanctuary Permit
+
+All planned buoy drifts deployed in or near a National Marine Sanctuary must be reported to the respective Sanctuary Staff no less than 7 days before deployment. Please send the following information to Kourtney Burger (kourtney.burger\@noaa.gov) for permit reporting;
+
+-   Planned date/time of deployment
+-   Planned deployment coordinates
+-   Sanctuaries the drift may pass through
+-   Name and contact information for deployment chief scientist
+-   Survey information (if applicable)
+
+## Protected Resources Permit
+
+All marine mammal takes, must be recorded and reported under NOAA Protected Resources Permit #22306. For any fieldwork in which we expect an opportunity for a marine mammal 'take', we must: (1) have an accepted Co-Investigator prsent on the vessel with a printed copy of the permit, (2) provide written notification of any planned fieldwork at least two weeks prior to initiation of each field trip/season, and (3) record 'takes' according to this permit. For more information on this permit and our permit requirements, please contact Kourtney Burger (kourtney.burger\@noaa.gov).
+
+## Pre-Deployment Metadata
+
+Prior to deployment, record the following information in [Deployment Details spreadsheet](https://docs.google.com/spreadsheets/d/10bxlwfVOe1LFfj69B_YddxcA0V14m7codYwgD2YncFk/edit?usp=sharing)
+
+-   Fill in Status column (J) as 'In Prep'
+-   Array label (on yellow tag a top of array)
+-   GPS ID
+-   Date/Time
+-   Expected latitude and longitude of deployment
+
+## Deployment Metadata
+
+Immediately after the buoy has been deployed, record the following information and sent it to Kourtney Burger ([kourtney.burger\@noaa.gov](mailto:kourtney.burger@noaa.gov));
+
+-   Fill in Status column (J) as 'Active'
+-   Date/time
+-   Updated location of the deployment (lat/lon)
+-   Array ID
+
+## Retrieval Metadata
+
+After the buoy has been successfully retrieved, record the following information and send it to Kourtney Burger ([kourtney.burger\@noaa.gov](mailto:kourtney.burger@noaa.gov));
+
+-   Fill in Status column (J) as 'Complete'
+-   Date/time
+-   Location of the retrieval (lat/lon)
+-   Any important notes (buoy sunk/not retrievable, recorder issues, etc.)
