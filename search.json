@@ -144,7 +144,7 @@
     "href": "content/Hardware-Buoy.html",
     "title": "Surface Buoy",
     "section": "",
-    "text": "The purpose of the surface buoy is to help track, find, and support the drifting recorder. For the Adrift survey, we used a high-flyer style of pole buoy with satellite trackers mounted on the pole and the array is suspended below. A robust spar buoy developed at PIFSC was implemented as part of the CALCURCEAS survey in 2024.\n\n\n\n\nThe purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nAluminum Pole: 9’ length, 1.25” 6063 aluminum round tube\nLead Weight: approximately 17 lbs, attached to the bottom of the pole to keep buoy vertical\nCrab Floats: to keep pole buoy floating, with bolts above and below it to keep it from sliding along the pole\nBridle: 12 strand line that links the pole buoy to the rest of the drifting recorder setup and arrray\nRadar reflector: so ships can see the pole buoy\nGPS mount: to hold the solar GPS and strobe light\n\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\n\n\nLINK TO Hardware-PoleBuoy-Build page (open in new tab)\n\n\n\nBasic Blurb & Pic of PIFSC buoys, then link to build (Hardware-PIFSCbuoy-Build.qmd)\n\n\n\n\nBasic Blurb & pic(s), then link to Alt- Buoy Builds (Hardware-AltBuoy-Build.qmd)",
+    "text": "The purpose of the surface buoy is to help track, find, and support the drifting recorder. For the Adrift survey, we used a high-flyer style of pole buoy with satellite trackers mounted on the pole and the array is suspended below. A robust spar buoy developed at PIFSC was implemented as part of the CALCURCEAS survey in 2024.\n\n\n\n\nThe purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nAluminum Pole: 9’ length, 1.25” 6063 aluminum round tube\nLead Weight: approximately 17 lbs, attached to the bottom of the pole to keep buoy vertical\nCrab Floats: to keep pole buoy floating, with bolts above and below it to keep it from sliding along the pole\nBridle: 12 strand line that links the pole buoy to the rest of the drifting recorder setup and arrray\nRadar reflector: so ships can see the pole buoy\nGPS mount: to hold the solar GPS and strobe light\n\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\n\n\nLink to Detailed instructions for building a Pole Buoy\n\n\n\nPIFSC has developed a robust spar buoy for offshore deployements from large survey vessels. These surface buoys require additional weight and are less ideal for deployment from small vessels. PIFSC buoys were used during CalCurCEAS Survey. For more information, see: * PIFSC Buoy Assembly * PIFSC Bouy Handoff Instructions - Instructions provided by PIFSC Maker Lab for SWFSC purchased buoys (2024) * PIFSC Buoy Checklists - Field Checklists developed by PIFSC Maker Lab and Jennifer McCullough\n\n\n\n\nLink for additional information on Alternative Surface Buoys.",
     "crumbs": [
       "Hardware",
       "Surface Buoy"
@@ -155,7 +155,7 @@
     "href": "content/Hardware-Buoy.html#pole-buoy",
     "title": "Surface Buoy",
     "section": "",
-    "text": "The purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nAluminum Pole: 9’ length, 1.25” 6063 aluminum round tube\nLead Weight: approximately 17 lbs, attached to the bottom of the pole to keep buoy vertical\nCrab Floats: to keep pole buoy floating, with bolts above and below it to keep it from sliding along the pole\nBridle: 12 strand line that links the pole buoy to the rest of the drifting recorder setup and arrray\nRadar reflector: so ships can see the pole buoy\nGPS mount: to hold the solar GPS and strobe light\n\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\n\n\nLINK TO Hardware-PoleBuoy-Build page (open in new tab)",
+    "text": "The purpose of the pole buoy is to help track, find, and support the drifting recorder. The pole buoy consists of;\n\nAluminum Pole: 9’ length, 1.25” 6063 aluminum round tube\nLead Weight: approximately 17 lbs, attached to the bottom of the pole to keep buoy vertical\nCrab Floats: to keep pole buoy floating, with bolts above and below it to keep it from sliding along the pole\nBridle: 12 strand line that links the pole buoy to the rest of the drifting recorder setup and arrray\nRadar reflector: so ships can see the pole buoy\nGPS mount: to hold the solar GPS and strobe light\n\n\n\n\n\nDiagram of High Flyer Pole Buoy\n\n\n\n\nLink to Detailed instructions for building a Pole Buoy",
     "crumbs": [
       "Hardware",
       "Surface Buoy"
@@ -166,7 +166,7 @@
     "href": "content/Hardware-Buoy.html#pifsc-buoy",
     "title": "Surface Buoy",
     "section": "",
-    "text": "Basic Blurb & Pic of PIFSC buoys, then link to build (Hardware-PIFSCbuoy-Build.qmd)",
+    "text": "PIFSC has developed a robust spar buoy for offshore deployements from large survey vessels. These surface buoys require additional weight and are less ideal for deployment from small vessels. PIFSC buoys were used during CalCurCEAS Survey. For more information, see: * PIFSC Buoy Assembly * PIFSC Bouy Handoff Instructions - Instructions provided by PIFSC Maker Lab for SWFSC purchased buoys (2024) * PIFSC Buoy Checklists - Field Checklists developed by PIFSC Maker Lab and Jennifer McCullough",
     "crumbs": [
       "Hardware",
       "Surface Buoy"
@@ -177,7 +177,7 @@
     "href": "content/Hardware-Buoy.html#alternative-surface-buoys",
     "title": "Surface Buoy",
     "section": "",
-    "text": "Basic Blurb & pic(s), then link to Alt- Buoy Builds (Hardware-AltBuoy-Build.qmd)",
+    "text": "Link for additional information on Alternative Surface Buoys.",
     "crumbs": [
       "Hardware",
       "Surface Buoy"
@@ -210,7 +210,7 @@
     "href": "content/Hardware-Subsurface.html#hydrophone-array",
     "title": "Subsurface Components",
     "section": "Hydrophone Array",
-    "text": "Hydrophone Array\nTwo hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords.\n\nHydrophones\nAdd a bit about the hydrophone models, maybe link to website & calibration info?\n\n\nRecorder\nTwo types of Ocean Instruments Soundtrap recorders were used:\n\nThe (now discontinued) Soundtrap 4300 is a four channel digital sound recorder capable up to 6 days of continuous recording at 384 kHz sampling rate.\n\n\n\n\nST4300HF\n\n\n\nThe Soundtrap 640 HF is a four channel digital sound recorder capable up to 50 days of continuous recording at 384 kHz sampling rate.\n\n\n\n\nST640HF\n\n\nAdd links to information for pre-deployment (field methods?_) and post-deployment.\n\n\nDepth Sensor\nEach drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Reefnet Sensus Ultra depth sensor is small and can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.\n\n\n\nSensus Ultra Depth Sensor\n\n\n(Link to page on Sensus Depth Sensor)",
+    "text": "Hydrophone Array\nTwo hydrophones create a vertical array with 5m separation at 100m depth. There is also a depth sensor attached near the top of the array. A Soundtrap 4300 or ST-640 4-channel recorder is attached directly to the hydrophone arrays at 100m depth with heavy duty cable ties or bungee cords.\n\nHydrophones\nAdd a bit about the hydrophone models, maybe link to website & calibration info?\n\n\nRecorder\nTwo types of Ocean Instruments Soundtrap recorders were used:\n\nThe (now discontinued) Soundtrap 4300 is a four channel digital sound recorder capable up to 6 days of continuous recording at 384 kHz sampling rate.\n\n\n\n\nST4300HF\n\n\n\nThe Soundtrap 640 HF is a four channel digital sound recorder capable up to 50 days of continuous recording at 384 kHz sampling rate.\n\n\n\n\nST640HF\n\n\nAdd links to information for pre-deployment (field methods?_) and post-deployment.\n\n\nDepth Sensor\nEach drifting acoustic buoy has a depth sensor attached to the end of the hydrophone array. The Reefnet Sensus Ultra depth sensor is small and can store up to 1500 hours of dive data. Depth is resolved to 0.5 inches of water with and accuracy of +/- 1 ft and temperature is resolved to 0.01 C with accuracy of +/- 0.8 C.\n\n\n\nSensus Ultra Depth Sensor\n\n\nLink to more information on Sensus Depth Sensor",
     "crumbs": [
       "Hardware",
       "Subsurface Components"
@@ -308,7 +308,7 @@
     "href": "content/Hardware-Summary.html",
     "title": "Hardware",
     "section": "",
-    "text": "The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing a satellite geo-locator and a radar reflector), and a floating line/surface float to facilitate retrieval. The hydrophone array and High Flyer are connected by ~ 100m ¼” line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).\n\n\n\n\nDiagram of drifting acoustic buoy\n\n\n\n\n\n\nThe purpose of the surface buoy is to help track, find, and support the drifting recorder. For the Adrift survey, we used a high-flyer style of pole buoy with satellite trackers mounted on the pole and the array is suspended below.\n\n\n\n\n\n\nImportant\n\n\n\nNote: A robust spar buoy developed at PIFSC was implemented as part of the CALCURCEAS survey in 2024.\n\n\n\n\nSatellite trackers are mounted to the surface buoy, and allow for tracking, retrieving, and plotting of movement for analysis.\n\n\n\n\nThe subsurface components include the ‘backbone’, hydrophone array, recorder, depth sensor, and anchor. The subsurface gear (minus the anchor) are typically stored in a large, red tote.",
+    "text": "The ADRIFT project uses drifting acoustic buoys that are composed of a deep hydrophone array (cable with two hydrophones, recorder, depth sensor, and weight at bottom), a weighted High Flyer pole buoy (containing a satellite geo-locator and a radar reflector), and a floating line/surface float to facilitate retrieval. The hydrophone array and High Flyer are connected by ~ 100m ¼” line with two hard trawl floats (one at the surface, and a subsurface float at depth), a dampener plate with bungees and a drogue (at depth).\n\n\n\n\nDiagram of drifting acoustic buoy\n\n\n\n\n\n\nThe purpose of the surface buoy is to help track, find, and support the drifting recorder. For the Adrift survey, we used a high-flyer style of pole buoy with satellite trackers mounted on the pole and the array is suspended below.\n\n\n\n\n\n\nImportant\n\n\n\nNote: A robust spar buoy developed at PIFSC was implemented as part of the CALCURCEAS survey in 2024.\n\n\n\n\n\nSatellite trackers are mounted to the surface buoy, and allow for tracking, retrieving, and plotting of movement for analysis.\n\n\n\nThe subsurface components include the ‘backbone’, hydrophone array, recorder, depth sensor, and anchor. The subsurface gear (minus the anchor) are typically stored in a large, red tote.",
     "crumbs": [
       "Hardware"
     ]
@@ -318,7 +318,17 @@
     "href": "content/Hardware-Summary.html#surface-buoy",
     "title": "Hardware",
     "section": "",
-    "text": "The purpose of the surface buoy is to help track, find, and support the drifting recorder. For the Adrift survey, we used a high-flyer style of pole buoy with satellite trackers mounted on the pole and the array is suspended below.\n\n\n\n\n\n\nImportant\n\n\n\nNote: A robust spar buoy developed at PIFSC was implemented as part of the CALCURCEAS survey in 2024.\n\n\n\n\nSatellite trackers are mounted to the surface buoy, and allow for tracking, retrieving, and plotting of movement for analysis.",
+    "text": "The purpose of the surface buoy is to help track, find, and support the drifting recorder. For the Adrift survey, we used a high-flyer style of pole buoy with satellite trackers mounted on the pole and the array is suspended below.\n\n\n\n\n\n\nImportant\n\n\n\nNote: A robust spar buoy developed at PIFSC was implemented as part of the CALCURCEAS survey in 2024.",
+    "crumbs": [
+      "Hardware"
+    ]
+  },
+  {
+    "objectID": "content/Hardware-Summary.html#satellite-tracking",
+    "href": "content/Hardware-Summary.html#satellite-tracking",
+    "title": "Hardware",
+    "section": "",
+    "text": "Satellite trackers are mounted to the surface buoy, and allow for tracking, retrieving, and plotting of movement for analysis.",
     "crumbs": [
       "Hardware"
     ]
@@ -400,6 +410,20 @@
     ]
   },
   {
+    "objectID": "content/Hardware-ST4300.html",
+    "href": "content/Hardware-ST4300.html",
+    "title": "Soundtrap 4300",
+    "section": "",
+    "text": "Download Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)\nSet computer time to UTC (IMPORTANT!)\nPlug in Soundtrap to computer using special USB cable\n\nIs your computer set to UTC???   ☺ \nOpen Soundtrap Host Software. Identify the device name, and the battery power remaining\n\n\n\nAllow battery to charge to 100% (will charge through the USB connector)\nGo to the DEPLOY tab\n\nRecording Stats: When will you need the recording to start? Ideally, you will have an approximate date/time of deployment. In this case—you can set the recording to start near the time you expect to deploy (it does not need to be perfect). If you suspect the time/date will change—for example, if you are putting on a boat and they are not sure when it will start—then you can choose to deploy manually via remote- JUST BE SURE TO GIVE THEM THE REMOTE + INSTRUCTIONS! Note: the green light is difficult to see, so it can be frustrating to use the remote!\n\n\nRecording Schedule:  Set recording to CONTINUOUS. Uncheck ‘Periodic Recording’ and recording will automaticall run to a max of 2Gb per file.\n\n\n\nAudio Options: The Soundtrap4300 is a 4 channel recorder, but we will typically record on 2 of the channels. Unless told otherwise, please select Channel 1 and 2.\n\nSample Rate: The sample rate will vary based on the recorder & species of interest. The sampling rate determines how high of frequency we can analyze in our data; we can analyze up to 1/2 of the sampling rate (to the Nyquist frequency). In general, we want to record at very high sample rates to allow us to detect harbor porpoise and Kogia spp. (~ 140kHz). Unless told otherwise, select the highest sample rate available (384 or 288 kHz).\n\nDetector: The soundtrap recorder has a built-in click detector, which can be valuable for some recording situations. For ADRIFT, as we are recording the full sample rate, we will not use the internal click detector. Unless told otherwise, select ‘NONE’ for the Detector.\n\nAncillary Sensors: The soundtrap contains an internal accelerometer and temperature sensor. These are used to assess buoy movement and temperature at depth. Uless told otherwise, please select both sensors, to log once every 10s.\n\nOther: There are currently three other options. Our systems do not allow for internal GPS or streaming of data (so these are not applicable), and we DO NOT want the instrument to create calibration tones. Unless told otherwise, select DISABLE CALIBRATION TONES.\n\nIs the Soundtrap fully charged? Are you still on UTC Time? Just Checking!\nRecord Settings. Please record ALL settings to the google drive ‘Drifter Inventory/New Deployment to Save’ worksheet (format WILL change over tme, but this is our temporary data entry point). Take a screenshot of the settings and copy to the SCREENSHOT ST programming column (as an image in this column).\n\nDeploy! Be sure to select the Deploy button before removing the Soundtrap."
+  },
+  {
+    "objectID": "content/Hardware-ST4300.html#programming-the-soundtrap-4300",
+    "href": "content/Hardware-ST4300.html#programming-the-soundtrap-4300",
+    "title": "Soundtrap 4300",
+    "section": "",
+    "text": "Download Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)\nSet computer time to UTC (IMPORTANT!)\nPlug in Soundtrap to computer using special USB cable\n\nIs your computer set to UTC???   ☺ \nOpen Soundtrap Host Software. Identify the device name, and the battery power remaining\n\n\n\nAllow battery to charge to 100% (will charge through the USB connector)\nGo to the DEPLOY tab\n\nRecording Stats: When will you need the recording to start? Ideally, you will have an approximate date/time of deployment. In this case—you can set the recording to start near the time you expect to deploy (it does not need to be perfect). If you suspect the time/date will change—for example, if you are putting on a boat and they are not sure when it will start—then you can choose to deploy manually via remote- JUST BE SURE TO GIVE THEM THE REMOTE + INSTRUCTIONS! Note: the green light is difficult to see, so it can be frustrating to use the remote!\n\n\nRecording Schedule:  Set recording to CONTINUOUS. Uncheck ‘Periodic Recording’ and recording will automaticall run to a max of 2Gb per file.\n\n\n\nAudio Options: The Soundtrap4300 is a 4 channel recorder, but we will typically record on 2 of the channels. Unless told otherwise, please select Channel 1 and 2.\n\nSample Rate: The sample rate will vary based on the recorder & species of interest. The sampling rate determines how high of frequency we can analyze in our data; we can analyze up to 1/2 of the sampling rate (to the Nyquist frequency). In general, we want to record at very high sample rates to allow us to detect harbor porpoise and Kogia spp. (~ 140kHz). Unless told otherwise, select the highest sample rate available (384 or 288 kHz).\n\nDetector: The soundtrap recorder has a built-in click detector, which can be valuable for some recording situations. For ADRIFT, as we are recording the full sample rate, we will not use the internal click detector. Unless told otherwise, select ‘NONE’ for the Detector.\n\nAncillary Sensors: The soundtrap contains an internal accelerometer and temperature sensor. These are used to assess buoy movement and temperature at depth. Uless told otherwise, please select both sensors, to log once every 10s.\n\nOther: There are currently three other options. Our systems do not allow for internal GPS or streaming of data (so these are not applicable), and we DO NOT want the instrument to create calibration tones. Unless told otherwise, select DISABLE CALIBRATION TONES.\n\nIs the Soundtrap fully charged? Are you still on UTC Time? Just Checking!\nRecord Settings. Please record ALL settings to the google drive ‘Drifter Inventory/New Deployment to Save’ worksheet (format WILL change over tme, but this is our temporary data entry point). Take a screenshot of the settings and copy to the SCREENSHOT ST programming column (as an image in this column).\n\nDeploy! Be sure to select the Deploy button before removing the Soundtrap."
+  },
+  {
     "objectID": "content/Cleaning-Protocol.html",
     "href": "content/Cleaning-Protocol.html",
     "title": "Cleaning Protocol",
@@ -436,28 +460,28 @@
     "href": "content/Hardware-Sensus-Depth.html#download-depth-data",
     "title": "Sensus Depth Sensor",
     "section": "Download Depth Data",
-    "text": "Download Depth Data\n\nPlug in Reefnet sensor reader & place depth sensor on reader\nNote Depth Sensor ID & array/buoy it was deployed with\n\nOpen Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)\n\nSettings-&gt; set up appropriate Com Port\nPut sensor on reader (small vertical pins align with screws on sensor)\n\nPress ‘Configure Device’\nSelect Read user data/Write User Data\nEnsure ID and deployment # is saved on filename\nSave file in appropriate location (with relevant data)\nEnsure data is saved, and sensor is configured properly (see previous sections in this document), and it is ready for the next deployment!\n\n\n\nBattery and Memory Status\nThe Sensus Ultra contains a permanent lithium cell battery. It is not rechargeable and normal voltage levels range between 3.2 - 3.6 V. Before deployments, the battery should be checked for any significant drop in voltage (anything more than 0.2 V) and should not be used if the voltage is under 3 V.\nTo check battery voltage, connect the sensor to a computer and open the Sensus Manager software. Click “Configure Device” and then “Read Device Information” to see the battery voltage.\nThe Sensus will automatically overwrite the oldest data as necessary to store new data. Depth data should be offloaded immediately after each deployment."
+    "text": "Download Depth Data\n\nPlug in Reefnet sensor reader & place depth sensor on reader\nNote Depth Sensor ID & array/buoy it was deployed with\n\nOpen Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)\n\nSettings-&gt; set up appropriate Com Port\nPut sensor on reader (small vertical pins align with screws on sensor)\n\nPress ‘Download Device’\nSelect Read user data/Write User Data\nClick on Device ID in list on Data Library Tab\nClick on date of desired deployment\nClick ‘Export CSV’\nInclude depth sensor ID in filename\n\n\n\nBattery and Memory Status\nThe Sensus Ultra contains a permanent lithium cell battery. It is not rechargeable and normal voltage levels range between 3.2 - 3.6 V. Before deployments, the battery should be checked for any significant drop in voltage (anything more than 0.2 V) and should not be used if the voltage is under 3 V.\nTo check battery voltage, connect the sensor to a computer and open the Sensus Manager software. Click “Configure Device” and then “Read Device Information” to see the battery voltage.\nThe Sensus will automatically overwrite the oldest data as necessary to store new data. Depth data should be offloaded immediately after each deployment."
   },
   {
     "objectID": "content/Hardware-Recorder.html",
     "href": "content/Hardware-Recorder.html",
-    "title": "Hardware- Array",
+    "title": "Recorders",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+    "text": "The ST4300 is a small autonomous multi-channel recorder; the battery and SD card are sealed in the waterproof housing. The battery can be recharged and the data downloaded using a cable connected to a computer. TWhile limited in battery and storage capacity, the ease of use makes this ideal for shorter deployments (or duty cycled deployments) with inexperienced personnel. The ST4300 is discontinued and was replaced by the ST640.\nThis link provides information on using the ST640."
   },
   {
-    "objectID": "content/Hardware-Recorder.html#hardware--array",
-    "href": "content/Hardware-Recorder.html#hardware--array",
-    "title": "Hardware- Array",
+    "objectID": "content/Hardware-Recorder.html#soundtrap-4300",
+    "href": "content/Hardware-Recorder.html#soundtrap-4300",
+    "title": "Recorders",
     "section": "",
-    "text": "Edit the qmd or md files in the content folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).\nEach page should start with\n---\ntitle: your title\n---\nand the first header will be the 2nd level, so ##. Note, there are situations where you leave off\n---\ntitle: your title\n---\nand start the qmd file with a level header #, but if using the default title yaml (in the --- fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation)."
+    "text": "The ST4300 is a small autonomous multi-channel recorder; the battery and SD card are sealed in the waterproof housing. The battery can be recharged and the data downloaded using a cable connected to a computer. TWhile limited in battery and storage capacity, the ease of use makes this ideal for shorter deployments (or duty cycled deployments) with inexperienced personnel. The ST4300 is discontinued and was replaced by the ST640.\nThis link provides information on using the ST640."
   },
   {
-    "objectID": "content/Hardware-Recorder.html#add-your-pages-the-project",
-    "href": "content/Hardware-Recorder.html#add-your-pages-the-project",
-    "title": "Hardware- Array",
-    "section": "Add your pages the project",
-    "text": "Add your pages the project\n\nAdd the files to _quarto.yml"
+    "objectID": "content/Hardware-Recorder.html#soundtrap-640",
+    "href": "content/Hardware-Recorder.html#soundtrap-640",
+    "title": "Recorders",
+    "section": "Soundtrap 640",
+    "text": "Soundtrap 640\nThe ST640 is a multi-channel recorder with replaceable batteries and data storage. It has sufficient battery and data storage to allow for extended deployments (&gt; 1 month), but we suggest use by experienced personnel due to the risk of flooding.\nThis link provides additional information on using the ST640."
   },
   {
     "objectID": "content/Hardware-AltBuoy-Build.html#assembly",
