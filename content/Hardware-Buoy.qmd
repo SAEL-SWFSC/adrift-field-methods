@@ -30,15 +30,19 @@ Buoy*](images/Screenshot%202022-10-26%20092651.png){fig-align="left"}
 :::
 :::
 
-LINK TO Hardware-PoleBuoy-Build page (open in new tab)
+[Link to Detailed instructions for building a Pole Buoy](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-PoleBuoy-Build.html){target="_blank"}
+
 
 ## PIFSC Buoy
 
-Basic Blurb & Pic of PIFSC buoys, then link to build (Hardware-PIFSCbuoy-Build.qmd)
+PIFSC has developed a robust spar buoy for offshore deployements from large survey vessels. These surface buoys require additional weight and are less ideal for deployment from small vessels. PIFSC buoys were used during CalCurCEAS Survey. For more information, see:
+* [PIFSC Buoy Assembly](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-PIFSCbuoy-Build.html){target="_blank"}
+* [PIFSC Bouy Handoff Instructions](https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/supplemental/Handoff%20instructions_%20DASBR%20SWFSC_v5.03.2024.pdf){target="_blank"} - Instructions provided by PIFSC Maker Lab for SWFSC purchased buoys (2024)
+* [PIFSC Buoy Checklists](https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/supplemental/Checklists_%20DASBR%20SWFSC_from%20PIFSC_J.%20McCullough%20v.5.03.2024.pdf) - Field Checklists developed by PIFSC Maker Lab and Jennifer McCullough
 
 ------------------------------------------------------------------------
 
 
 ## Alternative Surface Buoys
-Basic Blurb & pic(s), then link to Alt- Buoy Builds (Hardware-AltBuoy-Build.qmd)
+[Link for additional information on Alternative Surface Buoys.](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-AltBuoy-Build.html)
 

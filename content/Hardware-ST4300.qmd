@@ -1,0 +1,63 @@
+---
+title: Soundtrap 4300
+---
+
+## Programming the Soundtrap 4300
+
+### Prepare the Computer
+
+-   Download Soundtrap Host Software (https://www.oceaninstruments.co.nz/downloads/)
+
+-   Set computer time to UTC (IMPORTANT!)
+
+-   Plug in Soundtrap to computer using special USB cable
+
+    ![](images/ST4300-2-Computer.png){width="329"}
+
+-   Is your computer set to UTC???   ☺ 
+
+-   Open Soundtrap Host Software. Identify the device name, and the battery power remaining
+
+![](images/stHost_start.jpg){width="479"}
+
+-   Allow battery to charge to 100% (will charge through the USB connector)
+
+-   Go to the DEPLOY tab
+
+**Recording Stats:** When will you need the recording to start? Ideally, you will have an approximate date/time of deployment. In this case—you can set the recording to start near the time you expect to deploy (it does not need to be perfect). If you suspect the time/date will change—for example, if you are putting on a boat and they are not sure when it will start—then you can choose to deploy manually via remote- JUST BE SURE TO GIVE THEM THE REMOTE + INSTRUCTIONS! Note: *the green light is difficult to see, so it can be frustrating to use the remote!*
+
+![](images/stHost_StartRecord.png)
+
+-   **Recording Schedule:**  Set recording to CONTINUOUS. Uncheck ‘Periodic Recording’ and recording will automaticall run to a max of 2Gb per file.
+
+![](images/stHost_RecordSchedule.png)
+
+-   **Audio Options:** The Soundtrap4300 is a 4 channel recorder, but we will typically record on 2 of the channels. Unless told otherwise, please select Channel 1 and 2.
+
+    ![](images/stHost_AudioOptions.png)
+
+-   **Sample Rate:** The sample rate will vary based on the recorder & species of interest. The sampling rate determines how high of frequency we can analyze in our data; we can analyze up to 1/2 of the sampling rate (to the Nyquist frequency). In general, we want to record at very high sample rates to allow us to detect harbor porpoise and Kogia spp. (\~ 140kHz). Unless told otherwise, select the highest sample rate available (384 or 288 kHz).
+
+    ![](images/stHost_SR.png)
+
+-   **Detector:** The soundtrap recorder has a built-in click detector, which can be valuable for some recording situations. For ADRIFT, as we are recording the full sample rate, we will not use the internal click detector. Unless told otherwise, select 'NONE' for the Detector.
+
+    ![](images/stHost_Detector.png)
+
+-   **Ancillary Sensors:** The soundtrap contains an internal accelerometer and temperature sensor. These are used to assess buoy movement and temperature at depth. Uless told otherwise, please select both sensors, to log once every 10s.
+
+    ![](images/stHost_sensors.png)
+
+-   **Other:** There are currently three other options. Our systems do not allow for internal GPS or streaming of data (so these are not applicable), and we DO NOT want the instrument to create calibration tones. Unless told otherwise, select DISABLE CALIBRATION TONES.
+
+    ![](images/stHost_Other.png)
+
+-   **Is the Soundtrap fully charged? Are you still on UTC Time?** *Just Checking!*
+
+-   Record Settings. Please record ALL settings to the google drive 'Drifter Inventory/New Deployment to Save' worksheet (format WILL change over tme, but this is our temporary data entry point). Take a screenshot of the settings and copy to the SCREENSHOT ST programming column (as an image in this column).
+
+    ![](images/stHost_RecordScreenshot.png)
+
+-   Deploy! Be sure to select the Deploy button before removing the Soundtrap.
+
+    ![](images/stHost_Deploy.png)

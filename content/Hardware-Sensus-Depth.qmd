@@ -55,7 +55,7 @@ To Do: Need to modify based on comments from Anne Simonis in comments
 
 2.  Note Depth Sensor ID & array/buoy it was deployed with
 
-    ![](images/sensus FindDepthID.jpg){width="147"}
+    ![](images/sensus%20FindDepthID.jpg){width="147"}
 
 3.  Open Reefnet Sensus Ultra Software (https://reefnet.ca/downloads/)
 
@@ -66,17 +66,17 @@ To Do: Need to modify based on comments from Anne Simonis in comments
 
         ![](images/sensusReader.png){width="227"}
 
-    3.  Press ‘Configure Device’
+    3.  Press ‘Download Device’
 
     4.  Select Read user data/Write User Data
 
-    5.  Ensure ID and deployment \# is saved on filename
+    5.  Click on Device ID in list on Data Library Tab
 
-    6.  Save file in appropriate location (with relevant data)
+    6.  Click on date of desired deployment
 
-    7.  Ensure data is saved, and sensor is configured properly (see
-        previous sections in this document), and it is ready for the
-        next deployment!
+    7.  Click 'Export CSV'
+
+    8.  Include depth sensor ID in filename
 
 ### Battery and Memory Status
 

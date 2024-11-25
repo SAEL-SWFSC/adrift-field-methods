@@ -34,7 +34,7 @@ Each drifting acoustic buoy has a depth sensor attached to the end of the hydrop
 
 ![*Sensus Ultra Depth Sensor*](images/Screenshot%202022-10-27%20131215.png)
 
-(Link to page on Sensus Depth Sensor)
+[Link to more information on Sensus Depth Sensor](https://sael-swfsc.github.io/adrift-field-methods/content/Hardware-Sensus-Depth.html){target="_blank"}
 
 
 ## Anchor

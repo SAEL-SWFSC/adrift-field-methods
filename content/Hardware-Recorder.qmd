@@ -1,25 +1,13 @@
 ---
-title: Hardware- Array
+title: Recorders
 ---
+## Soundtrap 4300 
+The ST4300 is a small autonomous multi-channel recorder; the battery and SD card are sealed in the waterproof housing. The battery can be recharged and the data downloaded using a cable connected to a computer. TWhile limited in battery and storage capacity, the ease of use makes this ideal for shorter deployments (or duty cycled deployments) with inexperienced personnel. The ST4300 is discontinued and was replaced by the ST640.
 
-## Hardware- Array
+This link provides information on using the ST640.
 
-Edit the qmd or md files in the `content` folder. qmd files can include code (R, Python, Julia) and lots of Quarto markdown bells and whistles (like call-outs, cross-references, auto-citations and much more).
 
-Each page should start with
+## Soundtrap 640
+The ST640 is a multi-channel recorder with replaceable batteries and data storage. It has sufficient battery and data storage to allow for extended deployments (> 1 month), but we suggest use by experienced personnel due to the risk of flooding. 
 
-    ---
-    title: your title
-    ---
-
-and the first header will be the 2nd level, so `##`. Note, there are situations where you leave off
-
-    ---
-    title: your title
-    ---
-
-and start the qmd file with a level header `#`, but if using the default title yaml (in the `---` fence) is a good habit since it makes it easy for Quarto convert your qmd file to other formats (like into a presentation).
-
-## Add your pages the project
-
--   Add the files to `_quarto.yml`
+This link provides additional information on using the ST640.
