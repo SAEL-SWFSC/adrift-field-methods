@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.6.37">
+<meta name="generator" content="quarto-1.6.39">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>hardware-st640 – ADRIFT Field Methods</title>
+<title>Soundtrap 640 – ADRIFT Field Methods</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -35,12 +35,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-29e2c20b02301cfff04dc8050bf30c7e.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-43df0d6f53b733b42d37fa7808e17715.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-66bda207f4d391eeabb937a1a037682a.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../site_libs/bootstrap/bootstrap-dark-807bec3bda0d4bd47035e0ed1c997069.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-2f9c039ea7a9e575d83849e7716bb683.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-dark-504eaef62a3362ffc665ddab0dff3f96.min.css" rel="prefetch" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item">Soundtrap 640</li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -227,17 +227,82 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#tool-kit-safety" id="toc-tool-kit-safety" class="nav-link active" data-scroll-target="#tool-kit-safety">Tool Kit Safety:</a></li>
+  <li><a href="#preparing-the-soundtrap" id="toc-preparing-the-soundtrap" class="nav-link" data-scroll-target="#preparing-the-soundtrap">Preparing the Soundtrap</a>
+  <ul class="collapse">
+  <li><a href="#install-sd-cards" id="toc-install-sd-cards" class="nav-link" data-scroll-target="#install-sd-cards">Install SD Cards</a></li>
+  <li><a href="#install-batteries" id="toc-install-batteries" class="nav-link" data-scroll-target="#install-batteries">Install Batteries</a></li>
+  <li><a href="#program-soundtrap" id="toc-program-soundtrap" class="nav-link" data-scroll-target="#program-soundtrap">Program Soundtrap</a></li>
+  </ul></li>
+  <li><a href="#secure-housing" id="toc-secure-housing" class="nav-link" data-scroll-target="#secure-housing">Secure Housing</a></li>
+  <li><a href="#open-housing" id="toc-open-housing" class="nav-link" data-scroll-target="#open-housing">Open Housing</a></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Hardware-ST640.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Hardware-ST640.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Soundtrap 640</h1>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="tool-kit-safety" class="level3">
+<h3 class="anchored" data-anchor-id="tool-kit-safety">Tool Kit Safety:</h3>
+<p>Eye Goggles, Gloves O-ring: O-rings, dental stimulator (to remove o-ring), o-ring lubricant Waterproof: PTFE tape, waterproof tape, electrical tape Tools: snips, scissors, Misc: zip ties, silver/black sharpie</p>
+</section>
+<section id="preparing-the-soundtrap" class="level2">
+<h2 class="anchored" data-anchor-id="preparing-the-soundtrap">Preparing the Soundtrap</h2>
+<section id="install-sd-cards" class="level3">
+<h3 class="anchored" data-anchor-id="install-sd-cards">Install SD Cards</h3>
+</section>
+<section id="install-batteries" class="level3">
+<h3 class="anchored" data-anchor-id="install-batteries">Install Batteries</h3>
+</section>
+<section id="program-soundtrap" class="level3">
+<h3 class="anchored" data-anchor-id="program-soundtrap">Program Soundtrap</h3>
+</section>
+</section>
+<section id="secure-housing" class="level2">
+<h2 class="anchored" data-anchor-id="secure-housing">Secure Housing</h2>
+</section>
+<section id="open-housing" class="level2">
+<h2 class="anchored" data-anchor-id="open-housing">Open Housing</h2>
+<p>Before opening housing, have safety gear and <a href="https://sael-swfsc.github.io/SAEL-lab-manual/content/Safety_Lithium-Batteries.html">Lithium Battery protocol</a> ready and review all safety protocol.</p>
+<p>When retrieving a Soundtrap 600, assume instrument is pressurized and that lithium batteries are compromised or unstable and use extreme caution until you can confirm that batteries are stable.&nbsp;</p>
+<ol type="1">
+<li><p>When hauling instrument onto the vessel, keep the end with the hydrophone connections aimed <strong>away</strong> from any people (including yourself!).&nbsp; Observe the instrument and listen for any sounds that may indicate the instrument is compromised or pressurized.</p>
+<ol type="1">
+<li><p>Listen for air escaping</p></li>
+<li><p>Feel for warmth/heat from instrument (it should be cold from the water!)</p></li>
+<li><p>Observer air, water, or bubbles that seem to be escaping from an entry point into the instrument.&nbsp;</p></li>
+<li><p>Open pressure release valve on soundtrap before opening the main canister</p></li>
+</ol></li>
+<li><p>Use PPE prior to opening instrument (cover eyes and skin).</p></li>
+<li><p>At any point if there is a concern that the instrument is compromised, STOP, put the instrument in a tote (with no other gear), revisit this safety material, and prepare the safety kit.&nbsp;</p></li>
+</ol>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -809,7 +874,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>   
     <div class="nav-footer-center">
       &nbsp;
-    <div class="toc-actions"><ul><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Hardware-ST640.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Hardware-ST640.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
+    <div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/edit/main/content/Hardware-ST640.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/blob/main/content/Hardware-ST640.qmd" class="toc-action"><i class="bi empty"></i>View source</a></li><li><a href="https://github.com/SAEL-SWFSC/adrift-field-methods/issues/new" class="toc-action"><i class="bi empty"></i>Report an issue</a></li></ul></div></div>
     <div class="nav-footer-right">
 <p>This page is built with <a href="https://quarto.org/">Quarto</a>.</p>
 </div>

@@ -57,7 +57,7 @@
     "href": "content/Hardware-Satellite.html#spot-satellite-tracker",
     "title": "Satellite GPS",
     "section": "SPOT Satellite Tracker",
-    "text": "SPOT Satellite Tracker\nThe SPOTs are satellite tracking devices that use the Globalstar network (suitable for the California Current). To extend tracking life, we modify these to use two D cell lithium batteries housed in a custom ABS cylinder housing that needs a light vacuum to minimize condensation.\nThe SPOTs should be prepared 1 day in advance to ensure they are tracking and that the vacuum seal on the housing holds. Once turned on, the SPOTs should have direct access to the sky (not stored under metal or other material that may block satellite transmission).\nThere are two videos available: Spot Prep to Deploy 1 of 2.mp4; Spot Prep to Deploy 1 of 2.mp4 (Need to find a way to save these?)\n\nPrepare SPOTs for Deployment\n\nThe SPOTs should already be modified to accommodate the external lithium battery pack. If not, please see the “Spot Modification” guide (need to add this)\nOpen black SPOT canister & remove SPOTs. Plug SPOT devices into their battery connectors and turn on (push in button 1x until you see green light flash).\n\nPut SPOT in place in black canister. The lid of the canister acts as an o-ring and should be clear of debris. Add a small amount of o-ring grease to the inside of the lid. Place lid on canister, and hand-tighten.\n\nOpen vacuum valve and use hand-vacuum pump to create ~5-10mm pressure. You will see the cap suck in with the pressure. Close the valve. This vacuum minimizes condensation. Prepare 1 day prior so you can ensure no leaks in vacuum seal. This can be tricky! Go fast with fingers of one hand holding the connector to the valve while pumping fast—once &gt;5mm pressure, use those fingers to close the valve.\n(add pic)\nCheck to make sure the SPOT geolocation devices are transmitting at least one day prior to deployment. Place SPOT devices on deck w/ clear view of sky. SPOT devices must be moving to transmit. Ask SWFSC for updated link.\nSpar Buoy Sticker. Write the end-of-cruise date “e.g. September 2021” on label sticker.\n\nPlace the SPOT canister on the High Flyer. Canister rests in the aluminum H-Bar taped to the pole. Tighten the hose clamps to secure the canister onto the pole. If possible, store the pole/canister such that it can ‘see’ the sky.",
+    "text": "SPOT Satellite Tracker\nThe SPOTs are satellite tracking devices that use the Globalstar network (suitable for the California Current). To extend tracking life, we modify these to use two D cell lithium batteries housed in a custom ABS cylinder housing that needs a light vacuum to minimize condensation.\nThe SPOTs should be prepared 1 day in advance to ensure they are tracking and that the vacuum seal on the housing holds. Once turned on, the SPOTs should have direct access to the sky (not stored under metal or other material that may block satellite transmission).\nThere are two videos available: Spot Prep to Deploy 1 of 2.mp4; Spot Prep to Deploy 1 of 2.mp4 (Need to find a way to save these?)\n\n\n\n\n\n\nImportant\n\n\n\nNote: There are two videos available: Spot Prep to Deploy 1 of 2.mp4; Spot Prep to Deploy 1 of 2.mp4\n\n\n\nPrepare SPOTs for Deployment\n\nThe SPOTs should already be modified to accommodate the external lithium battery pack. If not, please see the “Spot Modification” guide\n\n\n\n\n\n\n\nImportant\n\n\n\nNote: (need to add this)\n\n\n\nOpen black SPOT canister & remove SPOTs. Plug SPOT devices into their battery connectors and turn on (push in button 1x until you see green light flash).\n\nPut SPOT in place in black canister. The lid of the canister acts as an o-ring and should be clear of debris. Add a small amount of o-ring grease to the inside of the lid. Place lid on canister, and hand-tighten.\n\nOpen vacuum valve and use hand-vacuum pump to create ~5-10mm pressure. You will see the cap suck in with the pressure. Close the valve. This vacuum minimizes condensation. Prepare 1 day prior so you can ensure no leaks in vacuum seal. This can be tricky! Go fast with fingers of one hand holding the connector to the valve while pumping fast—once &gt;5mm pressure, use those fingers to close the valve.\n\nCheck to make sure the SPOT geolocation devices are transmitting at least one day prior to deployment. Place SPOT devices on deck w/ clear view of sky. SPOT devices must be moving to transmit.\n\n\n\n\n\n\n\nImportant\n\n\n\nNote: Need to add updated link in new google drive\n\n\n![](images/spot_map.png){width=\"271\"}\n\nSpar Buoy Sticker. Write the end-of-cruise date “e.g. September 2021” on label sticker.\n\nPlace the SPOT canister on the High Flyer. Canister rests in the aluminum H-Bar taped to the pole. Tighten the hose clamps to secure the canister onto the pole. If possible, store the pole/canister such that it can ‘see’ the sky.",
     "crumbs": [
       "Hardware",
       "Satellite GPS"
@@ -258,6 +258,34 @@
       "Field Methods",
       "Safety Protocol for Flooded SoundTraps"
     ]
+  },
+  {
+    "objectID": "content/Hardware-ST640.html",
+    "href": "content/Hardware-ST640.html",
+    "title": "Soundtrap 640",
+    "section": "",
+    "text": "Eye Goggles, Gloves O-ring: O-rings, dental stimulator (to remove o-ring), o-ring lubricant Waterproof: PTFE tape, waterproof tape, electrical tape Tools: snips, scissors, Misc: zip ties, silver/black sharpie"
+  },
+  {
+    "objectID": "content/Hardware-ST640.html#preparing-the-soundtrap",
+    "href": "content/Hardware-ST640.html#preparing-the-soundtrap",
+    "title": "Soundtrap 640",
+    "section": "Preparing the Soundtrap",
+    "text": "Preparing the Soundtrap\n\nInstall SD Cards\n\n\nInstall Batteries\n\n\nProgram Soundtrap"
+  },
+  {
+    "objectID": "content/Hardware-ST640.html#secure-housing",
+    "href": "content/Hardware-ST640.html#secure-housing",
+    "title": "Soundtrap 640",
+    "section": "Secure Housing",
+    "text": "Secure Housing"
+  },
+  {
+    "objectID": "content/Hardware-ST640.html#open-housing",
+    "href": "content/Hardware-ST640.html#open-housing",
+    "title": "Soundtrap 640",
+    "section": "Open Housing",
+    "text": "Open Housing\nBefore opening housing, have safety gear and Lithium Battery protocol ready and review all safety protocol.\nWhen retrieving a Soundtrap 600, assume instrument is pressurized and that lithium batteries are compromised or unstable and use extreme caution until you can confirm that batteries are stable. \n\nWhen hauling instrument onto the vessel, keep the end with the hydrophone connections aimed away from any people (including yourself!).  Observe the instrument and listen for any sounds that may indicate the instrument is compromised or pressurized.\n\nListen for air escaping\nFeel for warmth/heat from instrument (it should be cold from the water!)\nObserver air, water, or bubbles that seem to be escaping from an entry point into the instrument. \nOpen pressure release valve on soundtrap before opening the main canister\n\nUse PPE prior to opening instrument (cover eyes and skin).\nAt any point if there is a concern that the instrument is compromised, STOP, put the instrument in a tote (with no other gear), revisit this safety material, and prepare the safety kit."
   },
   {
     "objectID": "content/Field-Sightings.html",
@@ -484,6 +512,20 @@
     "text": "Soundtrap 640\nThe ST640 is a multi-channel recorder with replaceable batteries and data storage. It has sufficient battery and data storage to allow for extended deployments (&gt; 1 month), but we suggest use by experienced personnel due to the risk of flooding.\nThis link provides additional information on using the ST640."
   },
   {
+    "objectID": "content/Hardware-AltBuoy-Build.html",
+    "href": "content/Hardware-AltBuoy-Build.html",
+    "title": "Alternative Pole Buoy Configurations and Assembly Steps",
+    "section": "",
+    "text": "These high-flyer buoys are now discontinued (but we have a few remaining at the lab).\n\nSlide buoy float (little or no inflation) over the key at the bottom of the aluminum pole using dish or hand soap as lubricant. Inflate to 2psi. Install bridle by sliding hte loop over the bottom and then the top of the pole.\n\nSlide ballast weight over key at end of buoy, rotate 180degrees and slide the weight down to engage the key in the short slot. Secure weight with duct tape or zipo tie so it cannot slide up and disengage (this has happened!).\n \nExtend the inner pole approximately 7 feet and attach the radar reflectdor at the top of inner pole using the thru-bolt.\n\nBefore deployment, attach satellite tracking unit (black ABS cylinder shown below) using extra long zip-ties."
+  },
+  {
+    "objectID": "content/Hardware-AltBuoy-Build.html#hi-liner-high-flyer-buoys",
+    "href": "content/Hardware-AltBuoy-Build.html#hi-liner-high-flyer-buoys",
+    "title": "Alternative Pole Buoy Configurations and Assembly Steps",
+    "section": "",
+    "text": "These high-flyer buoys are now discontinued (but we have a few remaining at the lab).\n\nSlide buoy float (little or no inflation) over the key at the bottom of the aluminum pole using dish or hand soap as lubricant. Inflate to 2psi. Install bridle by sliding hte loop over the bottom and then the top of the pole.\n\nSlide ballast weight over key at end of buoy, rotate 180degrees and slide the weight down to engage the key in the short slot. Secure weight with duct tape or zipo tie so it cannot slide up and disengage (this has happened!).\n \nExtend the inner pole approximately 7 feet and attach the radar reflectdor at the top of inner pole using the thru-bolt.\n\nBefore deployment, attach satellite tracking unit (black ABS cylinder shown below) using extra long zip-ties."
+  },
+  {
     "objectID": "content/Hardware-AltBuoy-Build.html#assembly",
     "href": "content/Hardware-AltBuoy-Build.html#assembly",
     "title": "Alternative Pole Buoy Configurations and Assembly Steps",
@@ -495,7 +537,7 @@
     "href": "content/Hardware-PoleBuoy-Build.html",
     "title": "Pole Buoy Build Instructions",
     "section": "",
-    "text": "Add detailed info on pole buoy build including: parts table, detailed instructions with images. Stuff below was taken from another page\n\nPole Buoy Assembly\n\nPrepare the bridle:\n\nThere should be 3 pieces of clear abrasion resistant hose along with the 12-strand thick blue/green line in the tote\nThe bridle will have 3 loops in it: two go around the pole (1 loop below the crab floats, 1 loop above the crab floats) and one loop is in the middle to attach to the rest of the gear\nThese loops get a BIG workout– put the hose on the line at each of these loops to minimize abrasion of the line during deployment\n\nPut lower loop of bridle onto the pole\nAdd crab floats:\n\nPut 2 orange crab floats onto the pole so that the flat ends of the crab floats butt up against each other\nThere are bolts that go through the pole at the top and bottom of the floats to help keep them in place\nWe have also been putting a hose clamp between the buoys & the bolts, and then wrapping this in electrical tape\n\nRadar reflector and GPS mount:\n\nAt the top are the radar reflector and the GPS mount\nThe radar reflector goes over the pole, and then the GPS mount is inserted into the top of the pole\nA bolt (currently attached to the GPS mount) holds both in place\nThe pole, reflectors, and GPS mounts are labeled A, B, C to identify sets that fit well together previously\n\nStrobe Light- Prior to deployment, add batteries & zip tie the strobe onto the GPS mount\nAdd reflector tape to the pole below the radar reflector"
+    "text": "Pole Buoy Components\nSee Adrift Parts List in Supplemental Folder for more details.\n\nAluminum Pole- 9’ length, 1.25” 6063 aluminum round tube with approx 17 lbs attached to bottom of pole to keep buoy vertical\nCrab Floats- To keep it floating! There are bolts above/below to keep it from moving along the pole.\nBridle- 12 strand line that links the pole buoy to the rest of the drifting recorder setup\nRadar Reflector- so ships can see it (but not as visible on radar as we would like!), and to help us find it.\nGPS Mount- to hold solar GPS and strobe light\n\n\n\nPole Buoy Assembly\n\nPrepare the bridle:\n\nThere should be 3 pieces of clear abrasion resistant hose along with the 12-strand thick blue/green line in the tote\nThe bridle will have 3 loops in it: two go around the pole (1 loop below the crab floats, 1 loop above the crab floats) and one loop is in the middle to attach to the rest of the gear\nThese loops get a BIG workout– put the hose on the line at each of these loops to minimize abrasion of the line during deployment\n\nPut lower loop of bridle onto the pole\nAdd crab floats:\n\nPut 2 orange crab floats onto the pole so that the flat ends of the crab floats butt up against each other\nThere are bolts that go through the pole at the top and bottom of the floats to help keep them in place\nWe have also been putting a hose clamp between the buoys & the bolts, and then wrapping this in electrical tape\n\nRadar reflector and GPS mount:\n\nAt the top are the radar reflector and the GPS mount\nThe radar reflector goes over the pole, and then the GPS mount is inserted into the top of the pole\nA bolt (currently attached to the GPS mount) holds both in place. A bolt (currently attached to the GPS mount) holds both in place.\nThe pole, reflectors, and GPS mounts are labeled A, B, C to identify sets that fit well together previously\n\nStrobe Light- Prior to deployment, add batteries & zip tie the strobe onto the GPS mount\nAdd reflector tape to the pole below the radar reflector"
   },
   {
     "objectID": "content/Hardware-Recorders.html",
