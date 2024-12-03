@@ -44,13 +44,15 @@ There are two videos available: Spot Prep to Deploy 1 of 2.mp4; Spot Prep to Dep
 
     ![](images/spot_vacuum.png){width="323"}
 
-5.  Check to make sure the SPOT geolocation devices are transmitting at least one day prior to deployment. Place SPOT devices on deck w/ clear view of sky. SPOT devices must be moving to transmit. 
+5.  Check to make sure the SPOT geolocation devices are transmitting at least one day prior to deployment. Place SPOT devices on deck w/ clear view of sky. SPOT devices must be moving to transmit.
 
 ::: callout-important
 *Note*: Need to add updated link in new google drive
 :::
 
-    ![](images/spot_map.png){width="271"}
+        
+![](images/spot_map.png){width="271"}
+
 
 6.  Spar Buoy Sticker. Write the end-of-cruise date “e.g. September 2021” on label sticker.
 

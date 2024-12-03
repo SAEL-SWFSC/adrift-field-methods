@@ -5,3 +5,5 @@ page-layout: full
 ---
 
 This document provides information related to fieldwork for ADRIFT in the California Current, which uses drifting acoustic recorders to monitor marine mammals and the ocean soundscape. These methods include hardware specifications and assembly, preparing for deployment, deployment methods, tracking methods, and retrieval methods.
+
+![](content/images/Surface-Buoys-SWFSC-MMTD-Hom-Weaver.jpg)

@@ -4,10 +4,8 @@ editor:
   markdown: 
     wrap: 72
 ---
-
-![](images/SWFSC-Drifter-Diagram.png)
-
-![](images/SWFSC-Drifter-PoleBuoy-Diagram.png)
+::: columns
+::: {.column width="50%"}
 
 ### Pole Buoy Components
 
@@ -26,6 +24,14 @@ See Adrift Parts List in Supplemental Folder for more details.
     we would like!), and to help us find it.
 
 5.  GPS Mount- to hold solar GPS and strobe light
+
+:::
+::: {.column width="50%"}
+
+![](images/SWFSC-Drifter-PoleBuoy-Diagram.png)
+
+:::
+:::
 
 ### Pole Buoy Assembly
 
