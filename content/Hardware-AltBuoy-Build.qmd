@@ -2,7 +2,25 @@
 title: Alternative Pole Buoy Configurations and Assembly Steps
 ---
 
-## Configurations
+## Hi Liner High Flyer Buoys
+
+These high-flyer buoys are now discontinued (but we have a few remaining at the lab).
+
+1.  Slide buoy float (little or no inflation) over the key at the bottom of the aluminum pole using dish or hand soap as lubricant. Inflate to 2psi. Install bridle by sliding hte loop over the bottom and then the top of the pole.
+
+    ![](images/hiLiner_float2Pole.jpg)
+
+2.  Slide ballast weight over key at end of buoy, rotate 180degrees and slide the weight down to engage the key in the short slot. Secure weight with duct tape or zipo tie so it cannot slide up and disengage (this has happened!).
+
+    ![](images/hiLiner_weight1.jpg) ![](images/hiLiner_weight2.jpg){width="214"}
+
+3.  Extend the inner pole approximately 7 feet and attach the radar reflectdor at the top of inner pole using the thru-bolt.
+
+    ![](images/hiLiner_radar.jpg)
+
+4.  Before deployment, attach satellite tracking unit (black ABS cylinder shown below) using extra long zip-ties.
+
+    ![](images/hiLiner_deploy.jpg)
 
 ## Assembly
 

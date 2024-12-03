@@ -1,0 +1,55 @@
+---
+title: Soundtrap 640
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+### Tool Kit Safety:
+
+Eye Goggles, Gloves O-ring: O-rings, dental stimulator (to remove
+o-ring), o-ring lubricant Waterproof: PTFE tape, waterproof tape,
+electrical tape Tools: snips, scissors, Misc: zip ties, silver/black
+sharpie
+
+## Preparing the Soundtrap
+
+### Install SD Cards
+
+### Install Batteries
+
+### Program Soundtrap
+
+## Secure Housing
+
+## Open Housing
+
+Before opening housing, have safety gear and [Lithium Battery
+protocol](https://sael-swfsc.github.io/SAEL-lab-manual/content/Safety_Lithium-Batteries.html)
+ready and review all safety protocol.
+
+When retrieving a Soundtrap 600, assume instrument is pressurized and
+that lithium batteries are compromised or unstable and use extreme
+caution until you can confirm that batteries are stable. 
+
+1.  When hauling instrument onto the vessel, keep the end with the
+    hydrophone connections aimed **away** from any people (including
+    yourself!).  Observe the instrument and listen for any sounds that
+    may indicate the instrument is compromised or pressurized.
+
+    1.  Listen for air escaping
+
+    2.  Feel for warmth/heat from instrument (it should be cold from the
+        water!)
+
+    3.  Observer air, water, or bubbles that seem to be escaping from an
+        entry point into the instrument. 
+
+    4.  Open pressure release valve on soundtrap before opening the main
+        canister
+
+2.  Use PPE prior to opening instrument (cover eyes and skin).
+
+3.  At any point if there is a concern that the instrument is
+    compromised, STOP, put the instrument in a tote (with no other
+    gear), revisit this safety material, and prepare the safety kit. 

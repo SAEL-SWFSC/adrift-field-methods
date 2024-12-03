@@ -1,8 +1,31 @@
 ---
 title: Pole Buoy Build Instructions
+editor: 
+  markdown: 
+    wrap: 72
 ---
 
-Add detailed info on pole buoy build including: parts table, detailed instructions with images. Stuff below was taken from another page
+![](images/SWFSC-Drifter-Diagram.png)
+
+![](images/SWFSC-Drifter-PoleBuoy-Diagram.png)
+
+### Pole Buoy Components
+
+See Adrift Parts List in Supplemental Folder for more details.
+
+1.  Aluminum Pole- 9' length, 1.25" 6063 aluminum round tube with approx
+    17 lbs attached to bottom of pole to keep buoy vertical
+
+2.  Crab Floats- To keep it floating! There are bolts above/below to
+    keep it from moving along the pole.
+
+3.  Bridle- 12 strand line that links the pole buoy to the rest of the
+    drifting recorder setup
+
+4.  Radar Reflector- so ships can see it (but not as visible on radar as
+    we would like!), and to help us find it.
+
+5.  GPS Mount- to hold solar GPS and strobe light
 
 ### Pole Buoy Assembly
 
@@ -39,7 +62,9 @@ Add detailed info on pole buoy build including: parts table, detailed instructio
     -   The radar reflector goes over the pole, and then the GPS mount
         is inserted into the top of the pole
 
-    -   A bolt (currently attached to the GPS mount) holds both in place
+    -   A bolt (currently attached to the GPS mount) holds both in
+        place. A bolt (currently attached to the GPS mount) holds both
+        in place.
 
     -   The pole, reflectors, and GPS mounts are labeled A, B, C to
         identify sets that fit well together previously
@@ -48,4 +73,3 @@ Add detailed info on pole buoy build including: parts table, detailed instructio
     strobe onto the GPS mount
 
 6.  Add reflector tape to the pole below the radar reflector
-
