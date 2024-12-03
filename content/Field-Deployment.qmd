@@ -2,23 +2,25 @@
 title: Deployment
 ---
 
+Please ensure that you have successfully completed all Pre Deployment preparations (Give Link) before Deployment.
+
 ::: callout-note
-ONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. 
+*IMPORTANT!* ONLY deploy from the stern at slow speed (2-3 knots). There may be slack line and it is critical to ensure this line does not get in the propeller. 
 :::
 
-**IMPORTANT:**
+::: callout-note
+*IMPORTANT!* None of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight.
+:::
 
--   None of the equipment is designed to be dropped or thrown into the water. Lower the equipment carefully on lines. This includes the anchor weight. 
+::: callout-note
+*IMPORTANT!* Discuss the deployment plan with the crew and read all of the following instructions **BEFORE** you begin to deploy. If you will be deploying from a NOAA Research Vessel, you may find the Deployment and Recovery Deck Operations Document helpful (Link Here).
+:::
 
--   Discuss the deployment plan with the crew and read all of the following instructions **BEFORE** you begin to deploy. 
+Before deployment: Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-WZIF3/view?usp=sharing) for an overview of the entire deployment and retrieval process (old video). Also see other detailed videos (links embedded below)
 
--   Before deployment: Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-WZIF3/view?usp=sharing) for an overview of the entire deployment and retrieval process (old video). Also see other detailed videos (links embedded below)
+## **Requirements for Deployment**
 
-### **Requirements for Deployment**
-
--   \>200m water depth (preferably more!), not too close to a rapid decrease in water depth
-
-    -   Buoy  will run aground at \~110m depth.
+-   \>200m water depth (preferably more!), not too close to a rapid decrease in water depth. Buoy  will run aground at \~110m depth.
 
 -   Not too close to shipping lane or significant shipping traffic
 
@@ -28,7 +30,7 @@ ONLY deploy from the stern at slow speed (2-3 knots). There may be slack line an
 
 -   Only deploy off stern
 
-### **Deployment**
+## **Deployment**
 
 1.  Slow the boat speed to 2-3 knots
 2.  Anchor ready, but deploy last!

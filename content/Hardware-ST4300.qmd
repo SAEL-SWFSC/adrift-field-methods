@@ -2,6 +2,10 @@
 title: Soundtrap 4300
 ---
 
+::: callout-important
+**Note:** See the Soundtrap 4300 Endurance Calculator to estimate the duration of recordings based on the power/storage
+:::
+
 ## Programming the Soundtrap 4300
 
 ### Prepare the Computer

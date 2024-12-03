@@ -29,7 +29,7 @@ There are two videos available: Spot Prep to Deploy 1 of 2.mp4; Spot Prep to Dep
 1.  The SPOTs should already be modified to accommodate the external lithium battery pack. If not, please see the “Spot Modification” guide
 
 ::: callout-important
-*Note*: (need to add this)
+*Note*: (need to add Spot Modification Guide)
 :::
 
 2.  Open black SPOT canister & remove SPOTs. Plug SPOT devices into their battery connectors and turn on (push in button 1x until you see green light flash).

@@ -38,4 +38,4 @@ Each drifting acoustic buoy has a depth sensor attached to the end of the hydrop
 
 
 ## Anchor
-Say something about the types of anchors used, and describe the attchment bit to reduce risk of entanglement
+A 30-lb anchor is attached to the bottom of the array. A loop of light nylon line at the top of the anchor is used as a “weak link” in case of whale entanglement. The anchor is heavy and not typically stored in the tote. It will need to be tied to the bottom of the array prior to deployment.

@@ -1,8 +1,17 @@
 ---
 title: Retrieval
 ---
+::: callout-note
+**IMPORTANT!** Discuss the retrieval plan with the crew and read all of the following instructions *BEFORE* you begin to deploy. If you will be deploying from a NOAA Research Vessel, you may find the Deployment and Recovery Deck Operations Document helpful (Link Here).
+:::
 
-The minimum number of personnel required for the recovery process is two and additional support may be needed based on the size of the vessel and sea state. The two essential roles for recovery include someone to grab the buoy and pull it in, and someone to store gear and watch for the drogue/hydrophones coming out of the water. These tasks can be completed by more than two people as needed.
+## **Requirements for Retrieval**
+
+- Minimum Personnel required for the recovery process is two and additional support may be needed based on the size of the vessel and sea state. The two essential roles for recovery include someone to grab the buoy and pull it in, and someone to store gear and watch for the drogue/hydrophones coming out of the water. These tasks can be completed by more than two people as needed.
+- Communication with Captain/Bridge. Ideally there will be a third person on deck dedicated to communication with the crew driving the vessel. You  must ensure there is a clear means of communication prior to approach. 
+- Equipment: Boat hook, grappling line, captstan, and storage tote.
+
+## **Retrieval**
 
 Depending on the size of the vessel and sea state, there are two main methods to retrieve the buoy;
 
@@ -23,7 +32,7 @@ Watch [this video](https://drive.google.com/file/d/1z68rHba4__vY79wDFAkjrgq4IF-W
 3.  Using a boat hook or grapple, grab the orange floating line 
 4.  Retrieve the hook, orange float, and orange line, and pull all components in by hand using gloves
 5.  Bring the pole buoy aboard, lift over rail and set it on the deck
-6.  Retrieve the line; if a winch is used, ensure that there is a lookout to remove line from winch before reaching the drogue and subsurface components.
+6.  Retrieve the line; if a winch is used, ensure that there is a lookout to remove line from winch before reaching the drogue and subsurface components. Do NOT allow the hydrophone array to be pulled directly on the winch.
 7.  Carefully retrieve the hydrophone array
     a.  Hold the hydrophone array away from the vessel lip as you are retrieving it to avoid bumping the hydrophone elements against the ship
     b.  Lift the recorders gently over the rail
